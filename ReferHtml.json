@@ -1,0 +1,2230 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "type": "html",
+    "htmlRefer": [
+      {
+        "id": 1,
+        "link": "https://webzz.tistory.com/229",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<a>",
+        "desc1": "<a> 태그는 다른 페이지 이동을 설정합니다. 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있으며, 아이디(#) 값으로 페이지 내에서도 이동이 가능합니다.",
+        "desc2": "<a> 태그는 다른 페이지 이동을 설정합니다.",
+        "element": "인라인 구조(Inline Element)",
+        "tag": "닫는 태그 사용(<a> ~ </a>)",
+        "version": "HTML4",
+        "view": "밑줄과 파란색으로 표시",
+        "use": "★★★",
+        "definition": [
+          "<a> 태그는 클릭하면 다른 페이지로 이동합니다. 현재 페이지에서 다른 페이지 URL로 연결하는 것을 하이퍼링크라고 합니다.",
+          "<a> 태그는 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있습니다.",
+          "<a> 태그는 아이디(#id)로 이동 할 수 있습니다.",
+          "<a> 태그는 target 속성을 이용하면 새로운 브라우저 창에서 페이지 이동을 할 수 있습니다.",
+          "<a> 태그는 방문한 링크는 밑줄과 보라색으로 표시되고, 활성화된 링크는 밑줄과 빨간색으로 표시됩니다.",
+          "원칙적으로 <a> 태그는 블록구조를 포함 할 수 없지만, HTML5에서는 <a> 태그는 블록 요소를 포함할 수 있습니다.",
+          "href='#'의 페이지 지정을 막기 위해 javascript:void(0)를 사용하는 것보다 <button> 태그를 사용하는 것이 바람직합니다."
+        ]
+      },
+      {
+        "id": 2,
+        "link": "https://webzz.tistory.com/230",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<abbr>",
+        "desc1": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. abbr은 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다. title 속성을 사용하여 전체 단어를 지정 할 수 있으며, <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
+        "desc2": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+        "element": "인라인 구조(Inline Element)",
+        "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
+        "version": "HTML4",
+        "view": "점선(브라우저마다 틀림) 및 툴팁",
+        "use": "★☆☆",
+        "definition": [
+          "<abbr> 태그는 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다.",
+          "<abbr> 태그를 사용할 경우 번역 시스템이나 검색 시스템에게 유용한 정보를 제공합니다.",
+          "<abbr> 태그는 title 속성을 사용하여 전체 단어를 지정 할 수 있습니다.",
+          "<abbr> 태그는 <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
+          "<abbr> 태그에 아이디를 설정하여, <a> 링크로 참조할 수 있습니다.",
+          "<abbr> 태그는 시각적으로는 점선이 표시되지만 브라우저마다 표시가 다를 수 있습니다.",
+          "<abbr> 태그는 title 속성을 설정할 경우 마우스 오버시 툴팁 형식으로 약어가 표시됩니다."
+        ]
+      },
+      {
+        "id": 3,
+        "link": "https://webzz.tistory.com/231",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<acronym>",
+        "desc1": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. 현재는 사용하지 않습니다.",
+        "desc2": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+        "element": "인라인 구조(Inline Element)",
+        "tag": "닫는 태그 사용(<acronym> ~ </acronym>)",
+        "version": "HTML4(HTML5에서 지원되지 않습니다.)",
+        "view": "점선(브라우저마다 틀림) 및 툴팁",
+        "use": "☆☆☆",
+        "definition": [
+          "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+          "<acronym>는 HTML4 태그이고, HTML5에서 지원되지 않는 오래된 태그입니다. 일부 브라우저에서 작동 될 수 있지만 사용을 권장하지 않습니다"
+        ]
+      },
+      {
+        "id": 4,
+        "link": "https://webzz.tistory.com/2327",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<address>",
+        "desc1": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다. 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등의 정보와, 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
+        "desc2": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<address> ~ </address>)",
+        "version": "HTML4",
+        "view": "기울임꼴",
+        "use": "★★★",
+        "definition": [
+          "<address> 태그는 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등을 표시합니다.",
+          "<address> 태그는 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
+          "<address> 태그는 <header>, <article>, <footer>, <aside>등 연락처 정보가 필요한 곳에 사용할 수 있습니다.",
+          "<address> 태그는 연락처와 관련 없는 내용이라면 <p> 태그를 사용합니다.",
+          "<address> 태그는 연락처 정보 보다 더 광범위한 정보를 포함 할 수 없습니다.(시간을 나타내는 time 태그등)",
+          "<address> 태그는 일반적으로 <footer> 영역에서 많이 사용합니다."
+        ]
+      },
+      {
+        "id": 5,
+        "link": "https://webzz.tistory.com/233",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<applet>",
+        "desc1": "<applet> 태그는 애플랫 요소를 설정합니다. 현재는 사용하지 않습니다.",
+        "desc2": "<applet> 태그는 애플랫 요소를 설정합니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용(<applet> ~ </applet>)",
+        "version": "HTML4(HTML5에서 지원하지 않습니다.)",
+        "view": "-",
+        "use": "☆☆☆",
+        "definition": [
+          "<applet> 태그는 자바 애플랫 요소를 설정합니다.",
+          "<applet> 태그는 자바 애플랫 요소를 사용하기 위한 개발자 소스였으나, 현재는 사용하지 않으며, <object> 태그를 사용합니다."
+        ]
+      },
+      {
+          "id": 6,
+          "link": "https://webzz.tistory.com/234",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<area>",
+          "desc1": "<area> 태그는 이미지 맵의 영역을 정의합니다.",
+          "desc2": "<area> 태그는 이미지 맵의 영역을 정의합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<area> ~ </area>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★☆☆",
+          "definition": [
+              "<area> 태그는 이미지 위에 영역 링크를 정의 할 때 간편하게 사용할 수 있습니다.",
+              "<area> 태그는 <map>, <img> 태그와 같이 사용합니다.",
+              "<area> 태그 shape 속성을 통해 영역을 모양(rect, circle, poly)을 설정합니다.",
+              "<area> 태그 cords 속성을 통해 영역을 위치를 설정합니다. cords의 위치 값은 프로그램을 통해 좌표 값을 얻는 방법이 쉽습니다.",
+              "<map> 태그의 name 속성과 이미지의 usemap 속성이 일치해야 적용됩니다.",
+              "이미지 위에 영역을 설정하고 링크를 설정하는 방법은 많이 사용하지 않습니다. 직접 링크를 걸고 사용하는 것을 추천합니다.",
+              "이미지 맵은 위치가 고정적이기 때문에 반응형 사이트에서 적용 할 수 없습니다."
+          ]
+        },
+        {
+          "id": 7,
+          "link": "https://webzz.tistory.com/235",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<article>",
+          "desc1": "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다. 독립적인 컨텐츠에는 포럼, 신문기사, 잡지, 블러그 항목, 게시판 글 등이 있으며, 각각의 컨테츠에는 제목(<h1>~<h6>)이 표시되어야 합니다.",
+          "desc2": "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<article> ~ </article>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+              "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다.",
+              "<article> 태그는 포럼, 신문기사, 잡지, 블러그 항목, 게시판 글 등 콘텐츠의 독립적인 항목을 나타냅니다.",
+              "<article> 태그는 독립적인 컨텐츠의 내용이 명시적으로 나열되고, 각각의 컨테츠에는 제목(<h1>~<h6>)이 표시되어야 합니다.",
+              "<section>은 하나의 주제를 나타낸다면, <article>은 주제를 묶는 독립적인 콘텐츠를 나타냅니다.",
+              "<section> 요소 안에 <article> 요소를 쓸 수 있으며, <article> 요소 안에도 <section> 요소를 쓸 수 있습니다."
+          ]
+        },
+        {
+          "id": 8,
+          "link": "https://webzz.tistory.com/236",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<aside>",
+          "desc1": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다. 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다.",
+          "desc2": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<aside> ~ </aside>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+              "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+              "<aside> 태그는 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다."
+          ]
+        },
+        {
+          "id": 9,
+          "link": "https://webzz.tistory.com/237",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<audio>",
+          "desc1": "<audio> 태그는 오디오 파일을 설정합니다.",
+          "desc2": "<audio> 태그는 오디오 파일을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<audio> ~ </audio>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★☆☆",
+          "definition": [
+              "<audio> 태그는 오디오 파일을 설정합니다.",
+              "<audio> 태그는 오디오 파일을 재생할 때 src 속성 또는 <source> 태그를 사용합니다.",
+              "<audio> 태그는 controls 속성이 지정되지 않으면, 시각적인 표시가 없으며, 이 경우 브라우저의 기본 컨트롤이 표시됩니다.",
+              "기본 컨트롤러에는 테두리(border), 굴곡(border-radius), 간격(padding, margin) 등을 설정할 수 있습니다.",
+              "오디오 플레이어 개별 구성 요소(버튼, 아이콘, 글꼴 등)는 스타일을 지정할 수 없으며, 컨트롤 디자인은 브라우저마다 다릅니다."
+          ]
+        },
+        {
+          "id": 10,
+          "link": "https://webzz.tistory.com/238",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<b>",
+          "desc1": "<b> 태그는 다른 텍스트와 구별 할 때 설정합니다. 텍스트는 굵게 표시되지만 중요성을 강조하지 않습니다.",
+          "desc2": "<b> 태그는 다른 텍스트와 구별 할 때 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<b> ~ </b>)",
+          "version": "HTML4",
+          "view": "볼드체",
+          "use": "★☆☆",
+          "definition": [
+              "<b> 태그는 텍스트의 중요성과 관련성을 전달하지 않고, 다른 텍스트와 구별 할 때 설정합니다.",
+              "<b> 태그는 일반적으로 키워드, 제품의 리뷰, 기사 리드문 등에 사용합니다.",
+              "<b> 태그는 제목 요소로 사용하지 않습니다. 제목 요소는 <h1>~<h6> 태그를 사용합니다.",
+              "<b> 태그는 <em>, <strong>, <mark>에 해당 되지 않고, 특별한 정보 전달의 의미가 없을 때 고려해서 사용합니다.",
+              "단순하게 글씨를 두껍게 하기 위함이라면 CSS의 font-weight의 bold를 권장합니다."
+          ]
+        },
+        {
+          "id": 11,
+          "link": "https://webzz.tistory.com/239",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<base>",
+          "desc1": "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다. <head> 태그 안에 설정 할 수 있으며, 문서에서 한 번만 설정 할 수 있습니다.",
+          "desc2": "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "Self-closing(<base />)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★☆☆",
+          "definition": [
+              "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다.",
+              "<base> 태그는 <head> 태그 안에서만 설정 할 수 있습니다.",
+              "여러개의 <base> 태그가 설정된 경우, 첫 번째 설정만 유지되고 나머지는 무시됩니다.",
+              "<base> 태그는 문서에서 한 번만 설정 할 수 있습니다."
+          ]
+        },
+        {
+          "id": 12,
+          "link": "https://webzz.tistory.com/240",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<basefont>",
+          "desc1": "<basefont> 태그는 문서의 기본 폰트, 사이즈, 종류를 설정합니다. 지금은 CSS에서 이 기능을 구현하기 때문에 현재는 사용하지 않습니다.",
+          "desc2": "<basefont> 태그는 문서의 기본 폰트, 사이즈, 종류를 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "Self-closing(<basefont />)",
+          "version": "HTML4(HTML5에서 지원하지 않습니다.)",
+          "view": "-",
+          "use": "-",
+          "definition": [
+              "<basefont> 태그는 문서의 기본 폰트, 사이즈, 종류를 설정합니다.",
+              "<basefont> 태그는 <head> 섹션 안에 설정합니다.",
+              "<basefont>는 HTML5에서 지원되지 않으며, 그 기능은 CSS가 대신 합니다.(font, font-family, font-size, font-size-adjust, font-style, font-variant, font-weight, @font-face)"
+          ]
+        },
+        {
+          "id": 13,
+          "link": "https://webzz.tistory.com/241",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<bdi>",
+          "desc1": "<bdi> 태그는 텍스트의 출력 방향 영역을 설정합니다. 일반적인 글은 왼쪽에서 오른쪽으로 읽지만, 아랍어나 히브리어는 오른쪽에서 왼쪽으로 읽을 때 사용합니다.",
+          "desc2": "<bdi> 태그는 텍스트의 출력 방향 영역을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<bdi> ~ </bdi>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★☆☆",
+          "definition": [
+            "<bdi> 태그는 텍스트의 출력 방향 영역을 설정합니다.",
+            "일반적인 글은 왼쪽에서 오른쪽으로 읽지만, 아랍어나 히브리어는 오른쪽에서 왼쪽으로 읽을 때 <bdi> 태그를 사용합니다.",
+            "<bdi> 태그는 텍스트의 읽는 방향이 다른 언어를 위해 HTML5에서 새로 생긴 태그입니다.",
+            "<bdi> 태그는 텍스트 표기 방향을 자동으로 인식하고 제어를 합니다.",
+            "<bdi> 태그는 CSS를 통해 텍스트의 방향(unicode-bidi)을 설정할 수 있습니다."
+          ]
+        },
+        {
+          "id": 14,
+          "link": "https://webzz.tistory.com/2427",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<bdo>",
+          "desc1": "<bdo> 태그는 텍스트의 방향을 설정합니다. 텍스트의 읽는 방향이 다른 나른 언어를 위해 사용합니다.",
+          "desc2": "<bdo> 태그는 텍스트의 방향을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<address> ~ </address>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★☆☆",
+          "definition": [
+            "<bdo> 태그는 텍스트의 방향을 설정합니다.",
+            "<bdo> 태그는 텍스트의 읽는 방향이 다른 나른 언어를 위해 HTML5에서 새로 생긴 태그입니다.",
+            "<bdo> 태그는 CSS를 통해 텍스트의 방향(unicode-bidi)을 설정할 수 있습니다.",
+            "<bdo> 태그는 dir 속성을 같이 사용하여 방향을 설정합니다."
+          ]
+        },
+        {
+          "id": 15,
+          "link": "https://webzz.tistory.com/243",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<big>",
+          "desc1": "<big> 태그는 텍스트의 크기를 크게 설정합니다. CSS가 그 기능을 대신하기 때문에 현재는 사용하지 않는 태그입니다.",
+          "desc2": "<big> 태그는 텍스트의 크기를 크게 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<big> ~ </big>)",
+          "version": "HTML4(HTML5에서 지원하지 않습니다.)",
+          "view": "-",
+          "use": "-",
+          "definition": [
+              "<big> 태그는 글씨 크기를 크게 해주지만 CSS가 그 기능을 대신하기 때문에 HTML5에서는 지원하지 않습니다."
+          ]
+        },
+        {
+          "id": 16,
+          "link": "https://webzz.tistory.com/244",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<blockquote>",
+          "desc1": "<blockquote> 태그는 긴 문장의 인용문을 설정합니다. 인용된 정보 출처는 cite 속성을 통해 설정합니다.",
+          "desc2": "<blockquote> 태그는 긴 문장의 인용문을 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<blockquote> ~ </blockquote>)",
+          "version": "HTML4",
+          "view": "여백이 생김",
+          "use": "★☆☆",
+          "definition": [
+              "인용(quotation)을 표현하는 태그는 <blockquote> 태그와 <q> 태그가 있습니다.",
+              "<blockquote> 태그는 전체 문장에 해당하는 긴 인용문에 사용합니다.",
+              "<blockquote> 태그는 인용된 정보 출처는 cite 속성을 통해 설정합니다.",
+              "<blockquote> 태그를 사용하면 자동으로 여백이 생깁니다. 여백이 목적이라면 CSS를 사용합니다.",
+              "<blockquote> 태그는 블록 요소이며, <q> 태그는 인라인 요소입니다.",
+              "<figure>, <figcaption> 태그를 같이 사용하여, 인용문을 더 정확하게 사용할 수 있습니다."
+          ]
+        },
+        {
+          "id": 17,
+          "link": "https://webzz.tistory.com/245",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<blink>",
+          "desc1": "<blink> 태그는 텍스트를 깜박이게 설정합니다. 현재는 사용하지 않으며 오래된 태그입니다. 이 기능은 CSS Animation이 대신 할 수 있습니다.",
+          "desc2": "<blink> 태그는 텍스트를 깜박이게 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<blink> ~ </blink>)",
+          "version": "지원하지 않습니다.",
+          "view": "글씨 깜빡임",
+          "use": "-",
+          "definition": [
+              "<blink> 태그는 텍스트를 깜박이게 합니다.",
+              "<blink> 태그는 현재 사용하지 않으며, 오래된 태그입니다.",
+              "CSS Animation을 통해 깜박임 효과를 구현 할 수 있습니다."
+          ]
+        },
+        {
+          "id": 18,
+          "link": "https://webzz.tistory.com/246",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<head>",
+          "desc1": "<head> 태그는 문서의 타이틀, 스크립트, 스타일, 메타 정보 등을 설정합니다.",
+          "desc2": "<head> 태그는 문서의 타이틀, 스크립트, 스타일, 메타 정보 등을 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<head> ~ </head>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★★",
+          "definition": [
+            "<head> 태그는 문서의 타이틀, 스크립트, 스타일, 메타 정보 등을 설정합니다."
+          ]
+        },
+        {
+          "id": 19,
+          "link": "https://webzz.tistory.com/247",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<br>",
+          "desc1": "<br> 태그는 텍스트 줄바꿈이 필요할 때 설정합니다.",
+          "desc2": "<br> 태그는 텍스트 줄바꿈이 필요할 때 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "Self-closing(<br />)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★★",
+          "definition": [
+              "<br> 태그는 텍스트 줄바꿈이 필요할 때 사용합니다.",
+              "여백이 필요할 때 <br> 태그의 사용은 적절치 않으며, CSS 속성 중에 margin, padding 또는 line-height를 사용합니다.",
+              "HTML4에서는 <br /> 태그 작성시 슬러시('/')가 필요하지만, HTML5에서는 의무적인 사항은 아니기 때문에 생략도 가능합니다."
+          ]
+        },
+        {
+          "id": 20,
+          "link": "https://webzz.tistory.com/248",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<button>",
+          "desc1": "<button> 태그는 클릭 할 수 있는 버튼을 설정합니다.",
+          "desc2": "<button> 태그는 클릭 할 수 있는 버튼을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<button> ~ </button>)",
+          "version": "HTML4",
+          "view": "기본적인 버튼 디자인",
+          "use": "★★★",
+          "definition": [
+              "<button> 태그는 클릭 할 수 있는 버튼을 설정합니다.",
+              "<button> 태그는 데이터를 전송하기 위한 버튼이라면 type 속성을 설정해야합니다.",
+              "<button> 태그는 CSS를 통해 버튼 디자인 작업을 할 수 있습니다."
+          ]
+        },
+        {
+          "id": 21,
+          "link": "https://webzz.tistory.com/249",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<canvas>",
+          "desc1": "<canvas> 태그는 비트맵 방식의 그림을 설정합니다. canvas API와 WebGL API를 통해 그래픽과 애니메이션을 만듭니다.",
+          "desc2": "<canvas> 태그는 비트맵 방식의 그림을 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<canvas> ~ </canvas>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★★",
+          "definition": [
+              "<canvas> 태그는 비트맵 방식의 그림을 설정합니다.",
+              "<canvas> 태그는 canvas API와 WebGL API를 통해 그래픽과 애니메이션을 만듭니다.",
+              "<canvas> 태그는 <img> 태그와 달리 닫는 태그를 사용해야 합니다.",
+              "<canvas> 태그는 자바스크립트를 사용하여 설정합니다.",
+              "<canvas> 태그의 크기는 CSS를 통해 설정할 수 있지만, 렌더링을 통해 이미지 크기가 변경되어 왜곡 될 수 있습니다.",
+              "<canvas> 태그의 최대 크기는 브라우저마다 다를 수 있습니다."
+          ]
+        },
+        {
+          "id": 22,
+          "link": "https://webzz.tistory.com/250",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<caption>",
+          "desc1": "<caption> 태그는 표의 제목을 설정합니다.",
+          "desc2": "<caption> 태그는 표의 제목을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<address> ~ </address>)",
+          "version": "HTML4",
+          "view": "가운데 정렬",
+          "use": "★★☆",
+          "definition": [
+              "<caption> 태그는 표의 제목을 설정합니다.",
+              "<caption> 태그는 기본적으로 가운데 정렬로 표시됩니다.",
+              "align 속성은 HTML5에서 지원되지 않습니다."
+          ]
+        },
+        {
+          "id": 23,
+          "link": "https://webzz.tistory.com/251",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<center>",
+          "desc1": "<center> 태그는 텍스트를 가운데 정렬합니다. CSS 속성이 기능을 대신하고 있기 때문에 현재는 사용하지 않습니다.",
+          "desc2": "<center> 태그는 텍스트를 가운데 정렬합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<center> ~ </center>)",
+          "version": "HTML4",
+          "view": "가운데 정렬",
+          "use": "-",
+          "definition": [
+              "<center> 태그는 가운데 정렬을 할 때 사용합니다.",
+              "인라인 구조에서 가운데 정렬은 CSS의 text-align : center를 사용합니다.",
+              "블록 구조에서 가운데 정렬은 CSS의 margin: 0 auto를 사용합니다.",
+              "display: flex와 dispaly: grid를 통해서도 가운데 정렬이 가능합니다."
+          ]
+        },
+        {
+          "id": 24,
+          "link": "https://webzz.tistory.com/2527",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<cite>",
+          "desc1": "<cite> 태그는 저작물의 출처 표기를 설정합니다.",
+          "desc2": "<cite> 태그는 저작물의 출처 표기를 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<cite> ~ </cite>)",
+          "version": "HTML4",
+          "view": "이탤릭체",
+          "use": "★☆☆",
+          "definition": [
+              "<cite> 태그는 저작물의 출처 표기를 설정하며, 제목을 포함합니다.",
+              "<cite> 태그는 책, 시, 악보, 대본, 노래, 영화, TV 프로그램, 게임, 회화, 연극, 오페라, 전시회, 뮤지컬, 컴퓨터 프로그램 사이트, 웹 페이지, 블로그, 포럼게시물, 트윗등 작품의 제목 인용에 사용합니다.",
+              "<cite> 태그는 이탤릭체로 표현이 되며, 원하지 않으면 font-style: normal;로 설정 가능합니다."
+          ]
+        },
+        {
+          "id": 25,
+          "link": "https://webzz.tistory.com/253",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<code>",
+          "desc1": "<code> 태그는 코드를 나타내는 텍스트를 설정합니다.",
+          "desc2": "<code> 태그는 코드를 나타내는 텍스트를 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<code> ~ </code>)",
+          "version": "HTML4",
+          "view": "monospace 글꼴",
+          "use": "★★☆",
+          "definition": [
+              "<code> 태그는 코드를 나타내는 텍스트를 설정합니다.",
+              "<code> 태그는 브라우저의 기본 글꼴 및 고정 폭으로 표현됩니다. CSS를 설정하면 기본 글꼴은 무시됩니다.",
+              "<code> 태그는 사용시 화면 여백을 그대로 표현하기 위해서 <pre> 태그를 같이 사용합니다."
+          ]
+        },
+        {
+          "id": 26,
+          "link": "https://webzz.tistory.com/254",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<col>",
+          "desc1": "<col> 태그는 <colgroup> 요소에 속하는 각 열의 속성을 설정합니다.",
+          "desc2": "<col> 태그는 <colgroup> 요소에 속하는 각 열의 속성을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<col> ~ </col>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+              "<col> 태그는 <colgroup> 요소에 속하는 각 열의 속성을 설정합니다.",
+              "<col> 태그의 align 속성은 HTML5에서 지원하지 않습니다."
+          ]
+        },
+        {
+          "id": 27,
+          "link": "https://webzz.tistory.com/255",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<colgroup>",
+          "desc1": "<colgroup> 태그는 표의 열을 묶는 그룹을 설정합니다.",
+          "desc2": "<colgroup> 태그는 표의 열을 묶는 그룹을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<colgroup> ~ </colgroup>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+            "<colgroup> 태그는 표의 열을 묶는 그룹을 설정합니다.",
+            "<col> 태그는 <colgroup> 요소에 속하는 각 열의 속성을 설정합니다.",
+            "<colgroup> 태그의 align 속성은 HTML5에서 지원하지 않습니다."
+          ]
+        },
+        {
+          "id": 28,
+          "link": "https://webzz.tistory.com/256",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<data>",
+          "desc1": "<data> 태그는 주어진 요소의 데이터 값을 설정합니다.",
+          "desc2": "<data> 태그는 주어진 요소의 데이터 값을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<data> ~ </data>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "☆☆☆",
+          "definition": [
+            "<data> 태그는 주어진 요소의 데이터 값을 설정합니다.",
+            "<data> 태그는 주어진 콘텐츠 값이 시간과 관련되어 있다면 <time>태그를 사용합니다."
+          ]
+        },
+        {
+          "id": 29,
+          "link": "https://webzz.tistory.com/257",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<datalist>",
+          "desc1": "<datalist> 태그는 선택 목록과 자동 완성 기능을 설정합니다.<br>사용자가 데이터를 입력하면 일치하는 목록이 있을 경우 보여줍니다. <select> 태그는 주어진 선택 목록을 선택만 할 수 있지만, <datalist> 태그는 선택 목록에 없어도, 사용자가 입력할 수 있습니다.",
+          "desc2": "<datalist> 태그는 선택 목록과 자동 완성 기능을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<datalist> ~ </datalist>)",
+          "version": "HTML4",
+          "view": "선택 메뉴 리스트",
+          "use": "★☆☆",
+          "definition": [
+            "<datalist> 태그는 태그는 선택 목록과 자동 완성 기능을 설정합니다.",
+            "<datalist> 태그는 <input> 요소의 list 속성 값과 datalist의 id 값을 연결하여 사용합니다.",
+            "<datalist> 태그는 사용자가 데이터를 입력하면 목록에서 일치하는 데이터를 찾아서 자동완성 기능을 제공합니다.",
+            "<datalist> 태그는 선택 목록이 많을 경우에 사용자가 데이터를 쉽게 찾아서 선택할 수 있습니다.",
+            "<datalist> 태그는 선택 목록에 없는 값도, 사용자의 입력 할 수 있습니다.",
+            "<selecg> 태그와 <datalist> 태그는 선택 목록을 보여주는 것은 똑같지만, <datalist>는 사용자가 선택 목록에 없는 값도 사용할 수 있으면, 일치하는 데이터 값이 있으면 바로 선택할 수 있습니다."
+          ]
+        },
+        {
+          "id": 30,
+          "link": "https://webzz.tistory.com/258",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<dd>",
+          "desc1": "<dd> 태그는 설명 목록의 항목을 설정합니다.",
+          "desc2": "<dd> 태그는 설명 목록의 항목을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<dd> ~ </dd>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+            "<dd> 태그(Definition Description)는 설명 목록의 항목을 설정합니다.",
+            "<dd> 태그는 <dl> 태그와 함께 사용됩니다."
+          ]
+        },
+        {
+          "id": 31,
+          "link": "https://webzz.tistory.com/259",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<del>",
+          "desc1": "<del> 태그는 문서의 삭제된 텍스트를 설정합니다.",
+          "desc2": "<del> 태그는 문서의 삭제된 텍스트를 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<del> ~ </del>)",
+          "version": "HTML4",
+          "view": "글씨 가운데 줄이 표시",
+          "use": "★☆☆",
+          "definition": [
+            "<del> 태그는 문서의 삭제된 텍스트를 설정합니다.",
+            "<del> 태그는 문서에서 수정 및 업데이트와 관련된 마크업은 <del> 태그와 <ins> 태그가 있습니다."
+          ]
+        },
+        {
+          "id": 32,
+          "link": "https://webzz.tistory.com/260",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<details>",
+          "desc1": "<details> 태그는 접기/펼치기 목록을 설정합니다. 컨텐츠 요소를 숨기거나 보여줄 수 있습니다.<br>자바스크립트를 이용하여 컨텐츠 내용을 숨기고 보여줄 수 있는 기능을 HTML 태그를 통해 구현할 수 있습니다. 접기/펼치기 목록의 제목은 <summary> 태그를 통해 설정합니다.",
+          "desc2": "<details> 태그는 접기/펼치기 목록을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<details> ~ </details>)",
+          "version": "HTML4",
+          "view": "접기/펼치기 삼각형 아이콘",
+          "use": "★☆☆",
+          "definition": [
+            "<details> 태그는 접기/펼치기 목록을 설정합니다. 컨텐츠 요소를 숨기거나 보여줄 수 있습니다.",
+            "<details> 태그는 사용자가 열고 닫을 수 있는 위젯이 만들어집니다.",
+            "<details> 태그는 컨텐츠의 제목을 표시하기 위해 <summary> 태그와 같이 사용합니다.",
+            "::-webkit-details-marker 속성을 사용하면 마커 모양을 수정할 수 있습니다."
+          ]
+        },
+        {
+          "id": 33,
+          "link": "https://webzz.tistory.com/261",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<dfn>",
+          "desc1": "<dfn> 태그는 용어를 정의할 때 설정합니다.",
+          "desc2": "<dfn> 태그는 용어를 정의할 때 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<dfn> ~ </dfn>)",
+          "version": "HTML4",
+          "view": "이탤릭체",
+          "use": "★☆☆",
+          "definition": [
+            "<dfn> 태그는 학문적인 개념이나 새로운 용어 및 전문어를 정의(Definition)할 때 사용합니다.",
+            "<dfn> 태그는 여러개의 전문적인 용어가 동일하게 사용 되었을때에는 처음만 정의합니다.",
+            "<dfn> 태그는 부모 요소는 정의된 요소의 설명이 포함되어 있어야 합니다.",
+            "<dfn> 태그는 title 속성을 넣어서 약어를 설명 할 수 있습니다.",
+            "<dfn> 태그는 <abbr> 태그를 같이 사용하여 약어를 설명 할 수 있습니다.",
+            "<dfn> 태그는 아이디를 설정하여, <a> 링크로 참조할 수 있습니다."
+          ]
+        },
+        {
+          "id": 34,
+          "link": "https://webzz.tistory.com/2627",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<dialog>",
+          "desc1": "<dialog> 태그는 팝업 정보을 설정합니다.",
+          "desc2": "<dialog> 태그는 팝업 정보을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<dialog> ~ </dialog>)",
+          "version": "HTML4",
+          "view": "팝업 형태",
+          "use": "★☆☆",
+          "definition": [
+            "<dialog> 태그는 팝업 정보을 설정합니다.",
+            "<dialog> 태그는 position: absolute;를 통해 위치가 설정됩니다.",
+            "<dialog> 스크립트를 사용하지 않고 웹 페이지 위에 팝업을 쉽게 만들 수있습니다."
+          ]
+        },
+        {
+          "id": 35,
+          "link": "https://webzz.tistory.com/263",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<dir>",
+          "desc1": "<dir> 태그는 파일 및 폴더의 디렉토리를 설정합니다. 현재는 사용하지 않습니다.",
+          "desc2": "<dir> 태그는 파일 및 폴더의 디렉토리를 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<dir> ~ </dir>)",
+          "version": "HTML4(HTML5에서 지원하지 않습니다.)",
+          "view": "-",
+          "use": "-",
+          "definition": [
+            "<dir> 태그는 파일 및 폴더의 디렉토리를 설정합니다.",
+            "<dir> 태그는 대신에 <ol>, <ul>, <li>, <menu>를 사용 할 수 있습니다."
+          ]
+        },
+        {
+          "id": 36,
+          "link": "https://webzz.tistory.com/264",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<div>",
+          "desc1": "<div> 태그는 문서의 영역을 나누거나 그룹화 할 때 설정합니다.",
+          "desc2": "<div> 태그는 문서의 영역을 나누거나 그룹화 할 때 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<div> ~ </div>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★★",
+          "definition": [
+            "<div> 태그는 문서의 영역을 나누거나 그룹화 할 때 설정합니다.",
+            "<div> 태그는 아무런 의미를 가지지 않는 유일한 요소입니다.",
+            "<div> 태그는 시멘틱 태그의 활용이 적절하지 않은 경우에 사용합니다."
+          ]
+        },
+        {
+          "id": 37,
+          "link": "https://webzz.tistory.com/265",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<dl>",
+          "desc1": "<dl> 태그는 설명 목록을 설정합니다.",
+          "desc2": "<dl> 태그는 설명 목록을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<dl> ~ </dl>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+            "<dl> 태그(Definition List)는 용어에 대한 설명이나 정의를 나타낼 때 사용됩니다.",
+            "<dl> 태그는 용어 사전이나 키와 값으로 이루어진 메타데이터에서 주로 사용합니다.",
+            "<dl> 태그는 <dd> 태그와 <dt> 태그를 같이 사용합니다."
+          ]
+        },
+        {
+          "id": 38,
+          "link": "https://webzz.tistory.com/266",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<dt>",
+          "desc1": "<dt> 태그는 설명 목록 항목의 제목을 설정합니다.",
+          "desc2": "<dt> 태그는 설명 목록 항목의 제목을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<dt> ~ </dt>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+            "<dt> 태그(definition term)는 설명 목록 항목의 제목을 설정합니다.",
+            "<dt> 태그는 <dl>,<dd> 태그와 함께 사용됩니다."
+          ]
+        },
+        {
+          "id": 39,
+          "link": "https://webzz.tistory.com/267",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<em>",
+          "desc1": "<em> 태그는 텍스트를 강조할 때 설정합니다.",
+          "desc2": "<em> 태그는 텍스트를 강조할 때 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<em> ~ </em>)",
+          "version": "HTML4",
+          "view": "기울임꼴로 표시",
+          "use": "★★★",
+          "definition": [
+            "<em> 태그는 텍스트를 강조할 때 설정합니다.",
+            "<em> 태그는 기울임꼴로 표기됩니다. 기울임꼴을 사용하기 위해 사용하는 하는 것은 적절하지 않습니다. CSS font-style: italic으로 설정합니다.",
+            "<em> 태그보다 중요성을 강조하기 위해서는 <strong> 태그를 사용합니다."
+          ]
+        },
+        {
+          "id": 40,
+          "link": "https://webzz.tistory.com/268",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<embed>",
+          "desc1": "<embed> 태그는 외부 콘텐츠를 사용할 수 있도록 설정합니다.",
+          "desc2": "<embed> 태그는 외부 콘텐츠를 사용할 수 있도록 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<embed> ~ </embed>)",
+          "version": "HTML4",
+          "view": "콘텐츠 표현",
+          "use": "★★★",
+          "definition": [
+            "<embed> 태그는 외부 콘텐츠를 사용할 수 있도록 설정합니다.",
+            "외부 콘텐츠에는 유튜브 콘텐츠, 코딩 콘텐츠, 음악 콘텐츠 등 다양한 외부 콘텐츠를 포함합니다.",
+            "현재 대부분의 최신 브라우저는 플러그인 지원을 중단하고 있어, <embed> 태그의 사용은 권하지 않습니다."
+          ]
+        },
+        {
+          "id": 41,
+          "link": "https://webzz.tistory.com/269",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<fieldset>",
+          "desc1": "<fieldset> 태그는 폼 컨트롤 요소의 내부 영역을 설정합니다.",
+          "desc2": "<fieldset> 태그는 폼 컨트롤 요소의 내부 영역을 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<fieldset> ~ </fieldset>)",
+          "version": "HTML4",
+          "view": "2px 너비의 groove 테두리",
+          "use": "★★★",
+          "definition": [
+            "<fieldset> 태그는 폼 컨트롤 요소의 내부 영역을 설정합니다.",
+            "<fieldset> 태그는 폼 요소의 여러 컨트롤과 <label>을 그룹화 하는데 사용합니다.",
+            "<fieldset> 태그는 폼 요소의 내부 영역 설명을 <legend> 요소로 설정합니다.",
+            "<fieldset> 태그는 HTML5에서 disabled, form, name 속성이 추가되었습니다."
+          ]
+        },
+        {
+          "id": 42,
+          "link": "https://webzz.tistory.com/270",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<figcaption>",
+          "desc1": "<figcaption> 태그는 <figure> 요소의 설명 또는 제목을 설정합니다.",
+          "desc2": "<figcaption> 태그는 <figure> 요소의 설명 또는 제목을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<figcaption> ~ </figcaption>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+            "<figcaption> 태그는 <figure> 요소의 설명 또는 제목을 설정합니다.",
+            "<figcaption> 태그는 <figure> 요소의 처음 또는 마지막에 설정합니다."
+          ]
+        },
+        {
+          "id": 43,
+          "link": "https://webzz.tistory.com/271",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<figure>",
+          "desc1": "<figure> 태그는 인용, 도표, 사진, 코드 등의 독립적인 콘텐츠를 설정합니다.",
+          "desc2": "<figure> 태그는 인용, 도표, 사진, 코드 등의 독립적인 콘텐츠를 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<figure> ~ </figure>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+            "<figure> 태그는 인용, 도표, 사진, 코드 등의 독립적인 콘텐츠를 설정합니다.",
+            "<figure> 태그는 <figcaption> 요소를 사용해 설명을 포함할 수 있습니다."
+          ]
+        },
+        {
+          "id": 44,
+          "link": "https://webzz.tistory.com/272",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<font>",
+          "desc1": "<font> 태그는 폰트의 크기, 색, 종류를 설정합니다.",
+          "desc2": "<font> 태그는 폰트의 크기, 색, 종류를 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<font> ~ </font>)",
+          "version": "HTML4(HTML5에서는 지원하지 않습니다.)",
+          "view": "-",
+          "use": "-",
+          "definition": [
+            "<font> 태그는 폰트의 크기, 색, 종류를 설정합니다.",
+            "<font> 태그는 HTML5에서 지원하지 않으며, 이 기능은 CSS의 font-size, color, font-style으로 설정합니다."
+          ]
+        },
+        {
+          "id": 45,
+          "link": "https://webzz.tistory.com/273",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<footer>",
+          "desc1": "<footer> 태그는 사이트 관련 정보 및 관련 링크 콘텐츠 섹션을 설정합니다.",
+          "desc2": "<footer> 태그는 사이트 관련 정보 및 관련 링크 콘텐츠 섹션을 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<footer> ~ </footer>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★★★",
+          "definition": [
+            "<footer> 태그는 사이트 관련 정보 및 관련 링크 콘텐츠 섹션을 설정합니다.",
+            "<footer> 태그는 사이트와 관련된 정보, 저작권, 연락처, 사이트 맵, 관련된 문서 링크를 제공합니다.",
+            "<footer> 태그에는 연락처 정보를 설정하는 <address> 태그가 포함 될 수 있습니다.",
+            "<footer> 태그는 화면 판독기에 의해 '콘텐츠 정보'라고 표현되지 않기 때문에 footer 요소에는 role='contentinfo' 속성을 추가해주는게 좋습니다."
+          ]
+        },
+        {
+          "id": 46,
+          "link": "https://webzz.tistory.com/274",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<form>",
+          "desc1": "<form> 태그는 웹 서버에 정보를 제공하는 폼 컨트롤 유형을 설정합니다.",
+          "desc2": "<form> 태그는 웹 서버에 정보를 제공하는 폼 컨트롤 유형을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag": "닫는 태그 사용(<form> ~ </form>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★★★",
+          "definition": [
+            "<form> 태그는 웹 서버에 정보를 제공하는 폼 컨트롤 유형을 설정합니다.",
+            "<form> 태그는 사용자가 폼을 입력한 후 버튼을 누르면 정보가 웹 서버에 전송됩니다."
+          ]
+        },
+        {
+          "id": 47,
+          "link": "https://webzz.tistory.com/275",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<frame>",
+          "desc1": "<frame> 태그는 다른 HTML문서가 표시 될 수 있는 특정 영역을 설정합니다.",
+          "desc2": "<frame> 태그는 다른 HTML문서가 표시 될 수 있는 특정 영역을 설정합니다.",
+          "element": "",
+          "tag": "닫는 태그 사용(<frame> ~ </frame>)",
+          "version": "HTML4(HTML5에서는 사용하지 않습니다.)",
+          "view": "-",
+          "use": "-",
+          "definition": [
+            "<frame> 태그는 다른 HTML문서가 표시 될 수 있는 특정 영역을 설정합니다.",
+            "<frame> 웹 접근성과 관련된 접근이 어려워 사용하지 않으며, 대신에 <iframe>을 사용합니다."
+          ]
+        },
+      {
+        "id": 48,
+        "link": "https://webzz.tistory.com/276",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<frameset>",
+        "desc1": "<frameset> 태그는 레이아웃 구성을 위한 프레임을 설정합니다.",
+        "desc2": "<frameset> 태그는 여러개의 <frame>의 크기나 속성을 설정합니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용(<frameset> ~ </frameset>)",
+        "version": "HTML4(HTML5에서는 사용하지 않습니다.)",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<frameset> 태그는 레이아웃 구성을 위한 프레임을 설정합니다.",
+        "<frameset> 태그는 여러개의 <frame>의 크기나 속성을 설정합니다.",
+        "<frame> 웹 접근성과 관련된 접근이 어려워 사용하지 않으며, 대신에 <iframe>을 사용합니다."
+        ]
+    },
+    {
+        "id": 49,
+        "link": "https://webzz.tistory.com/277",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/buri3q/btq4PaDQDsg/ujgtzrMfmd2QBiphMSaKAk/img.png",
+        "title": "<h1>~<h6>",
+        "desc1": "<h1>~<h6> 태그는 섹션의 제목 설정합니다.",
+        "desc2": "<h1> 태그가 가장 높은 단계의 제목이며, <h6> 태그가 가장 낮은 단계의 제목입니다.",
+        "element": "블록 요소(Blockk Element)",
+        "tag": "닫는 태그 사용(<h1> ~ </h1>)",
+        "version": "HTML4",
+        "view": "볼드체 및 글씨 크기 변경",
+        "use": "★★★",
+        "definition": [
+        "<h1>~<h6> 태그는 섹션의 제목 설정합니다.",
+        "<h1> 태그가 가장 높은 단계의 제목이며, <h6> 태그가 가장 낮은 단계의 제목입니다.",
+        "<h1>~<h6> 태그의 글씨 크기를 위해 사용하지 않습니다. 글씨 크기는 CSS의 font-size로 설정합니다.",
+        "<h1>부터<h6>까지 태그의 단계를 순차적으로 사용합니다. 단계를 건너뛰지 않습니다",
+        "한 페이지에 <h1> 태그는 한 번만 사용합니다.",
+        "<h1>~<h6> 제목 별로 기본 폰트 크기가 다릅니다."
+        ]
+    }, 
+    {
+        "id": 50,
+        "link": "https://webzz.tistory.com/278",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/buri3q/btq4PaDQDsg/ujgtzrMfmd2QBiphMSaKAk/img.png",
+        "title": "<head>",
+        "desc1": "<head> 태그는 제목과 스크립트, 스타일 시트, 메타 정보 등을 제공합니다.",
+        "desc2": "HTML5를 지원하는 브라우저에서는 <head> 태그가 생략된 경우 자동으로 생성합니다.",
+        "element": "블록 요소(Blockk Element)",
+        "tag": "닫는 태그 사용(<head> ~ </head>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+        "<head> 태그는 제목과 스크립트, 스타일 시트, 메타 정보 등을 제공합니다.",
+        "HTML5를 지원하는 브라우저에서는 <head> 태그가 생략된 경우 자동으로 생성합니다."
+        ]
+    },
+    {
+        "id": 51,
+        "link": "https://webzz.tistory.com/279",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<header>",
+        "desc1": "<header> 태그는 사이트의 소개 및 메뉴 그룹을 나타내는 섹션을 설정합니다.",
+        "desc2": "<header> 태그는 사이트의 소개 및 메뉴 그룹을 나타내는 섹션을 설정합니다.",
+        "element": "블록 요소(Blockk Element)",
+        "tag": "닫는 태그 사용(<header> ~ </header>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+        "<header> 태그는 사이트의 소개 및 메뉴 그룹을 나타내는 섹션을 설정합니다.",
+        "<header> 태그에는 제목, 로고, 검색, 아이콘, 저자 정보 등을 포함 할 수 있습니다.",
+        "header> 태그는 섹션 요소이기 때문에 제목 태그를 포함하여야 하지만 필수사항은 아닙니다."
+        ]
+    },
+    {
+        "id": 52,
+        "link": "https://webzz.tistory.com/280",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<hgroup>",
+        "desc1": "<hgroup> 태그는 제목 요소 그룹화를 설정합니다.",
+        "desc2": "<hgroup> 태그는 제목 요소 그룹화를 설정합니다.",
+        "element": "블록 요소(Blockk Element)",
+        "tag": "닫는 태그 사용(<hgroup> ~ </hgroup>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "☆☆☆",
+        "definition": [
+        "<hgroup> 태그는 제목 요소 그룹화를 설정합니다.",
+        "<hgroup> 태그는 문서 섹션의 다단계 제목을 나타내며, <h1>~<h6> 요소 집합의 그룹화를 설정합니다.",
+        "<hgroup> 태그는 접근성을 지원하지 않기 때문에 사용을 권하지 않습니다."
+        ]
+    },
+    {
+        "id": 53,
+        "link": "https://webzz.tistory.com/281",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<hr>",
+        "desc1": "<hr> 태그는 단란 요소간의 주제별 구분을 설정합니다.",
+        "desc2": "<hr> 태그는 단란 요소간의 주제별 구분을 설정합니다.",
+        "element": "블록 요소(Blockk Element)",
+        "tag": "self-closing(<hr />)",
+        "version": "HTML4",
+        "view": "수평선",
+        "use": "★☆☆",
+        "definition": [
+        "<hr> 태그는 단란 요소간의 주제별 구분을 설정합니다.",
+        "<hr> 태그는 연극에서 주제를 구분하거나, 책에서 화제 변경을 구분(horizontal rule)하기 위해 사용합니다.",
+        "<hr> 태그는 시각적인 부분보다 의미론적으로 사용하므로, 시간적인 표현은 CSS를 통해 표현합니다."
+        ]
+    },
+    {
+        "id": 54,
+        "link": "https://webzz.tistory.com/282",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<html>",
+        "desc1": "<html> 태그는 웹 문서의 최상위 요소 문서의 루트를 나타냅니다.",
+        "desc2": "<html> 태그는 웹 문서의 최상위 요소 문서의 루트를 나타냅니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용(<html> ~ </html>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+        "<html> 태그는 웹 문서의 최상위 요소 문서의 루트를 나타냅니다.",
+        "다른 모든 요소들은 <html> 태그의 자식 요소이여야 합니다."
+        ]
+    },
+    {
+        "id": 55,
+        "link": "https://webzz.tistory.com/283",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<i>",
+        "desc1": "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 설정합니다.",
+        "desc2": "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 설정합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<i> ~ </i>)",
+        "version": "HTML4",
+        "view": "이탤릭체",
+        "use": "★☆☆",
+        "definition": [
+        "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 설정합니다.",
+        "<i> 태그는 음성, 분위기, 기술적인 구문, 생각, 선박이름 등과 같이 다른 텍스트와 구분하기 위해 사용합니다.",
+        "<i> 태그는 <em>, <strong>, <mark>, <cite>, <dfn> 태그에 해당되는 적합한 의미가 없을 때 사용합니다."
+        ]
+    },
+    {
+        "id": 56,
+        "link": "https://webzz.tistory.com/284",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<iframe>",
+        "desc1": "<iframe> 태그는 웹 문서에 다른 문서를 포함하는데 사용합니다.",
+        "desc2": "<iframe> 태그는 웹 문서에 다른 문서를 포함하는데 사용합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<iframe> ~ </iframe>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<iframe> 태그(HTML Inline Frame element)는 웹 문서에 다른 웹 문서를 포함하는데 사용합니다.",
+        "웹 문서에서 <iframe> 태그는 여러 개를 사용 할 수 있습니다.",
+        "<iframe> 태그를 여러 개 사용 할 경우, 페이지 리소스가 증가하여 느려질 수 있으므로 웹 페이지 성능을 고려하여 적절하게 사용하여야 합니다."
+        ]
+    },
+    {
+        "id": 57,
+        "link": "https://webzz.tistory.com/285",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<img>",
+        "desc1": "<img> 태그는 웹 문서에 이미지를 정의합니다.",
+        "desc2": "<img> 태그는 웹 문서에 이미지를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "Self-Closing(<img />)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<img> 태그는 src 속성과 alt 속성은 필수적으로 설정합니다.",
+        "<img> 태그에 title 속성을 설정하면 이미지에 대한 추가적인 정보를 제공하고, 브라우저에서는 툴팁으로 표시됩니다.",
+        "<img> 태그는 인라인 구조이며, border, border-radius, padding, margin, width, height 속성 값을 설정할 수 있습니다."
+        ]
+    },
+    {
+        "id": 58,
+        "link": "https://webzz.tistory.com/286",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<input>",
+        "desc1": "<input> 태그는 데이터를 입력할 수 있는 폼 컨트롤을 정의합니다.",
+        "desc2": "<input> 태그는 데이터를 입력할 수 있는 폼 컨트롤을 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "Self-Closing(<input />)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<input> 태그는 사용자가 입력하는 컨트롤은 <form> 태그 안에 설정합니다.",
+        "<input> 태그는 반드시 속성 값을 설정합니다."
+        ]
+    },
+    {
+        "id": 59,
+        "link": "https://webzz.tistory.com/287",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<ins>",
+        "desc1": "<ins> 태그는 문서에 삽입된 텍스트를 설정합니다",
+        "desc2": "<ins> 태그는 문서에 삽입된 텍스트를 설정합니다",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<ins> ~ </ins>)",
+        "version": "HTML4",
+        "view": "밑줄",
+        "use": "★☆☆",
+        "definition": [
+        "<ins> 태그는 문서에서 문서에서 수정이나 업데이트를 표현하기 위해서 사용합니다.",
+        "<ins> 태그는 문서에서 시각적으로 밑줄이 표시됩니다."
+        ]
+    },
+    {
+        "id": 60,
+        "link": "https://webzz.tistory.com/288",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<kbd>",
+        "desc1": "<kbd> 태그는 키보드 입력요소를 나타내는 텍스트를 정의합니다.",
+        "desc2": "<kbd> 태그는 키보드 입력요소를 나타내는 텍스트를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<kbd> ~ </kbd>)",
+        "version": "HTML4",
+        "view": "monotype 폰트로 표현",
+        "use": "-",
+        "definition": [
+        "<kbd> 태그(HTML Keyboard Input element)는 키보드 입력요소를 나타내는 텍스트를 정의합니다.",
+        "<kbd> 태그 키보드, 음성입력, 입력장치에 의한 텍스트를 표현할 때 사용합니다.",
+        "<kbd> 태그는 시각적으로 브라우저 기본 폰트 monospace으로 표현됩니다."
+        ]
+    },
+    {
+        "id": 61,
+        "link": "https://webzz.tistory.com/289",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<keygen>",
+        "desc1": "<keygen> 태그는 보안키를 생성하고 컨트롤합니다.",
+        "desc2": "<keygen> 태그는 보안키를 생성하고 컨트롤합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<keygen> ~ </keygen>)",
+        "version": "-",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<keygen> 태그는 사용자들 간의 통신을 할 때 안전하게 데이터를 주고 받고 암호키를 생성합니다.",
+        "<keygen> 태그는 데이터를 주고 받을 때 개인 키(Private key)는 사용자 컴퓨터에 저장되고, 공개 키(public key)는 서버로 전송됩니다."
+        ]
+    },
+    {
+        "id": 62,
+        "link": "https://webzz.tistory.com/290",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<label>",
+        "desc1": "<label> 태그는 해당 <input> 요소의 제목을 설정합니다.",
+        "desc2": "<label> 태그는 해당 <input> 요소의 제목을 설정합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<label> ~ </label>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+        "<label> 태그는 <label> 태그는 해당 <input> 요소의 제목을 설정합니다.",
+        "<label> 태그는 <input> 요소의 id와 같으면 속성이 연결됩니다."
+        ]
+    },
+    {
+        "id": 63,
+        "link": "https://webzz.tistory.com/291",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<legend>",
+        "desc1": "<legend> 태그는 <fieldset> 요소 영역의 설명을 설정합니다.",
+        "desc2": "<legend> 태그는 <fieldset> 요소 영역의 설명을 설정합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<legend> ~ </legend>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+        "<legend> 태그는 <fieldset> 요소 영역의 설명을 설정합니다.",
+        "<legend> 태그는 <input> 요소의 id와 같으면 속성이 연결됩니다."
+        ]
+    },
+    {
+        "id": 64,
+        "link": "https://webzz.tistory.com/292",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<li>",
+        "desc1": "<li> 태그는 목록의 항목을 나타내는 태그입니다.",
+        "desc2": "<li> 태그는 목록의 항목을 나타내는 태그입니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<li> ~ </li>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<li> 태그(list item)는 목록의 항목을 나타내는 태그입니다.",
+        "<li> 태그는 <ul> 태그, <ol> 태그, <menu>태그와 같이 사용됩니다.",
+        "<li> 태그 안에 다른 목록을 중첩으로 사용할 수 있습니다."
+        ]
+    },
+    {
+        "id": 65,
+        "link": "https://webzz.tistory.com/293",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<link>",
+        "desc1": "<link> 태그는 외부 파일 연결 할 때 설정합니다.",
+        "desc2": "<link> 태그는 외부 파일 연결 할 때 설정합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "Self-Closing(<link />)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<link> 태그는 외부 파일 연결 할 때 설정합니다.",
+        "<link> 태그는 일반적을 스타일시트 파일을 주로 연결하지만 파비콘이나 웹폰트를 연결 할 때도 사용합니다."
+        ]
+    },
+    {
+        "id": 66,
+        "link": "https://webzz.tistory.com/294",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<main>",
+        "desc1": "<main> 태그는 문서의 주요 콘텐츠를 정의합니다.",
+        "desc2": "<main> 태그는 문서의 주요 콘텐츠를 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<main> ~ </main>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<main> 태그는 문서의 핵심이 되는 내용을 포함하고, 사이드 메뉴, 네비게이션 링크, 로고 영역, 검색 영역 등 반복되는 영역은 포함할 수 없습니다.",
+        "<main> 태그는 문서에서 한 번만 사용할 수 있으며, <article>, <aside>, <footer>, <header>, <nav> 요소 등의 자식 요소로 올 수 없습니다.",
+        "<main> 태그는 DOM 구조에 영향을 미치지 않습니다."
+        ]
+    },
+    {
+        "id": 67,
+        "link": "https://webzz.tistory.com/295",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<map>",
+        "desc1": "<map> 태그는 이미지 맵을 정의합니다.",
+        "desc2": "<map> 태그는 이미지 맵을 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<map> ~ </map>)",
+        "version": "HTML4",
+        "view": "클릭 영역이 설정됩니다.",
+        "use": "★☆☆",
+        "definition": [
+        "<map> 태그는 이미지 요소에 클릭할 수 있는 영역을 설정합니다.",
+        "<map> 태그는 <area>와 <img> 태그를 같이 사용합니다.",
+        "<map> 태그의 name 속성과 이미지의 usemap 속성이 일치해야 적용됩니다.",
+        "이미지 위에 영역을 설정하고 링크를 설정하는 방법은 많이 사용하지 않습니다. 직접 링크를 걸고 사용하는 것을 추천합니다.",
+        "이미지 맵은 위치가 고정적이기 때문에 반응형 사이트에서 적용 할 수 없습니다."
+        ]
+    },
+    {
+        "id": 68,
+        "link": "https://webzz.tistory.com/296",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<mark>",
+        "desc1": "<mark> 태그는 참조용 표시를 정의합니다.",
+        "desc2": "<mark> 태그는 참조용 표시를 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<mark> ~ </mark>)",
+        "version": "HTML5",
+        "view": "노란색 배경",
+        "use": "-",
+        "definition": [
+        "<mark> 태그는 중요성과 강조를 고려하지 않는 단순 표시사항으로 사용합니다.",
+        "<mark> 태그는 검색 결과에 대한 단순 표시사항으로도 사용합니다."
+        ]
+    },
+    {
+        "id": 69,
+        "link": "https://webzz.tistory.com/297",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<marquee>",
+        "desc1": "<marquee> 태그는 텍스트의 스크롤과 움직임을 정의합니다.",
+        "desc2": "<marquee> 태그는 텍스트의 스크롤과 움직임을 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<marquee> ~ </marquee>)",
+        "version": "-",
+        "view": "텍스트 애니메이션",
+        "use": "-",
+        "definition": [
+        "<marquee> 태그는 텍스트의 스크롤과 움직임을 정의합니다."
+        ]
+    },
+    {
+        "id": 70,
+        "link": "https://webzz.tistory.com/298",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<menu>",
+        "desc1": "<menu> 태그는 메뉴 리스트를 정의합니다.",
+        "desc2": "<menu> 태그는 메뉴 리스트를 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<menu> ~ </menu>)",
+        "version": "HTML5",
+        "view": "밑줄과 파란색으로 표시",
+        "use": "-",
+        "definition": [
+        "<menu> 태그는 메뉴 리스트를 정의합니다.",
+        "<menu> 태그는 컨텐츠 메뉴, 툴바 메뉴, 순서 없는 메뉴로 사용합니다.",
+        "<menu> 태그는 아직 실험적인 단계이기 때문에 브라우저 호환성을 확인해야 합니다."
+        ]
+    },
+    {
+        "id": 71,
+        "link": "https://webzz.tistory.com/299",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<menuitem>",
+        "desc1": "<menuitem> 태그는 메뉴 리스트 항목을 정의합니다.",
+        "desc2": "<menuitem> 태그는 메뉴 리스트 항목을 정의합니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용(<menuitem> ~ </menuitem>)",
+        "version": "-",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<menuitem> 태그는 메뉴 리스트 항목을 정의합니다."
+        ]
+    },
+    {
+        "id": 72,
+        "link": "https://webzz.tistory.com/300",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<meta>",
+        "desc1": "<meta> 태그는 웹 문서에 대한 정보를 제공합니다.",
+        "desc2": "<meta> 태그는 웹 문서에 대한 정보를 제공합니다.",
+        "element": "-",
+        "tag": "Self-Closing(<meta />)",
+        "version": "HTML4",
+        "view": "밑줄과 파란색으로 표시",
+        "use": "-",
+        "definition": [
+        "<meta> 태그는 웹 문서에 대한 정보를 제공합니다.",
+        "<meta> 태그는 표면적으로 표시되지 않지만, 문서에 대한 정보를 제공합니다.",
+        "<meta> 태그는 사이트에 대한 설명, 키워드, 저자 등 여러가지 정보를 제공합니다.",
+        "<meta> 태그는 검색엔진 및 키워드 노출에 대한 정보를 제공합니다.",
+        "<meta> 태그는 <head> 요소 안에만 설정합니다.",
+        "<meta> 태그 속성 중 http-equiv는 반드시 설정해야 합니다."
+        ]
+    },
+    {
+        "id": 73,
+        "link": "https://webzz.tistory.com/301",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<meter>",
+        "desc1": "<meter> 태그는 범위를 측정하는 게이지 정보를 정의합니다.",
+        "desc2": "<meter> 태그는 범위를 측정하는 게이지 정보를 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<meter> ~ </meter>)",
+        "version": "HTML5",
+        "view": "게이지 디자인",
+        "use": "-",
+        "definition": [
+        "<meter> 태그는 디스크의 사용량, 질문의 결과와 같은 정보를 표시합니다."
+        ]
+    },
+    {
+        "id": 74,
+        "link": "https://webzz.tistory.com/302",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<nav>",
+        "desc1": "<nav> 태그는 내부 페이지 및 외부 페이지에 대한 탐색 링크를 제공하는 페이지 섹션을 설정합니다.",
+        "desc2": "<nav> 태그는 내부 페이지 및 외부 페이지에 대한 탐색 링크를 제공하는 페이지 섹션을 설정합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<nav> ~ </nav>)",
+        "version": "HTML5",
+        "view": "밑줄과 파란색으로 표시",
+        "use": "-",
+        "definition": [
+        "<nav> 태그는 내부 페이지 및 외부 페이지에 대한 탐색 링크를 제공하는 페이지 섹션을 설정합니다.",
+        "<nav> 태그는 사이트의 주요 메뉴 및 목차 등을 표현합니다.",
+        "사이트의 모든 링크가 <nav> 태그에 포함 할 수 없지만, 핵심 탐색 링크에는 <nav> 태그를 사용합니다.",
+        "<nav> 태그가 웹 문서에 여러개 사용 된 경우에는 접근성을 높이기 위해 aria-labelledby 속성을 사용할 수 있습니다.",
+        "일반적으로 <footer> 영역에 사이트 링크는 <nav> 태그를 사용하지 않습니다."
+        ]
+    },
+    {
+        "id": 75,
+        "link": "https://webzz.tistory.com/303",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<noframes>",
+        "desc1": "<noframes> 태그는 프레임이 지원되지 않을 경우 대체 메세지를 표시합니다.",
+        "desc2": "<noframes> 태그는 프레임이 지원되지 않을 경우 대체 메세지를 표시합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<noframes> ~ </noframes>)",
+        "version": "-",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<noframes> 태그는 프레임이 지원되지 않을 경우 대체 메세지를 표시합니다."
+        
+        ]
+    },
+    {
+        "id": 76,
+        "link": "https://webzz.tistory.com/304",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<noscript>",
+        "desc1": "<noscript> 태그는 스크립트를 지원하지 않는 브라우저를 위한 대체 태그입니다./p>",
+        "desc2": "<noscript> 태그는 스크립트를 지원하지 않는 브라우저를 위한 대체 태그입니다./p>",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<noscript> ~ </noscript>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<noscript> 태그는 스크립트를 지원하지 않는 브라우저를 위한 대체 태그입니다."
+        
+        ]
+    },
+    {
+        "id": 77,
+        "link": "https://webzz.tistory.com/305",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<object>",
+        "desc1": "<object> 태그는 웹 문서에 포함된 멀티미디어 요소를 정의합니다.",
+        "desc2": "<object> 태그는 웹 문서에 포함된 멀티미디어 요소를 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<object> ~ </object>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<object> 태그는 웹 문서에 포함된 멀티미디어 요소를 정의합니다.",
+        "<object> 태그는 <body> 요소 안에 설정합니다.",
+        "<object> 태그는 오디오, 비디오, 자바 애플릿, 액티브X, PDF, 플래시 파일을 지원합니다.",
+        "<object> 태그는 data 또는 type 속성이 포함되어야 합니다."
+        ]
+    },
+    {
+        "id": 78,
+        "link": "https://webzz.tistory.com/306",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<ol>",
+        "desc1": "<ol> 태그는 순서가 있는 목록형 태그입니다.",
+        "desc2": "<ol> 태그는 순서가 있는 목록형 태그입니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<ol> ~ </ol>)",
+        "version": "HTML4",
+        "view": "밑줄과 파란색으로 표시",
+        "use": "-",
+        "definition": [
+        "<ol> 태그(ordered list)는 순서가 있는 목록형 태그입니다.",
+        "<ol> 태그는 순서가 있는 목록은 숫자 또는 알파벳으로 표현 할 수 있습니다.",
+        "<ol> 태그 type 속성을 통해 숫자, 문자, 로마 숫자들을 표현할 수 있지만, CSS list-style-type 속성을 통해 사용하는 것을 권장합니다.",
+        "<ol> 태그는 리스트 항목을 나타내는 <li>와 같이 사용됩니다."
+        ]
+    },
+    {
+        "id": 79,
+        "link": "https://webzz.tistory.com/307",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<optgroup>",
+        "desc1": "<optgroup> 태그는 <select> 메뉴 <option> 리스트의 그룹화를 설정합니다",
+        "desc2": "<optgroup> 태그는 <select> 메뉴 <option> 리스트의 그룹화를 설정합니다",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<optgroup> ~ </optgroup>)",
+        "version": "HTML4",
+        "view": "밑줄과 파란색으로 표시",
+        "use": "-",
+        "definition": [
+        "<optgroup> 태그는 <select> 메뉴 <option> 리스트의 그룹화를 설정합니다",
+        "<optgroup> 태그는 <select> 태그의 옵션 리스트가 많다면 쉽게 선택할 수 있도록 그룹화 할 수 있습니다."
+        ]
+    },
+    {
+        "id": 80,
+        "link": "https://webzz.tistory.com/308",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<option>",
+        "desc1": "<option> 태그는 <select> 요소의 항목을 정의합니다.",
+        "desc2": "<option> 태그는 <select> 요소의 항목을 정의합니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용(<option> ~ </option>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<option> 태그는 <select>, <optgroup>, <datalist> 요소의 항목을 정의합니다.",
+        "<option> 태그는 속성이 없이 사용할 수 있지만, 서버에 데이터를 전송하기 위해서는 value 속성 값은 설정합니다",
+        "<optgroup> 태그를 이용하여 <option> 항목을 그룹화 할 수 있습니다."
+        ]
+    },
+    {
+        "id": 81,
+        "link": "https://webzz.tistory.com/309",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<output>",
+        "desc1": "<output> 태그는 사용자에 컨트롤에 따라 결과값을 계산으로 보여주는 요소입니다.",
+        "desc2": "<output> 태그는 사용자에 컨트롤에 따라 결과값을 계산으로 보여주는 요소입니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<output> ~ </output>)",
+        "version": "HTML5",
+        "view": "아웃풋 컨트롤 디자인",
+        "use": "-",
+        "definition": [
+        "<output> 태그는 계산의 결과를 보여줍니다.",
+        "<output> 태그는 스크립트와 같이 사용합니다.",
+        "<output> 태그는 디자인은 브라우저 별로 다양합니다."
+        ]
+    },
+    {
+        "id": 82,
+        "link": "https://webzz.tistory.com/310",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<p>",
+        "desc1": "<p> 태그는 단락을 나타냅니다. 문단은 하나로 묶을 수 있는 짧막한 단위를 말하며, 단락은 하나 하나의 짧은 토막이라고 말 할 수 있습니다. 즉 단락이 모여서 문단이 됩니다. 마크업 할 때는 문단은 <div> 태그로 그 안에는 여러개의 <p> 태그로 구성되어 있다고 보시면 됩니다. <p> 태그와 <p> 태그 사이에는 한 줄의 행간이 표현됩니다.",
+        "desc2": "<p> 태그는 단락을 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<p> ~ </p>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<p> 태그는 단락(paragraph)을 정의합니다.",
+        "<p> 태그와 <p> 태그 사이에는 한 줄의 행간이 표현됩니다.",
+        "문단은 하나로 묶을 수 있는 짧막한 단위를 말하며, 단락은 하나 하나의 짧은 토막이라고 말 할 수 있습니다. 즉 단락이 모여서 문단이 됩니다. 마크업 할 때는 문단은 <div> 태그로 그 안에는 여러개의 <p> 태그로 구성되어 있다고 보시면 됩니다.",
+        "<p> 태그는 align 속성을 사용하지 않습니다."
+        ]
+    },
+    {
+        "id": 83,
+        "link": "https://webzz.tistory.com/311",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<param>",
+        "desc1": "<param> 태그는 <object> 태그의 매개변수를 정의합니다.",
+        "desc2": "<param> 태그는 <object> 태그의 매개변수를 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<param> ~ </param>)",
+        "version": "HTML4",
+        "view": "밑줄과 파란색으로 표시",
+        "use": "-",
+        "definition": [
+        "<p> 태그는 <object> 태그의 매개변수를 정의합니다."
+        
+        ]
+    },
+    {
+        "id": 84,
+        "link": "https://webzz.tistory.com/312",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<picture>",
+        "desc1": "<picture> 태그는 화면 크기에 따라 이미지를 정의합니다. 웹 사이트에서 이미지를 표현 할 수 있는 방법은 여러가지 있습니다. <img>, <picture>, <figure> 태그와 background를 통해서도 이미지를 표현 할 수 있습니다. 이미지를 불러올 때는 <img> 태그, 이미지를 표현할 때는 <figure> 태그, 이미지를 화면 크기에 따라 설정할 때는 <picture> 태그를 사용합니다.<picture> 태그는 반응형 사이트와 관련이 있으면 화면 크기에 따라 그에 맞는 이미지를 보여주는 태그입니다. <source> 태그와 같이 사용하며 미디어 쿼리를 통해 표현합니다.",
+        "desc2": "<picture> 태그는 화면 크기에 따라 이미지를 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<picture> ~ </picture>)",
+        "version": "HTML5",
+        "view": "해상도에 따른 이미지 표현",
+        "use": "-",
+        "definition": [
+        "<picture> 태그는 화면 크기에 따라 이미지를 정의합니다.",
+        "<picture> 태그는 <source> 태그와 같이 사용합니다.",
+        "<img> 태그의 srcset 속성을 이용하면 해상도에 따른 이미지를 표현 할 수 있습니다."
+        ]
+    },
+    {
+        "id": 85,
+        "link": "https://webzz.tistory.com/313",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<pre>",
+        "desc1": "<pre> 태그는 마크업 소스를 화면 그대로 표현합니다. HTML 마크업시 두칸 이상은 브라우저에서 한칸으로 표현됩니다. 하지만 <pre> 태그는 마크업의 빈칸과 줄바꿈을 화면 그대로 표현합니다. 코드를 보여줄 때 많이 사용하는 편입니다.",
+        "desc2": "<pre> 태그는 마크업 소스를 화면 그대로 표현합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<pre> ~ </pre>)",
+        "version": "HTML4",
+        "view": "monospace 폰트로 표현",
+        "use": "-",
+        "definition": [
+        "<pre> 태그는 마크업 소스를 여백과 줄바꿈 그대로 화면에 표현합니다.",
+        "소스를 보여주는 경우라면 <code> 태그와 같이 사용합니다."
+        ]
+    },
+    {
+        "id": 86,
+        "link": "https://webzz.tistory.com/314",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<progress>",
+        "desc1": "<progress> 태그는 작업의 진행 상태를 표시하는 바를 나타냅니다. 속성을 통해 최대 진행 표시와 현재 진행 표시를 나타낼 수 있습니다. 진행 바 표시는 브라우저마다 OS마다 틀릴 수 있습니다. 현재 진행률과 제목은 <label> 태그를 통해 표시합니다.",
+        "desc2": "<progress> 태그는 작업의 진행 상태를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<progress> ~ </progress>)",
+        "version": "HTML5",
+        "view": "진행 상태 바 디자인",
+        "use": "-",
+        "definition": [
+        "<progress> 태그는 진행률을 표시 줄로 표시된 작업의 진행정도를 보여줍니다.",
+        "<progress> 태그는 자바스크립트를 이용하여 작업률을 보여줍니다."
+        ]
+    },
+    {
+        "id": 87,
+        "link": "https://webzz.tistory.com/315",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<q>",
+        "desc1": "<q> 태그는 짧은 글을 인용할 때 사용합니다. 인용한 글의 출처는 cite 속성을 통해 표현 할 수 있으며, 긴 문장의 인용은 <blockquote> 태그를 사용할 수 있습니다.",
+        "desc2": "<q> 태그는 짧은 인용을 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<q> ~ </q>)",
+        "version": "HTML4",
+        "view": "큰 따옴표의 기울기체",
+        "use": "-",
+        "definition": [
+        "<q> 태그는 짧은 인용을 정의합니다.",
+        "<q> 태그는 인용의 출처를 밝히기 위해 cite 속성을 사용 할 수도 있습니다."
+        ]
+    },
+    {
+        "id": 88,
+        "link": "https://webzz.tistory.com/316",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<rp>",
+        "desc1": "<ruby> 태그는 루비 문자의 상단 주석을 정의합니다. 루비 문자란 한자에 대한 읽는 법이나 일반적인 읽기 방법과 다르게 읽을 때 작은 글씨로 표현해주는 문자를 의미합니다. <ruby> 태그는 루비 문자를 정의하며, <rt> 태그는 상단에 작은 주석 글씨를 나타내며, <rp> 태그는 루비 태그가 지원되지 않을 경우 괄호('(')를 표현해주는 역할을 합니다. <rb> 태그는 발음을 나타내며, <rtc> 태그는 텍스트 컨테이너 역할을 합니다.",
+        "desc2": "<rp> 태그는 루비 주석을 괄호로 표현하기 위해서 사용합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<rp> ~ </rp>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<rp> 태그는 루비 주석을 괄호로 표현하기 위해서 사용합니다."
+        ]
+    },
+    {
+        "id": 89,
+        "link": "https://webzz.tistory.com/317",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Kpfg/btq4MeHoFp6/NBIibgdJO9RYK4jzEwQBb1/img.png",
+        "title": "<rt>",
+        "desc1": "<rt> 태그는 루비 문자의 상단 주석을 정의합니다.",
+        "desc2": "<rt> 태그는 루비 문자의 상단 주석을 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<rt> ~ </rt>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "-",
+        "definition": [
+        "<rt> 태그는 루비 문자의 상단 주석을 정의합니다."
+        ]
+    },
+      {
+        "id": 90,
+        "link": "https://webzz.tistory.com/318",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<rtc>",
+        "desc1": "<rtc> 태그는 루비 문자를 정의합니다. 루비 문자란 한자에 대한 읽는 법이나 일반적인 읽기 방법과 다르게 읽을 때 작은 글씨로 표현해주는 문자를 의미합니다. <ruby> 태그는 루비 문자를 정의하며, <rt> 태그는 상단에 작은 주석 글씨를 나타내며, <rp> 태그는 루비 태그가 지원되지 않을 경우 괄호('(')를 표현해주는 역할을 합니다. <rb> 태그는 발음을 나타내며, <rtc> 태그는 텍스트 컨테이너 역할을 합니다.",
+        "desc2": "<rtc> 태그는 루비 문자의 텍스트 영역을 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<rtc> ~ </rtc>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<rtc> 태그는 루비 문자의 텍스트 영역을 정의합니다."
+        ]
+      },
+      {
+        "id": 91,
+        "link": "https://webzz.tistory.com/319",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<ruby>",
+        "desc1": "<ruby> 태그는 루비 문자를 정의합니다. 루비 문자란 한자에 대한 읽는 법이나 일반적인 읽기 방법과 다르게 읽을 때 작은 글씨로 표현해주는 문자를 의미합니다. <ruby> 태그는 루비 문자를 정의하며, <rt> 태그는 상단에 작은 주석 글씨를 나타내며, <rp> 태그는 루비 태그가 지원되지 않을 경우 괄호('(')를 표현해주는 역할을 합니다. <rb> 태그는 발음을 나타내며, <rtc> 태그는 텍스트 컨테이너 역할을 합니다.",
+        "desc2": "<ruby> 태그는 루비 문자의 텍스트 영역을 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<ruby> ~ </ruby>)",
+        "version": "HTML5",
+        "view": "상단에 작은 글씨로 표현",
+        "use": "-",
+        "definition": [
+          "<ruby> 태그는 루비 문자를 정의합니다.",
+          "루비 문자란 한자에 대한 읽는 법이나 일반적인 읽기 방법과 다르게 읽을 때 작은 글씨로 표현해주는 문자를 의미합니다",
+          "루비 문자는 아시아권 문자를 표현할 때 많이 사용합니다.",
+          "새롭게 생긴 HTML5 태그이지만 예전부터 지원되는 기능입니다."
+        ]
+      },
+      {
+        "id": 92,
+        "link": "https://webzz.tistory.com/320",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<s>",
+        "desc1": "<s> 요소는 텍스트에 취소선을 나타냅니다. 더 이상 텍스트와 관련이 없거나 적절하지 않은 것을 나타낼 때 사용합니다. 문서 편집을 위한 텍스트 수정은 <del> 또는 <ins> 태그를 사용합니다.",
+        "desc2": "<s> 태그는 정확하지 않거나 올바르지 않은 텍스트를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<s> ~ </s>)",
+        "version": "HTML4",
+        "view": "가운데 선",
+        "use": "-",
+        "definition": [
+          "<s> 요소는 텍스트가 정확하지 않고, 관련성이 없는 내용을 표시하는데 사용합니다.",
+          "문서를 편집하는 경우라면 <del> 태그와 <ins> 태그를 사용합니다.",
+          "단순하게 취소선을 보여주고 싶다면 text-decoration:line-through;을 통하여 설정할 수 있습니다."
+        ]
+      },
+      {
+        "id": 93,
+        "link": "https://webzz.tistory.com/321",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<samp>",
+        "desc1": "<samp> 태그는 컴퓨터 프로그램으로 출력된 결과물을 나타내는 텍스트를 표현합니다. 스크립트의 결과값을 나타낼 때 사용하며 monotype의 폰트로 표현이 됩니다.",
+        "desc2": "<samp> 태그는 프로그램으로 출력된 결과물을 나타내는 텍스트를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<samp> ~ </samp>)",
+        "version": "HTML4",
+        "view": "monotype 폰트",
+        "use": "-",
+        "definition": [
+          "<samp> 태그는 프로그램으로 출력된 결과물을 나타내는 텍스트 정의합니다."
+        ]
+      },
+      {
+        "id": 94,
+        "link": "https://webzz.tistory.com/322",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<script>",
+        "desc1": "<script> 태그는 실행 가능한 스크립트 코드를 포함하거나 외부 스크립트를 연결할 수 있습니다.",
+        "desc2": "<script> 태그는 스크립트를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<script> ~ </script>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<script> 태그는 스크립트 코드를 포함하거나 외부 스크립트를 연결할 수 있습니다.",
+          "스크립트를 지원하지 않는 브라우저 사용자를 위해서 <noscript>를 설정합니다."
+        ]
+      },
+      {
+        "id": 95,
+        "link": "https://webzz.tistory.com/323",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<section>",
+        "desc1": "<section> 태그는 주제별 그룹의 콘텐츠 섹션을 나타낼 때 사용하며, 각 섹션에는 <h1>~<h6> 요소를 자식으로 포함시켜 식별해야 합니다. <section> 태그는 스타일링 요소가 아니기 때문에 그룹화나 편의를 위함이라면 <div> 태그를 사용하는 것이 좋습니다.",
+        "desc2": "<section> 태그는 주제별 그룹의 콘텐츠 섹션을 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<section> ~ </section>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+          "<section> 태그는 주제별 그룹의 콘텐츠 섹션을 정의합니다.",
+          "<section> 태그는 탭 페이지, 홈페이지의 소개, 연락처, 뉴스항목 등과 같이 주제별로 분류 할 수 있습니다.",
+          "<section> 태그에는 제목을 나타내는 <h1> ~ <h6> 태그가 포함되어야 합니다.",
+          "<section> 태그는 문장이나 문서의 스타일링 요소가 아닙니다. 스크립트의 편의나 영역을 위함이라면 <div> 태그가 좋습니다.",
+          "<section> 태그가 일반적인 영역의 주제가 아니라면 구체적인 요소(<article>, <aside>, <nav>)를 대신 사용하는 것이 더 적절합니다."
+        ]
+      },
+      {
+        "id": 96,
+        "link": "https://webzz.tistory.com/324",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<select>",
+        "desc1": "<select> 태그는 선택 목록을 설정합니다. <select> 태그는 선택 목록을 <option> 태그를 사용하여 설정하며, 접근성을 위하여 <label> 요소를 사용하며, id와 for 속성을 설정합니다.",
+        "desc2": "<select> 태그는 선택 목록을 설정합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<select> ~ </select>)",
+        "version": "HTML4",
+        "view": "선택 메뉴",
+        "use": "★★☆",
+        "definition": [
+          "<select> 태그는 선택 목록을 설정합니다.",
+          "<select> 태그는 선택 목록을 <option> 태그를 사용하여 설정합니다.",
+          "<select> 태그는 접근성을 위하여 <label> 요소를 사용하며, id와 for 속성을 설정합니다.",
+          "<select> 태그와 <datalist> 태그는 선택 목록을 보여주는 것은 똑같지만, <datalist>는 사용자가 선택 목록에 없는 값도 사용할 수 있으면, 일치하는 데이터 값이 있으면 바로 선택할 수 있습니다."
+        ]
+      },
+      {
+        "id": 97,
+        "link": "https://webzz.tistory.com/325",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<small>",
+        "desc1": "<small> 태그는 저작권 및 법적인 텍스트에 설정합니다.",
+        "desc2": "<small> 태그는 저작권 및 법적인 텍스트에 설정합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<small> ~ </small>)",
+        "version": "HTML4",
+        "view": "기본 글씨보다 작게 표현",
+        "use": "★☆☆",
+        "definition": [
+          "<small> 태그는 저작권, 면책조항, 주의사항, 법적 제한 사항, 주석표시에 사용합니다.",
+          "<small> 태그는 부가정보를 나타내는 주석표시이므로, 여러 단락이나 광범위한 텍스트가 포함된 섹션에서는 사용하지 않습니다."
+        ]
+      },
+      {
+        "id": 98,
+        "link": "https://webzz.tistory.com/326",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<source>",
+        "desc1": "<source> 태그는 <picture>, <audio> 요소 및 <video> 요소에 소스를 지정하는데 사용합니다. 닫는 태그가 없는 빈요소입니다.",
+        "desc2": "<source> 태그는 미디어 요소에 대한 소스를 지정하는데 사용합니다",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용 안함",
+        "version": "HTML5",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<source> 태그는 미디어 요소에 대한 소스를 지정하는데 사용합니다.",
+          "<source> 태그는 <picture>, <audio>, <video> 요소들을 지원합니다."
+        ]
+      },
+      {
+        "id": 99,
+        "link": "https://webzz.tistory.com/327",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<span>",
+        "desc1": "<span> 태그는 콘텐츠 요소를 표현하기 위한 인라인 요소이며, 의미가 없는 그룹화 요소입니다. 적절한 의미에 맞는 요소가 없거나 그룹화할 때 사용하며 <div> 요소와 비교가 됩니다. <div> 태그는 블록구조이며 <span> 태그는 인라인 구조입니다.",
+        "desc2": "<span> 태그는 인라인 요소 그룹화를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<span> ~ </span>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<span> 태그는 인라인 요소 그룹화를 정의합니다.",
+          "<span> 태그는 주변 요소와 구별하기 위하거나 다른 적절한 태그가 없는 경우에 사용합니다.",
+          "<span> 태그는 CSS 스타일링 사용을 위해 설정하는 경우가 많습니다."
+        ]
+      },
+      {
+        "id": 100,
+        "link": "https://webzz.tistory.com/328",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<strike>",
+        "desc1": "<strike> 태그는 현재 사용하지 않는 태그입니다. 텍스트 위에 취소선(수평선)을 표현하기 위해 사용한 태그이지만 현재는 <del> 태그 또는 <s> 태그가 그 역할을 대신하고 있습니다.",
+        "desc2": "<strike> 현재 사용하지 않는 태그입니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<strike> ~ </strike>)",
+        "version": "HTML4(사용하지 않는 태그)",
+        "view": "글씨 중앙 수평선",
+        "use": "-",
+        "definition": [
+          "<strike> 태그는 취소선(수평선)을 표현합니다.",
+          "<strike> 태그는 오래된 태그이므로 <del> 태그를 사용합니다."
+        ]
+      },
+      {
+        "id": 101,
+        "link": "https://webzz.tistory.com/329",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<strong>",
+        "desc1": "<strong> 태그는 텍스트의 중요성을 강조할 때 설정합니다. 일반적으로 텍스트는 굵게 표현이 됩니다. <strong> 태그는 다른 태그와 유사한 점이 있기 때문에 비교하며 적절한 곳에 사용해야 합니다. <b> 태그와 <strong> 태그는 출력되는 모양이 같지만 <strong> 태그는 컨텐츠의 중요성을 강조하는 반면 <b> 태그는 텍스트의 주의를 끌기 위함입니다. <em> 태그와 <strong> 태그는 강조하는 태그이지만 의미에 있어 약간의 차이가 있습니다. 예를 들면 '나는 너를 사랑해'하고 할 때 사랑해를 강조하기 위해 <em> 태그를 사용할 수 있습니다. 하지만 <strong> 태그는 '여기는 매우 위험합니다. 들어가지 마세요' 라고 할 경우 중요성과 심각성, 긴급성의 의미까지 내포하기 때문에 <em> 보다는 <strong> 태그가 더 적절합니다.",
+        "desc2": "<strong> 태그는 텍스트의 중요성을 강조할 때 설정합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<strong> ~ </strong>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+          "<strong> 태그는 텍스트의 중요성, 심각성 및 긴급성의 단어를 강하게 강조하고 싶을 때 사용합니다.",
+          "<strong> 태그는 볼드체로 표현되며, 볼드체를 쓰기 위함은 적절하지 않으며, CSS 속성으로 설정합니다.",
+          "폰트의 두께는 font-weight를 통해서 설정합니다."
+        ]
+      },
+      {
+        "id": 102,
+        "link": "https://webzz.tistory.com/330",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<style>",
+        "desc1": "<style> 태그는 웹 문서에 스타일 정보를 설정할 수 있습니다. 웹 문서에 스타일을 표현하는 방법은 인라인 스타일 (inline style), 인터널 스타일 (internal style), 익스터널 스타일 (external style) 방법이 있으며, 상황에 맞게 쓸 수 있습니다. <style> 태그는 <head>나 <body>에 사용할 수 있지만 <head> 태그 영역 안에 설정 하는 것이 좋으며, 외부 스타일로 설정하는 것을 추천합니다.",
+        "desc2": "<style> 태그는 웹 문서에 대한 스타일 정보를 정의합니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용(<style> ~ </style>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<style> 태그는 웹 문서에 대한 스타일 정보를 정의합니다.",
+          "<style> 태그는 한 문서에서 여러번 사용할 수 있습니다.",
+          "인라인 스타일(inline style) : 태그에 직접 사용하는 방법",
+          "인터널 스타일(internal style) : head 태그 안에 사용하는 방법",
+          "익스터널 스타일(external style) : 외부 파일로 연결하는 방법"
+        ]
+      },
+      {
+        "id": 103,
+        "link": "https://webzz.tistory.com/331",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<sub>",
+        "desc1": "<sub> 태그는 텍스트의 아래첨자를 사용할 때 쓰입니다. 주로 수학적인 공식이나 화학식에서 많이 사용하게 됩니다. <sub> 태그는 디자인적인 요소를 사용하는 것은 적합하지 않습니다. <sub> 태그의 위치는 변경이 필요한 경우에는 vertical-align 속성을 사용하면 변경할 수 있으며, 이런 모양이나 위치는 브라우저마다 틀릴 수 있으니 확인이 필요합니다.",
+        "desc2": "<sub> 태그는 텍스트 아래첨자를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<sub> ~ </sub>)",
+        "version": "HTML4",
+        "view": "문자의 절반 아래로 위치하고, 작은 글씨로 표현",
+        "use": "-",
+        "definition": [
+          "<sub> 태그는 텍스트 아래첨자(Subscript)를 정의합니다.",
+          "<sub> 태그는 문자의 절반 아래로 위치하고, 작은 글씨로 표현됩니다.",
+          "<sub> 태그는 수학 공식이나 화학 공식에 많이 사용됩니다."
+        ]
+      },
+      {
+        "id": 104,
+        "link": "https://webzz.tistory.com/332",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<summary>",
+        "desc1": "<detalist> 태그는 접기/펼치기 목록을 설정합니다. 자바스크립트를 이용하여 컨텐츠 내용을 숨기고 보여줄 수 있는 기능을 HTML 태그를 통해 구현할 수 있습니다. 접기/펼치기 목록의 제목은 <summary> 태그를 통해 설정합니다..",
+        "desc2": "<summary> 태그는 <details> 요소에 대한 요약 또는 제목을 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<summary> ~ </summary>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<summary> 태그는 <details> 요소에 대한 요약 또는 제목을 정의합니다.",
+          "<summary> 태그에는 제목 태그나 강조 태그를 사용할 수 있습니다."
+        ]
+      },
+      {
+        "id": 105,
+        "link": "https://webzz.tistory.com/333",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<sup>",
+        "desc1": "<sup> 태그는 텍스트의 위첨자를 사용할 때 쓰입니다. 주로 수학적인 공식에서 많이 사용하게 됩니다. <sup> 태그는 디자인적인 요소를 사용하는 것은 적합하지 않습니다. <sup> 태그의 위치는 변경이 필요한 경우에는 vertical-align 속성을 사용하면 변경할 수 있으며, 이런 모양이나 위치는 브라우저마다 틀릴 수 있으니 확인이 필요합니다.",
+        "desc2": "<sup> 태그는 텍스트 위첨자를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<sup> ~ </sup>)",
+        "version": "HTML4",
+        "view": "문자의 절반 위로 위치하고, 작은 글씨로 표현",
+        "use": "-",
+        "definition": [
+          "<sup> 태그는 텍스트 위첨자(Superscript)를 정의합니다.",
+          "<sup> 태그는 첨자 텍스트는 문자의 절반 위로 위치하고, 작은 글씨로 표현됩니다."
+        ]
+      },
+      {
+        "id": 106,
+        "link": "https://webzz.tistory.com/334",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<svg>",
+        "desc1": "SVG(Scalable Vector Graphics)는 벡터 방식의 2차원 그림을 그리기 위한 XML기반의 마크업 언어입니다. SVG는 텍스트 기반의 표준 방식이며, HTML이나 CSS를 이용하여 사용 할 수 있습니다. SVG는 XML 파일을 기반으로 하고 있기 때문에 인덱싱이나 압축이 가능하며, 일러스트레이터와 같은 프로그램을 통해 편집도 가능합니다. SVG는 1999년부터 W3C(World Wide Web Consortium)에 개발한 표준 언어입니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용(<svg> ~ </svg>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<svg> 태그는 벡터 방식의 그림을 정의합니다."
+        ]
+      },
+      {
+        "id": 107,
+        "link": "https://webzz.tistory.com/335",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<table>",
+        "desc1": "<table> 태그는 표를 설정합니다. 테이블은 테이터를 포함하는 셀의 행과 열로 구성된 정보표입니다. 예전에는 테이블을 이용해서 레이아웃을 표현한 적도 있지만 웹표준을 준수해야 하는 현재는 테이블을 이용해서 레이아웃을 만드는 것은 적절하지 않습니다. 테이블을 쓰기 위해서는 즉 표를 만들기 위해서는 제목, 설명, 셀, 셀합치기, 표 구조, 셀 그룹 등 여러가지를 신경써야 합니다. 테이블은 제목을 표시하기 위해 <caption>을 사용하고 셀 요소를 그룹화하기 위해 <colgroup>과 <col>을 사용합니다. 테이블 전체 구조를 분리하기 위해 <thead>, <tbody>, <tfoot>를 사용하며, 행과 열을 나타내는 <tr>, <td> <th> 등을 사용합니다. 여기에 접근성을 위해 scope 속성을 사용하고 셀의 병합을 위해 colspan과 rowspan을 사용하게 됩니다.",
+        "desc2": "<table> 태그는 표를 설정합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<table> ~ </table>)",
+        "version": "HTML4",
+        "view": "표",
+        "use": "★★★",
+        "definition": [
+          "<table> 태그는 표를 정의합니다.",
+          "<table> 태그는 기본적으로 <tr>, <td>, <th>로 구성되어 있습니다.",
+          "<table> 태그는 추가적으로 <caption>, <col>, <colgroup>, <thead>, <tbody>, <tfoot> 요소를 포함하고 있습니다.",
+          "<table> 태그는 주로 게시판 영역이나 회원가입 영역, 표를 나타내는 영역에서 많이 사용합니다.",
+          "레이아웃을 목적으로 사용은 적합하지 않지만, 예외적으로 메일을 보낼 때는 레이아웃을 목적으로 사용 할 수도 있습니다."
+        ]
+      },
+      {
+        "id": 108,
+        "link": "https://webzz.tistory.com/336",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<tbody>",
+        "desc1": "<tbody> 태그는 표의 본문 영역을 그룹화합니다. <table> 태그는 표를 만들 때 사용합니다. 테이블은 테이터를 포함하는 셀의 행과 열로 구성된 정보표입니다. 예전에는 테이블을 이용해서 레이아웃을 표현한 적도 있지만 웹표준을 준수해야 하는 현재는 테이블을 이용해서 레이아웃을 만드는 것은 적절하지 않습니다. 테이블을 쓰기 위해서는 즉 표를 만들기 위해서는 제목, 설명, 셀, 셀합치기, 표 구조, 셀 그룹 등 여러가지를 신경써야 합니다. 테이블은 제목을 표시하기 위해 <caption>을 사용하고 셀 요소를 그룹화하기 위해 <colgroup>과 <col>을 사용합니다. 테이블 전체 구조를 분리하기 위해 <thead>, <tbody>, <tfoot>를 사용하며, 행과 열을 나타내는 <tr>, <td> <th> 등을 사용합니다. 여기에 접근성을 위해 scope 속성을 사용하고 셀의 병합을 위해 colspan과 rowspan을 사용하게 됩니다.",
+        "desc2": "<tbody> 태그는 표의 본문 영역을 그룹화합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<tbody> ~ </tbody>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+          "<tbody> 태그는 표의 본문 영역을 그룹화합니다."
+        ]
+      },
+      {
+        "id": 109,
+        "link": "https://webzz.tistory.com/337",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<td>",
+        "desc1": "<td> 태그는 표의 열(셀)을 설정합니다. <table> 태그는 표를 만들 때 사용합니다. 테이블은 테이터를 포함하는 셀의 행과 열로 구성된 정보표입니다. 예전에는 테이블을 이용해서 레이아웃을 표현한 적도 있지만 웹표준을 준수해야 하는 현재는 테이블을 이용해서 레이아웃을 만드는 것은 적절하지 않습니다. 테이블을 쓰기 위해서는 즉 표를 만들기 위해서는 제목, 설명, 셀, 셀합치기, 표 구조, 셀 그룹 등 여러가지를 신경써야 합니다. 테이블은 제목을 표시하기 위해 <caption>을 사용하고 셀 요소를 그룹화하기 위해 <colgroup>과 <col>을 사용합니다. 테이블 전체 구조를 분리하기 위해 <thead>, <tbody>, <tfoot>를 사용하며, 행과 열을 나타내는 <tr>, <td> <th> 등을 사용합니다. 여기에 접근성을 위해 scope 속성을 사용하고 셀의 병합을 위해 colspan과 rowspan을 사용하게 됩니다.",
+        "desc2": "<td> 태그는 표의 열(셀)을 설정합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<td> ~ </td>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+          "<td> 태그(Table Data)는 표의 열(셀)을 설정합니다."
+        ]
+      },
+      {
+        "id": 110,
+        "link": "https://webzz.tistory.com/338",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<template>",
+        "desc1": "<template> 태그는 페이지가 로드 될 때 렌더링되지 않고 자바스크립트를 이용하여 HTML을 표현해주는 태그입니다. 템플릿을 설정하고 내용은 스크립트를 통해 처리하는 방식입니다.",
+        "desc2": "<template> 태그는 웹 문서에 사용하기 위한 템플렛을 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<template> ~ </template>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<template> 태그(Table Data)는 표의 열(셀)을 설정합니다."
+        ]
+      },
+      {
+        "id": 111,
+        "link": "https://webzz.tistory.com/339",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<textarea>",
+        "desc1": "<textarea> 태그는 여러줄의 텍스트를 편집할 수 있습니다. 코멘트 또는 피드백 양식으로 크기와 여러가지 속성을 설정할 수 있습니다. 접근성을 위해 <label> 요소를 같이 사용하며, 서버에 전송하기 위해 name 속성도 같이 사용합니다. row와 col 속성을 사용하면 텍스트 영역을 지원할 수 있으며, 브라우저마다 기본 값이 다를 수 있습니다. maxlength 속성을 이용하면 최대 문자수와 최소 문자수를 지정할 수 있으며, 필수 요소인 경우 필수요소로 설정할 수 있습니다. wrap 속성은 글의 줄바꿈을 설정할 수 있으며, placeholder를 이용하면 텍스트 영역의 미리보기 힌트 글자를 설정 할 수 있습니다.",
+        "desc2": "<textarea> 태그는 여러줄의 텍스트를 편집할 수 있는 컨트롤을 정의합니",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<textarea> ~ </textarea>)",
+        "version": "HTML4",
+        "view": "텍스를 쓸 수 있는 영역",
+        "use": "-",
+        "definition": [
+          "<textarea> 태그는 여러줄의 텍스트를 편집할 수 있는 컨트롤을 정의합니다.",
+          "<textarea> 태그는 글자의 수를 무제한으로 할 수 있으며, 폰트는 Courier로 설정됩니다.",
+          "<textarea> 태그는 'cols' 속성과 'rows' 속성으로 크기를 설정합니다."
+        ]
+      },
+      {
+        "id": 112,
+        "link": "https://webzz.tistory.com/340",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<tfoot>",
+        "desc1": "<tfoot> 태그는 표의 푸터 영역을 그룹화합니다. <table> 태그는 표를 만들 때 사용합니다. 테이블은 테이터를 포함하는 셀의 행과 열로 구성된 정보표입니다. 예전에는 테이블을 이용해서 레이아웃을 표현한 적도 있지만 웹표준을 준수해야 하는 현재는 테이블을 이용해서 레이아웃을 만드는 것은 적절하지 않습니다. 테이블을 쓰기 위해서는 즉 표를 만들기 위해서는 제목, 설명, 셀, 셀합치기, 표 구조, 셀 그룹 등 여러가지를 신경써야 합니다. 테이블은 제목을 표시하기 위해 <caption>을 사용하고 셀 요소를 그룹화하기 위해 <colgroup>과 <col>을 사용합니다. 테이블 전체 구조를 분리하기 위해 <thead>, <tbody>, <tfoot>를 사용하며, 행과 열을 나타내는 <tr>, <td> <th>등을 사용합니다. 여기에 접근성을 위해 scope 속성을 사용하고 셀의 병합을 위해 colspan과 rowspan을 사용하게 됩니다.",
+        "desc2": "<tfoot> 태그는 표의 푸터를 그룹화합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<tfoot> ~ </tfoot>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+          "<tfoot> 태그는 표의 푸터를 그룹화합니다."
+        ]
+      },
+      {
+        "id": 113,
+        "link": "https://webzz.tistory.com/341",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<th>",
+        "desc1": "<th> 태그는 행이나 열에 타이틀을 설정합니다. <table> 태그는 표를 만들 때 사용합니다. 테이블은 테이터를 포함하는 셀의 행과 열로 구성된 정보표입니다. 예전에는 테이블을 이용해서 레이아웃을 표현한 적도 있지만 웹표준을 준수해야 하는 현재는 테이블을 이용해서 레이아웃을 만드는 것은 적절하지 않습니다. 테이블을 쓰기 위해서는 즉 표를 만들기 위해서는 제목, 설명, 셀, 셀합치기, 표 구조, 셀 그룹 등 여러가지를 신경써야 합니다. 테이블은 제목을 표시하기 위해 <caption>을 사용하고 셀 요소를 그룹화하기 위해 <colgroup>과 <col>을 사용합니다. 테이블 전체 구조를 분리하기 위해 <thead>, <tbody>, <tfoot>를 사용하며, 행과 열을 나타내는 <tr>, <td> <th>등을 사용합니다. 여기에 접근성을 위해 scope 속성을 사용하고 셀의 병합을 위해 colspan과 rowspan을 사용하게 됩니다.",
+        "desc2": "<th> 태그는 행이나 열에 타이틀을 설정합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<th> ~ </th>)",
+        "version": "HTML4",
+        "view": "볼드체",
+        "use": "★★★",
+        "definition": [
+          "<th> 태그는 행이나 열에 타이틀을 설정합니다.",
+          "<th> 태그는 표의 제목 역할로 볼드체로 표현됩니다."
+        ]
+      },
+      {
+        "id": 114,
+        "link": "https://webzz.tistory.com/342",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<thead>",
+        "desc1": "<thead> 태그는 표의 헤더 영역을 그룹화합니다. <table> 태그는 표를 만들 때 사용합니다. 테이블은 테이터를 포함하는 셀의 행과 열로 구성된 정보표입니다. 예전에는 테이블을 이용해서 레이아웃을 표현한 적도 있지만 웹표준을 준수해야 하는 현재는 테이블을 이용해서 레이아웃을 만드는 것은 적절하지 않습니다. 테이블을 쓰기 위해서는 즉 표를 만들기 위해서는 제목, 설명, 셀, 셀합치기, 표 구조, 셀 그룹 등 여러가지를 신경써야 합니다. 테이블은 제목을 표시하기 위해 <caption>을 사용하고 셀 요소를 그룹화하기 위해 <colgroup>과 <col>을 사용합니다. 테이블 전체 구조를 분리하기 위해 <thead>, <tbody>, <tfoot>를 사용하며, 행과 열을 나타내는 <tr>, <td> <th> 등을 사용합니다. 여기에 접근성을 위해 scope 속성을 사용하고 셀의 병합을 위해 colspan과 rowspan을 사용하게 됩니다.",
+        "desc2": "<thead> 태그는 표의 헤더 영역을 그룹화합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<thead> ~ </thead>)",
+        "version": "HTML4",
+        "view": "-",
+        "use": "★★★",
+        "definition": [
+          "<thead> 태그는 표의 헤더 영역을 그룹화합니다."
+        ]
+      },
+      {
+        "id": 115,
+        "link": "https://webzz.tistory.com/343",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<time>",
+        "desc1": "<time> 태그는 시간의 특정 기간을 나타낼 때 사용합니다. 날짜를 인식하기 위해서는 datetime 속성을 같이 사용하며 엔진 결과나 알림 같은 기능을 개선 할 수 있습니다. 시간은 24시간을 기준으로 설정하며 날짜는 그레고리력(Gregorian calendar)을 기준으로 표현합니다.",
+        "desc2": "<time> 태그는 날짜와 시간을 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<time> ~ </time>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "-",
+        "definition": [
+          "<time> 태그는 날짜와 시간을 정의합니다."
+        ]
+      },
+      {
+        "id": 116,
+        "link": "https://webzz.tistory.com/344",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<title>",
+        "desc1": "<title> 태그는 브라우저의 제목 또는 탭에 표시되는 문서의 제목을 표시합니다. 타이틀에는 텍스트만 설정할 수 있으며, 태그들은 무시됩니다. 웹 사이트의 가장 중요한 제목을 표시하며, 검색에 있어서도 가장 중요한 부분입니다. 제목은 검색 결과 페이지를 나열하는 순서를 결정하는데 가장 중요한 구성요소이며, 독자의 주의를 끌 수 있는 가장 중요한 부분입니다. 그래서 독자의 주의를 표시하기 위하며 의미 없는 단어의 작업은 검색에 있어 효율적이지 못하며, 한 단어 또는 두 단어의 제목도 피하는게 좋습니다. 검색 엔진은 일반적으로 페이지에 제목 중 50~60자 정도만 표시해 줍니다. 그래서 그 이상 쓰는 것도 좋지 않습니다. 그 이후의 글자는 생략 될 수 도 있습니다. 자신의 사이트 내에서 가장 핵심적인 부분만 제목으로 설정하는게 좋으며, 중복적으로 사용하는 것도 검색결과를 부정확하게 만들 수 있으므로 가장 중요한 제목은 한번 정도가 핵심적으로 사용하는 것이 좋습니다.",
+        "desc2": "<title> 태그는 브라우저의 제목 또는 문서의 제목을 정의합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "닫는 태그 사용(<title> ~ </title>)",
+        "version": "HTML4",
+        "view": "브라우저 타이틀 표시",
+        "use": "-",
+        "definition": [
+          "<title> 태그는 브라우저 타이틀에 표시되고, 즐겨찾기시 제목으로 표시됩니다.",
+          "<title> 태그는 검색 엔진 결과에도 반영됩니다.",
+          "<title> 태그는 문서에서 한번만 사용할 수 있으며, <head>안에 설정합니다.",
+          "<title> 태그는 생략하면 HTML 유효성을 확인 할 수 없습니다."
+        ]
+      },
+      {
+        "id": 117,
+        "link": "https://webzz.tistory.com/345",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<tr>",
+        "desc1": "<tr> 태그는 표의 행을 설정합니다. <table> 태그는 표를 만들 때 사용합니다. 테이블은 테이터를 포함하는 셀의 행과 열로 구성된 정보표입니다. 예전에는 테이블을 이용해서 레이아웃을 표현한 적도 있지만 웹표준을 준수해야 하는 현재는 테이블을 이용해서 레이아웃을 만드는 것은 적절하지 않습니다. 테이블을 쓰기 위해서는 즉 표를 만들기 위해서는 제목, 설명, 셀, 셀합치기, 표 구조, 셀 그룹 등 여러가지를 신경써야 합니다. 테이블은 제목을 표시하기 위해 <caption>을 사용하고 셀 요소를 그룹화하기 위해 <colgroup>과 <col>을 사용합니다. 테이블 전체 구조를 분리하기 위해 <thead>, <tbody>, <tfoot>를 사용하며, 행과 열을 나타내는 <tr>, <td> <th>등을 사용합니다. 여기에 접근성을 위해 scope 속성을 사용하고 셀의 병합을 위해 colspan과 rowspan을 사용하게 됩니다.",
+        "desc2": "<tr> 태그는 표의 행을 설정합니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용(<tr> ~ </tr>)",
+        "version": "HTML4",
+        "view": "행을 만듦",
+        "use": "★★★",
+        "definition": [
+          "<tr> 태그는 표의 행을 설정합니다.",
+          "<tr> 태그는 <td>(데이터 셀)와 <th>(헤더 셀) 요소를 같이 사용합니다."
+        ]
+      },
+      {
+        "id": 118,
+        "link": "https://webzz.tistory.com/346",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<track>",
+        "desc1": "<track> 태그는 <video> 태그와 <audio> 태그의 자막을 설정합니다. 자막은 vvt 파일을 이용하여 사용합니다.",
+        "desc2": "<track> 태그는 미디어 요소의 자막을 정의합니다.",
+        "element": "-",
+        "tag": "닫는 태그 사용 안함(<track />)",
+        "version": "HTML5",
+        "view": "자막 표시",
+        "use": "-",
+        "definition": [
+          "<track> 태그는 미디어 요소의 자막을 설정합니다.",
+          "<track> 태그는 <audio> 태그 또는 <video> 태그와 같이 사용합니다."
+        ]
+      },
+      {
+        "id": 119,
+        "link": "https://webzz.tistory.com/347",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<tt>",
+        "desc1": "<tt> 태그는 타자모양의 텍스트를 보여주기 위한 태그입니다. HTML5에서 지원하지 않으며, 지금은 사용하지 않는 태그입니다. 구버전의 브라우저에서는 작동 될 수 있지만 최신 브라우저에서는 지원되지 않을 수 있습니다. 사용을 권하지 않습니다. 소스코드를 텍스트를 표현하고 싶다면 <code>, 프로그램 변수 텍스트를 표현하고 싶다면 <var>, 프로그램 출력결과 텍스트를 표현하고 싶다면 <samp>, 키보드 텍스트를 표현하고 싶다면 <kbd> 태그를 사용합니다. 디자인적인 요소를 위함이라면 CSS를 사용합니다.",
+        "desc2": "<tt> 태그는 타자모양의 텍스트를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<tt> ~ </tt>)",
+        "version": "HTML4(HTML5에서 지원하지 않습니다.)",
+        "view": "monotype 폰트",
+        "use": "-",
+        "definition": [
+          "<tt> 태그는 타자모양(Teletype)의 텍스트를 정의합니다.",
+          "<tt> 태그는 HTML5에서 지원하지 않습니다.",
+          "<tt> 태그는 시각적으로 monotype 폰트로 표시되며, 글씨 간격을 고정폭 간격으로 설정합니다.",
+          "<tt> 태그는 오래된 태그이므로, 타자 효과를 주기 위해서는 <code> 태그를 사용하거나 CSS를 사용합니다."
+        ]
+      },
+      {
+        "id": 120,
+        "link": "https://webzz.tistory.com/348",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<u>",
+        "desc1": "<u> 태그는 HTML4에서는 밑줄을 표시하기 위해서 사용하였습니다. 하지만 밑줄 기능은 CSS로 충분히 표현 가능하기 때문에 더 이상 사용하지 않게 되었습니다. HTML5에서는 철자 오류 및 주석 표시를 위한 태그로 의미가 변경되었습니다. 이 태그는 밑줄을 표시하기 위한 디자인적인 요소로 사용하면 안됩니다. 철자 오류 및 주석 표시를 위한 태그입니다. 밑줄을 표시하기 위함이라면 text-decoration 속성을 이용하면 됩니다. <u> 태그는 철자 오류가 포함된 단락을 표시하며, 빨간색 물결 밑줄 스타일로 오류를 표시합니다.",
+        "desc2": "<u> 태그는 맞춤법이 틀린 단어를 표시할 때 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<u> ~ </u>)",
+        "version": "HTML4(HTML5에서 의미 변경)",
+        "view": "빨간색 물결 밑줄",
+        "use": "-",
+        "definition": [
+          "<u> 태그는 맞춤법이 틀린 단어를 표시 할 때 사용합니다.",
+          "밑줄을 표시하기 위한 용도는 CSS의 text-decoration:underline을 사용합니다."
+        ]
+      },
+      {
+        "id": 121,
+        "link": "https://webzz.tistory.com/349",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<ul>",
+        "desc1": "<ul> 태그는 일반적인 글이나 문장을 쓴다면 <p> 태그를 사용합니다. <ul> 태그는 일반적인 글 보다는 목록 형식의 글을 사용할 때 씁니다. 목록을 쓸 때 순서가 상관이 없다면 <ul> 태그를 사용하며, 순서가 상관이 있다면 <ol> 태그를 사용합니다. 무엇인가를 설명하고 정의할 때는 <dl> 태그를 사용합니다. 목록형 태그에는 각각의 항목이 있기 때문에 이 때에는 <li> 태그를 같이 사용해야 합니다. <dl> 태그의 경우에는 <dt> 또는 <dd>를 같이 사용합니다. <li> 태그 안에는 또 다른 <ul> 태그 또는 <ol> 태그가 올 수 있으며, 2단 3단 목록형 태그로도 사용가능합니다. 목록형 태그를 사용하면 블릿기호가 생깁니다. ul 태그는 점과, 사각형 점이 생기고, ol 태그는 번호가 생기며, dl은 아무것도 생기지 않습니다. 이런 블릿기호는 CSS list-style-type에서 설정이 가능합니다.",
+        "desc2": "<ul> 태그는 순서가 없는 목록형 태그를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<ul> ~ </ul>)",
+        "version": "HTML4",
+        "view": "블릿기호가 생김",
+        "use": "-",
+        "definition": [
+          "<ul> 태그는 순서가 없는 목록을 정의합니다.",
+          "<ul> 태그는 항목을 나타내는 <li>와 같이 사용됩니다.",
+          "<ul> 태그를 사용하면 블릿 기호가 나타납니다. 보통 실무에선 블릿 기호가 브라우저마다 다르게 나오기 때문에 초기화하여 사용하지 않습니다."
+        ]
+      },
+      {
+        "id": 122,
+        "link": "https://webzz.tistory.com/350",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<var>",
+        "desc1": "<var> 태그는 수학적인 변수나 프로그램의 변수를 쓸 때 사용합니다. 일반적으로 기울기체로 표시되지만 브라우저마다 다릅니다.",
+        "desc2": "<var> 태그는 수학적인 변수나 프로그램의 변수를 정의합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용(<var> ~ </var>)",
+        "version": "HTML5",
+        "view": "이탤릭체",
+        "use": "-",
+        "definition": [
+          "<var> 태그는 수학적인 변수나 프로그램의 변수를 정의합니다."
+        ]
+      },
+      {
+        "id": 123,
+        "link": "https://webzz.tistory.com/351",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<video>",
+        "desc1": "웹 문서에 동영상을 재생하는 미디어 플레이어입니다. 비디오의 너비와 정보를 지정하고 여러가지 속성을 지정할 수 있습니다. 비디오를 지원하는 파일은 mp4, webM, avi, ogg가 있으며, 지원하는 파일이 다릅니다. 모든 브라우저의 호환성을 맞추기 위해서는 여러가지 파일을 동시에 사용하여야 합니다. <source> 태그를 사용하여 비디오 파일을 불러올 수 있습니다.",
+        "desc2": "<video> 태그는 미디어 영상을 정의합니다.",
+        "element": "블록 요소(block Element)",
+        "tag": "닫는 태그 사용(<video> ~ </video>)",
+        "version": "HTML5",
+        "view": "동영상 표현",
+        "use": "-",
+        "definition": [
+          "<video> 태그는 미디어 영상을 재생합니다.",
+          "<video> 태그는 <sourece> 태그와 같이 사용합니다."
+        ]
+      },
+      {
+        "id": 124,
+        "link": "https://webzz.tistory.com/352",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r12vIqzLlKBOtVKsBX8sga0/img.png",
+        "title": "<wbr>",
+        "desc1": "<wbr> 태그는 줄바꿈 할 위치를 정의할 때 사용합니다. <wbr> 태그의 사용은 제한적입니다. 일반적인 한글이나 영어에서는 해당이 되지 않습니다. 의미가 없는 단어나 해석 할 수 없는 단어의 줄바꿈을 할 때 사용합니다. 예를 들면 의미적 전달이 안되는 브라우저의 주소가 가장 적절한 예가 될 것입니다. 단어의 줄바꿈이나 글자의 줄바꿈을 컨트롤 하고 싶다면 word-break 속성을 사용합니다.",
+        "desc2": "<wbr> 태그는 줄바꿈 할 위치를 정의할 때 사용합니다.",
+        "element": "인라인 요소(Inline Element)",
+        "tag": "닫는 태그 사용 안함",
+        "version": "HTML5",
+        "view": "줄바꿈",
+        "use": "-",
+        "definition": [
+          "<wbr> 태그는 일반적인 한글이나 영어에 해당되지 않는 글자에서 사용합니다.",
+          "<wbr> 태그는 줄바꿈 할 위치를 정의할 때 사용합니다.",
+          "<wbr> 태그는 단어가 너무 길거나 원하는 곳에서 줄바꿈을 하고 싶을 때 사용합니다.",
+          "일반적인 한글이나 영어에 줄바꿈을 원하면 CSS 속성 word-break를 사용합니다."
+        ]
+      }
+    ]
+  }
+}

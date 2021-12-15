@@ -1,0 +1,2525 @@
+{
+    "status": "ok",
+    "status_message": "Query was successful",
+    "data": {
+      "type": "css",
+      "cssRefer": [
+        {
+          "id": 1,
+          "link": "https://webzz.tistory.com/361",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "align-content",
+          "desc1": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+          "desc2": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+          "version": "CSS3",
+          "view": "-",
+          "use": "★★★",
+          "definition": [
+            "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+            "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+          ]
+        },
+        {
+            "id": 2,
+            "link": "https://webzz.tistory.com/362",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "align-items",
+            "desc1": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+            "desc2": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+              "align-content 속성은 컨테이너의 높이 값을 기준으로 정렬하고 align-items 속성은 아이템의 높이 값을 기준으로 정렬합니다."
+            ]
+          },
+          {
+            "id": 3,
+            "link": "https://webzz.tistory.com/363",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "align-self",
+            "desc1": "align-self 속성은 개별적인 콘텐츠 아이템의 정렬 상태를 설정합니다.",
+            "desc2": "align-self 속성은 개별적인 콘텐츠 아이템의 정렬 상태를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "align-self 속성은 개별적인 플렉스 아이템의 정렬 상태를 설정합니다.",
+              "align-self 속성은 플렉스 아이템에 설정하고, align-item와 align-content는 플렉스 컨테이너에 설정합니다."
+            ]
+          },
+          {
+            "id": 4,
+            "link": "https://webzz.tistory.com/364",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "all",
+            "desc1": "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "desc2": "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "☆☆☆",
+            "definition": [
+              "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+              "all 속성은 모든 요소에 설정 가능합니다."
+            ]
+          },
+          {
+            "id": 5,
+            "link": "https://webzz.tistory.com/365",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation",
+            "desc1": "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다. 애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+            "desc2": "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다."
+            ]
+          },
+          {
+            "id": 6,
+            "link": "https://webzz.tistory.com/366",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation-delay",
+            "desc1": "animation-delay 속성은 애니메이션 지연 시간을 설정합니다. 애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+            "desc2": "animation-delay 속성은 애니메이션 지연 시간을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "animation-delay 속성은 애니메이션 지연 시간을 설정합니다."
+            ]
+          },
+          {
+            "id": 7,
+            "link": "https://webzz.tistory.com/367",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation-direction",
+            "desc1": "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다. 애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+            "desc2": "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+              "animation-direction 속성에는 움직임 속성을 두개 이상 설정 할 수 있습니다."
+            ]
+          },
+          {
+            "id": 8,
+            "link": "https://webzz.tistory.com/368",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation-duration",
+            "desc1": "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다. 애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+            "desc2": "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
+              "animation-duration 속성에는 시간 속성을 두개 이상 설정 할 수 있습니다."
+            ]
+          },
+          {
+            "id": 9,
+            "link": "https://webzz.tistory.com/369",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation-fill-mode",
+            "desc1": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
+            "desc2": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다."
+            ]
+          },
+          {
+            "id": 10,
+            "link": "https://webzz.tistory.com/370",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation-iteration-count",
+            "desc1": "animation-iteration-count 속성은 애니메이션 반복 횟수 설정합니다.",
+            "desc2": "animation-iteration-count 속성은 애니메이션 반복 횟수 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "animation-iteration-count 속성은 애니메이션 반복 횟수 설정합니다."
+            ]
+          },
+          {
+            "id": 11,
+            "link": "https://webzz.tistory.com/371",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation-name",
+            "desc1": "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다.",
+            "desc2": "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다."
+            ]
+          },
+          {
+            "id": 12,
+            "link": "https://webzz.tistory.com/372",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation-play-state",
+            "desc1": "animation-play-state 속성은 애니메이션 진행상태를 설정합니다.",
+            "desc2": "animation-play-state 속성은 애니메이션 진행상태를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "animation-timing-function 속성은 애니메이션 움직임의 속도를 설정합니다."
+            ]
+          },
+          {
+            "id": 13,
+            "link": "https://webzz.tistory.com/373",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "animation-timing-function",
+            "desc1": "animation-timing-function 속성은 애니메이션 움직임의 속도를 설정합니다.",
+            "desc2": "animation-timing-function 속성은 애니메이션 움직임의 속도를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "animation-timing-function 속성은 애니메이션 움직임의 속도를 설정합니다."            ]
+          },
+          {
+            "id": 14,
+            "link": "https://webzz.tistory.com/504",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "backdrop-filter",
+            "desc1": "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+            "desc2": "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+              "요소의 배경을 반투명 설정하여야 효과를 확인할 수 있습니다."
+            ]
+          },
+          {
+            "id": 15,
+            "link": "https://webzz.tistory.com/374",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "backface-visibility",
+            "desc1": "backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+            "desc2": "backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+              "2D 상태에서는 뒷면을 확인할 수 없지만 3D 공간에서는 뒷면을 확인 할 수 있습니다."
+            ]
+          },
+          {
+            "id": 16,
+            "link": "https://webzz.tistory.com/375",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background",
+            "desc1": "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
+            "desc2": "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "background 속성은 백그라운드 속성을 일괄적으로 설정합니다."
+            ]
+          },
+          {
+            "id": 17,
+            "link": "https://webzz.tistory.com/376",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-attachment",
+            "desc1": "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+            "desc2": "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+              "background-attachment 속성의 multiple backgrounds는 익스플로러9 버전 이상부터 지원됩니다."
+            ]
+          },
+          {
+            "id": 18,
+            "link": "https://webzz.tistory.com/377",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-blend-mode",
+            "desc1": "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+            "desc2": "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+              "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+              "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다."
+            ]
+          },
+          {
+            "id": 19,
+            "link": "https://webzz.tistory.com/378",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-clip",
+            "desc1": "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+            "desc2": "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+              "clip은 걸다, 끼우다의 뜻으로 background-clip 배경 이미지를 어디에 설정하지를 설정합니다.",
+              "background-clip 기준점은 보더(border), 패딩(padding), 컨텐츠, 텍스트(text)에 설정할 수 있습니다.",
+              "background-clip 기준점은 보더(border), 패딩(padding), 컨텐츠, 텍스트(text)에 설정할 수 있습니다."
+            ]
+          },
+          {
+            "id": 20,
+            "link": "https://webzz.tistory.com/379",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-color",
+            "desc1": "background-color 속성은 백그라운드 색을 설정합니다.",
+            "desc2": "background-color 속성은 백그라운드 색을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "background-color 속성은 백그라운드 색을 설정합니다."
+            ]
+          },
+          {
+            "id": 21,
+            "link": "https://webzz.tistory.com/380",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-image",
+            "desc1": "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+            "desc2": "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+              "background-image 속성은 다중 이미지를 익스플로러9 이상부터 지원됩니다."
+            ]
+          },
+          {
+            "id": 22,
+            "link": "https://webzz.tistory.com/381",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-origin",
+            "desc1": "background-origin 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+            "desc2": "background-origin 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "background-origin 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+              "background-origin 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다."
+            ]
+          },
+          {
+            "id": 23,
+            "link": "https://webzz.tistory.com/382",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-position",
+            "desc1": "background-position 속성은 백그라운드 이미지의 위치 영역을 설정합니다.",
+            "desc2": "background-position 속성은 백그라운드 이미지의 위치 영역을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "background-position 속성은 백그라운드 이미지의 위치 영역을 설정합니다."
+            ]
+          },
+          {
+            "id": 24,
+            "link": "https://webzz.tistory.com/383",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-repeat",
+            "desc1": "background-repeat 속성은 백그라운드 이미지 반복 여부를 설정합니다.",
+            "desc2": "background-repeat 속성은 백그라운드 이미지 반복 여부를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "background-repeat 속성은 백그라운드 이미지 반복 여부를 설정합니다."
+            ]
+          },
+          {
+            "id": 25,
+            "link": "https://webzz.tistory.com/384",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "background-size",
+            "desc1": "background-size 속성은 백그라운드 이미지 사이즈를 설정합니다.",
+            "desc2": "background-size 속성은 백그라운드 이미지 사이즈를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "background-size 속성은 백그라운드 이미지 사이즈를 설정합니다."
+            ]
+          },
+          {
+            "id": 26,
+            "link": "https://webzz.tistory.com/385",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border",
+            "desc1": "border 속성은 테두리 속성을 일괄적으로 설정합니다.",
+            "desc2": "border 속성은 테두리 속성을 일괄적으로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border 속성은 테두리 속성을 일괄적으로 설정합니다."
+            ]
+          },
+          {
+            "id": 27,
+            "link": "https://webzz.tistory.com/386",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-bottom",
+            "desc1": "border-bottom 속성은 테두리 아래쪽 속성을 일괄적으로 설정합니다.",
+            "desc2": "border-bottom 속성은 아래쪽 속성을 일괄적으로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border-bottom 속성은 테두리 아래쪽 속성을 일괄적으로 설정합니다."
+            ]
+          },
+          {
+            "id": 28,
+            "link": "https://webzz.tistory.com/387",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-bottom-color",
+            "desc1": "border-bottom-color 속성은 테두리 아래쪽 색 속성을 설정합니다.",
+            "desc2": "border-bottom-color 속성은 테두리 아래쪽 색 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border-bottom-color 속성은 테두리 아래쪽 색 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 29,
+            "link": "https://webzz.tistory.com/388",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-bottom-left-radius",
+            "desc1": "border-bottom-left-radius 속성은 아래부분 왼쪽 모서리 굴곡을 설정합니다.",
+            "desc2": "border-bottom-left-radius 속성은 아래부분 왼쪽 모서리 굴곡을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border-bottom-left-radius 속성은 아래부분 왼쪽 모서리 굴곡을 설정합니다."
+            ]
+          },
+          {
+            "id": 30,
+            "link": "https://webzz.tistory.com/389",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-bottom-right-radius",
+            "desc1": "border-bottom-right-radius 속성은 아래부분 오른쪽 모서리 굴곡을 설정합니다.",
+            "desc2": "border-bottom-right-radius 속성은 아래부분 오른쪽 모서리 굴곡을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border-bottom-right-radius 속성은 아래부분 오른쪽 모서리 굴곡을 설정합니다."
+            ]
+          },
+          {
+            "id": 31,
+            "link": "https://webzz.tistory.com/390",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-bottom-style",
+            "desc1": "border-bottom-style 속성은 테두리 아래쪽 스타일 속성을 설정합니다.",
+            "desc2": "border-bottom-style 속성은 테두리 아래쪽 스타일 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "border-bottom-style 속성은 테두리 아래쪽 스타일 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 32,
+            "link": "https://webzz.tistory.com/391",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-bottom-width",
+            "desc1": "border-bottom-width 속성은 테두리 아래쪽 두께 속성을 설정합니다.",
+            "desc2": "border-bottom-width 속성은 테두리 아래쪽 두께 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "border-bottom-width 속성은 테두리 아래쪽 두께 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 33,
+            "link": "https://webzz.tistory.com/392",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-collapse",
+            "desc1": "border-collapse 속성은 테이블의 테두리 분리 여부를 설정합니다.",
+            "desc2": "border-collapse 속성은 테이블의 테두리 분리 여부를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "border-collapse 속성은 테이블의 테두리 분리 여부를 설정합니다."
+            ]
+          },
+          {
+            "id": 34,
+            "link": "https://webzz.tistory.com/393",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-color",
+            "desc1": "border-color 속성은 테두리 색 속성을 설정합니다.",
+            "desc2": "border-color 속성은 테두리 색 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "border-color 속성은 테두리 색 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 35,
+            "link": "https://webzz.tistory.com/394",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-image",
+            "desc1": "border-image 속성은 테두리 이미지 속성을 설정합니다.",
+            "desc2": "border-image 속성은 테두리 이미지 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "border-image 속성은 테두리 이미지 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 36,
+            "link": "https://webzz.tistory.com/395",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-image-outset",
+            "desc1": "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다.",
+            "desc2": "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 37,
+            "link": "https://webzz.tistory.com/396",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-image-repeat",
+            "desc1": "border-image-repeat 속성은 테두리 이미지 반복 속성을 설정합니다.",
+            "desc2": "border-image-repeat 속성은 테두리 이미지 반복 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "border-image-repeat 속성은 테두리 이미지 반복 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 38,
+            "link": "https://webzz.tistory.com/397",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-image-slice",
+            "desc1": "border-image-slice 속성은 테두리 이미지 크기 속성을 설정합니다.",
+            "desc2": "border-image-slice 속성은 테두리 이미지 크기 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "border-image-slice 속성은 테두리 이미지 크기 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 39,
+            "link": "https://webzz.tistory.com/398",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-image-source",
+            "desc1": "border-image-source 속성은 테두리 이미지 경로 속성을 설정합니다.",
+            "desc2": "border-image-source 속성은 테두리 이미지 경로 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "border-image-source 속성은 테두리 이미지 경로 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 40,
+            "link": "https://webzz.tistory.com/399",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-image-width",
+            "desc1": "border-image-width 속성은 테두리 이미지 두께 속성을 설정합니다.",
+            "desc2": "border-image-width 속성은 테두리 이미지 두께 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "border-image-width 속성은 테두리 이미지 두께 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 41,
+            "link": "https://webzz.tistory.com/400",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-left",
+            "desc1": "border-left 속성은 테두리 왼쪽 속성을 일괄적으로 설정합니다.",
+            "desc2": "border-left 속성은 테두리 왼쪽 속성을 일괄적으로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border-left 속성은 테두리 왼쪽 속성을 일괄적으로 설정합니다."
+            ]
+          },
+          {
+            "id": 42,
+            "link": "https://webzz.tistory.com/401",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-left-color",
+            "desc1": "border-left-color 속성은 테두리 왼쪽 색 속성을 설정합니다.",
+            "desc2": "border-left-color 속성은 테두리 왼쪽 색 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+              "border-left-color 속성은 테두리 왼쪽 색 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 43,
+            "link": "https://webzz.tistory.com/402",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-left-style",
+            "desc1": "border-left-style 속성은 테두리 왼쪽 스타일 속성을 설정합니다.",
+            "desc2": "border-left-style 속성은 테두리 왼쪽 스타일 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "border-left-style 속성은 테두리 왼쪽 스타일 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 44,
+            "link": "https://webzz.tistory.com/403",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-left-width",
+            "desc1": "border-left-width 속성은 테두리 왼쪽 두께 속성을 설정합니다.",
+            "desc2": "border-left-width 속성은 테두리 왼쪽 두께 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "border-left-width 속성은 테두리 왼쪽 두께 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 45,
+            "link": "https://webzz.tistory.com/404",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-radius",
+            "desc1": "border-radius 속성은 모서리 굴곡을 설정합니다.",
+            "desc2": "border-radius 속성은 모서리 굴곡을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border-radius 속성은 모서리 굴곡을 설정합니다."
+            ]
+          },
+          {
+            "id": 46,
+            "link": "https://webzz.tistory.com/405",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-right",
+            "desc1": "border-right 속성은 테두리 오른쪽 속성을 일괄적으로 설정합니다.",
+            "desc2": "border-right 속성은 테두리 오른쪽 속성을 일괄적으로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border-right 속성은 테두리 오른쪽 속성을 일괄적으로 설정합니다."
+            ]
+          },
+          {
+            "id": 47,
+            "link": "https://webzz.tistory.com/406",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-right-color",
+            "desc1": "border-right-color 속성은 테두리 오른쪽 색 속성을 설정합니다.",
+            "desc2": "border-right-color 속성은 테두리 오른쪽 색 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "border-right-color 속성은 테두리 오른쪽 색 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 48,
+            "link": "https://webzz.tistory.com/407",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-right-style",
+            "desc1": "border-right-style 속성은 테두리 오른쪽 스타일 속성을 설정합니다",
+            "desc2": "border-right-style 속성은 테두리 오른쪽 스타일 속성을 설정합니다",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "border-right-style 속성은 테두리 오른쪽 스타일 속성을 설정합니다"
+            ]
+          },
+          {
+            "id": 49,
+            "link": "https://webzz.tistory.com/408",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-right-width",
+            "desc1": "border-right-width 속성은 테두리 오른쪽 두께 속성을 설정합니다.",
+            "desc2": "border-right-width 속성은 테두리 오른쪽 두께 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "border-right-width 속성은 테두리 오른쪽 두께 속성을 설정합니다."
+            ]
+          },
+          
+          {
+            "id": 50,
+            "link": "https://webzz.tistory.com/409",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "border-spacing",
+            "desc1": "border-spacing 속성은 테이블의 테두리 간격을 설정합니다.",
+            "desc2": "border-spacing 속성은 테이블의 테두리 간격을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "border-spacing 속성은 테이블의 테두리 간격을 설정합니다."
+            ]
+          },
+          {
+            "id": 51,
+            "link": "https://webzz.tistory.com/410",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/ENmuo/btq4SMi4IvP/nQKczjFMry2QZXyHed9Ghk/img.png",
+            "title": "border-style",
+            "desc1": "border-style 속성은 테두리 스타일 속성을 설정합니다.",
+            "desc2": "border-style 속성은 테두리 스타일 속성을 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+                "border-style 속성은 테두리 스타일 속성을 설정합니다."
+            ]
+        },{
+            "id": 52,
+            "link": "https://webzz.tistory.com/411",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cdoUo4/btq4SmEWzyX/pdh5w0EpxSO8FzXmkWpcf1/img.png",
+            "title": "border-top",
+            "desc1": "border-top 속성은 테두리 위쪽 속성을 일괄적으로 설정합니다.",
+            "desc2": "border-top 속성은 테두리 위쪽 속성을 일괄적으로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+                "border-top 속성은 테두리 위쪽 속성을 일괄적으로 설정합니다."
+            ]
+        },{
+            "id": 53,
+            "link": "https://webzz.tistory.com/412",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/9KazM/btq4SMJ8MrC/B65PZrkXRKtOx6mV4bAItK/img.png",
+            "title": "border-top-color",
+            "desc1": "border-top-color 속성은 테두리 위쪽 색 속성을 설정합니다.",
+            "desc2": "border-top-color 속성은 테두리 위쪽 색 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★☆",
+            "definition": [
+                "border-top-color 속성은 테두리 위쪽 색 속성을 설정합니다."
+            ]
+        },{
+            "id": 54,
+            "link": "https://webzz.tistory.com/413",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bpD7E7/btq4OrtMXwd/mdFvmv0GJ2EEwBD8GiXPh0/img.png",
+            "title": "border-top-left-radius",
+            "desc1": "border-top-left-radius 속성은 윗부분 왼쪽 모서리 굴곡을 설정합니다.",
+            "desc2": "border-top-left-radius 속성은 윗부분 왼쪽 모서리 굴곡을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+                "border-top-left-radius 속성은 윗부분 왼쪽 모서리 굴곡을 설정합니다."
+            ]
+        },{
+            "id": 55,
+            "link": "https://webzz.tistory.com/414",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/v5tp0/btq4RTCZGre/4nBeqW2UkYvxm63gS90q9K/img.png",
+            "title": "border-top-right-radius",
+            "desc1": "border-top-right-radius 속성은 윗부분 오른쪽 모서리 굴곡을 설정합니다.",
+            "desc2": "border-top-right-radius 속성은 윗부분 오른쪽 모서리 굴곡을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+                "border-top-right-radius 속성은 윗부분 오른쪽 모서리 굴곡을 설정합니다."
+            ]
+        },{
+            "id": 56,
+            "link": "https://webzz.tistory.com/415",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/erGA6o/btq4O9Nl0mE/sqfpfiflcA0qJYEaCKzjxk/img.png",
+            "title": "border-top-style",
+            "desc1": "border-top-style 속성은 테두리 위쪽 스타일 속성을 설정합니다.",
+            "desc2": "border-top-style 속성은 테두리 위쪽 스타일 속성을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+                "border-top-style 속성은 테두리 위쪽 스타일 속성을 설정합니다."
+            ]
+        },{
+            "id": 57,
+            "link": "https://webzz.tistory.com/416",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/czsYgr/btq4SYw20cK/Axf4CrUDXN2YcadjAs9kKK/img.png",
+            "title": "border-top-width",
+            "desc1": "border-top-width 속성은 테두리 위쪽 두께 속성을 설정합니다.",
+            "desc2": "border-top-width 속성은 테두리 위쪽 두께 속성을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+                "border-top-width 속성은 테두리 위쪽 두께 속성을 설정합니다."
+            ]
+        },{
+            "id": 58,
+            "link": "https://webzz.tistory.com/417",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bPq3i5/btq4SXx8Icv/s8Vm0BDc5e8QgFyBvKKYA1/img.png",
+            "title": "border-width",
+            "desc1": "border-width 속성은 테두리 두께 속성을 설정합니다.",
+            "desc2": "border-width 속성은 테두리 두께 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+                "border-width 속성은 테두리 두께 속성을 설정합니다."
+            ]
+        },{
+            "id": 59,
+            "link": "https://webzz.tistory.com/418",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bMG0ik/btq4UrFxsOV/HOJTvmKqQg7y0Q3DBe0HK0/img.png",
+            "title": "bottom",
+            "desc1": "bottom 속성은 위치 요소의 아래쪽 속성을 설정합니다.",
+            "desc2": "bottom 속성은 위치 요소의 아래쪽 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "bottom 속성은 위치 요소의 아래쪽 속성을 설정합니다."
+            ]
+        },{
+            "id": 60,
+            "link": "https://webzz.tistory.com/419",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bCrnI0/btq4Oiqgxzk/uKBQ5ZdV8pw0NOkyzbYuGK/img.png",
+            "title": "box-decoration-break",
+            "desc1": "box-decoration-break 속성은 컬럼 및 줄바꿈시 테두리와 패딩의 방식을 설정합니다.",
+            "desc2": "box-decoration-break 속성은 컬럼 및 줄바꿈시 테두리와 패딩의 방식을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "box-decoration-break 속성은 컬럼 및 줄바꿈시 테두리와 패딩의 방식을 설정합니다."
+            ]
+        },{
+            "id": 61,
+            "link": "https://webzz.tistory.com/420",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bhCIJr/btq4RTXisW5/dpzKKexvRE75hCbFrKlpi1/img.png",
+            "title": "box-shadow",
+            "desc1": "box-shadow 속성은 박스 요소의 그림자를 설정합니다.",
+            "desc2": "box-shadow 속성은 박스 요소의 그림자를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "box-shadow 속성은 박스 요소의 그림자를 설정합니다."
+            ]
+        },{
+            "id": 62,
+            "link": "https://webzz.tistory.com/421",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/yt0zs/btq4RTQv5QC/vlKNmca1iPESkxaKIx0Fzk/img.png",
+            "title": "box-sizing",
+            "desc1": "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다.",
+            "desc2": "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+                "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다."
+            ]
+        },{
+            "id": 63,
+            "link": "https://webzz.tistory.com/422",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/3n3uZ/btq4SlTyXYN/STaCCxRsW8MRtFS6ZuKhk0/img.png",
+            "title": "caption-side",
+            "desc1": "caption-side 속성은 caption의 위치를 설정합니다.",
+            "desc2": "caption-side 속성은 caption의 위치를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "caption-side 속성은 caption의 위치를 설정합니다."
+            ]
+        },{
+            "id": 64,
+            "link": "https://webzz.tistory.com/423",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/dX4HLg/btq4SnRm2tQ/KqsrmeVhk6bATzkoV6Oo41/img.png",
+            "title": "caret-color",
+            "desc1": "caret-color 속성은 input의 커서 색을 정의합니다.",
+            "desc2": "caret-color 속성은 input의 커서 색을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "caret-color 속성은 input의 커서 색을 정의합니다."
+            ]
+        },{
+            "id": 65,
+            "link": "https://webzz.tistory.com/424",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/nyLL3/btq4Pn5EmOP/mrdcj3j3afkQpkwiAF4qV0/img.png",
+            "title": "clear",
+            "desc1": "clear 속성은 float 요소의 성질을 차단합니다.",
+            "desc2": "clear 속성은 float 요소의 성질을 차단합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "clear 속성은 float 요소의 성질을 차단합니다."
+            ]
+        },{
+            "id": 66,
+            "link": "https://webzz.tistory.com/425",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/yxSSB/btq4TACIXJO/7OhfpzOsvLOEGK5ATkqsq1/img.png",
+            "title": "clip",
+            "desc1": "clip 속성은 보이는 영역을 설정합니다.",
+            "desc2": "clip 속성은 보이는 영역을 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "clip 속성은 보이는 영역을 설정합니다."
+            ]
+        },{
+            "id": 67,
+            "link": "https://webzz.tistory.com/426",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bUV4Jg/btq4QQUkbam/0SD9Zx3BBHaVh49zeWDFn0/img.png",
+            "title": "color",
+            "desc1": "color 속성은 글씨 색을 설정합니다.",
+            "desc2": "color 속성은 글씨 색을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "color 속성은 글씨 색을 설정합니다."
+            ]
+        },{
+            "id": 68,
+            "link": "https://webzz.tistory.com/427",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/oF5I5/btq4SW0khy0/GhcQaMaWIK1t8nAxfSsOj1/img.png",
+            "title": "column-count",
+            "desc1": "column-count 속성은 컬럼의 수를 정의합니다.",
+            "desc2": "column-count 속성은 컬럼의 수를 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-count 속성은 컬럼의 수를 정의합니다."
+            ]
+        },{
+            "id": 69,
+            "link": "https://webzz.tistory.com/428",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bvOeUH/btq4PmZWc4R/61zmUnpVw5Gy8emIQS1V9k/img.png",
+            "title": "column-fill",
+            "desc1": "column-fill 속성은 열의 지정방법을 정의합니다.",
+            "desc2": "column-fill 속성은 열의 지정방법을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-fill 속성은 열의 지정방법을 정의합니다."
+            ]
+        },{
+            "id": 70,
+            "link": "https://webzz.tistory.com/429",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bvOeUH/btq4PmZWc4R/61zmUnpVw5Gy8emIQS1V9k/img.png",
+            "title": "column-gap",
+            "desc1": "column-gap 속성은 컬럼의 간격을 정의합니다.",
+            "desc2": "column-gap 속성은 컬럼의 간격을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-gap 속성은 컬럼의 간격을 정의합니다."
+            ]
+        },{
+            "id": 71,
+            "link": "https://webzz.tistory.com/430",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/kT5gP/btq4RUPuW2D/EkGMdiNQrf3XDnwZkcTvo0/img.png",
+            "title": "column-rule",
+            "desc1": "column-rule 속성은 컬럼 라인의 가로값, 스타일, 컬러를 정의합니다.",
+            "desc2": "column-rule 속성은 컬럼 라인의 가로값, 스타일, 컬러를 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-rule 속성은 컬럼 라인의 가로값, 스타일, 컬러를 정의합니다."
+            ]
+        },{
+            "id": 72,
+            "link": "https://webzz.tistory.com/431",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/AubVs/btq4PalaX42/B5krVRQoDu65A1tb2SnQRK/img.png",
+            "title": "column-rule-color",
+            "desc1": "column-rule-color 속성은 컬럼의 라인 색을 정의합니다.",
+            "desc2": "column-rule-color 속성은 컬럼의 라인 색을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-rule-color 속성은 컬럼의 라인 색을 정의합니다."
+            ]
+        },{
+            "id": 73,
+            "link": "https://webzz.tistory.com/432",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/yTheP/btq4SWTzQvd/kXDcMhqYVjLB0DvPzznkF1/img.png",
+            "title": "column-rule-style",
+            "desc1": "column-rule-style 속성은 컬럼 라인의 스타일을 정의합니다.",
+            "desc2": "column-rule-style 속성은 컬럼 라인의 스타일을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-rule-style 속성은 컬럼 라인의 스타일을 정의합니다."
+            ]
+        },{
+            "id": 74,
+            "link": "https://webzz.tistory.com/433",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/WQU4G/btq4RTQwpqU/Hl5VCneNYv8hKVqxk7al11/img.png",
+            "title": "column-rule-width",
+            "desc1": "column-rule-width 속성은 컬럼 라인의 가로값을 정의합니다.",
+            "desc2": "column-rule-width 속성은 컬럼 라인의 가로값을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-rule-width 속성은 컬럼 라인의 가로값을 정의합니다."
+            ]
+        },{
+            "id": 75,
+            "link": "https://webzz.tistory.com/434",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bU4IfH/btq4RNXkz0q/wo8BkvycbFiQcNt1W29J30/img.png",
+            "title": "column-span",
+            "desc1": "column-span 속성은 열의 속성을 정의합니다.",
+            "desc2": "column-span 속성은 열의 속성을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-span 속성은 열의 속성을 정의합니다."
+            ]
+        },{
+            "id": 76,
+            "link": "https://webzz.tistory.com/435",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/B1Vuv/btq4SMi47rZ/Haehfz35bKpMnk2FO2IIm1/img.png",
+            "title": "column-width",
+            "desc1": "column-width 속성은 컬럼의 가로 값을 정의합니다.",
+            "desc2": "column-width 속성은 컬럼의 가로 값을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "column-width 속성은 컬럼의 가로 값을 정의합니다."
+            ]
+        },{
+            "id": 77,
+            "link": "https://webzz.tistory.com/436",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/u05mO/btq4PnR9eFk/bst0CHA3WzqkeQMMxxWrj0/img.png",
+            "title": "columns",
+            "desc1": "columns 속성은 열의 폭과 열의 수를 정의합니다.",
+            "desc2": "columns 속성은 열의 폭과 열의 수를 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "columns 속성은 열의 폭과 열의 수를 정의합니다."
+            ]
+        },{
+            "id": 78,
+            "link": "https://webzz.tistory.com/437",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bldvBh/btq4Oh5Xz21/brpOPJZzFjHizsGhE7L7o0/img.png",
+            "title": "content",
+            "desc1": "content 속성은 콘텐츠 내용을 설정합니다.",
+            "desc2": "content 속성은 콘텐츠 내용을 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "content 속성은 콘텐츠 내용을 설정합니다."
+            ]
+        },{
+            "id": 79,
+            "link": "https://webzz.tistory.com/438",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/dthtzG/btq4PbdoPbZ/zI41gKtpTA6IGg7Wn1sKs1/img.png",
+            "title": "counter-increment",
+            "desc1": "counter-increment 속성은 콘텐츠의 순서 상태를 정의합니다.",
+            "desc2": "counter-increment 속성은 콘텐츠의 순서 상태를 정의합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "counter-increment 속성은 콘텐츠의 순서 상태를 정의합니다."
+            ]
+        },{
+            "id": 80,
+            "link": "https://webzz.tistory.com/439",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bYBcuf/btq4RVt2Ph3/rrvkiY5KMmeYItb97EOYBk/img.png",
+            "title": "counter-reset",
+            "desc1": "counter-reset 속성은 콘텐츠의 숫자를 초기화합니다.",
+            "desc2": "counter-reset 속성은 콘텐츠의 숫자를 초기화합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "counter-reset 속성은 콘텐츠의 숫자를 초기화합니다."
+            ]
+        },{
+            "id": 81,
+            "link": "https://webzz.tistory.com/440",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/IkHdm/btq4Tn4sQCo/K84XQ8f1SKPdefa7AKCCX0/img.png",
+            "title": "cursor",
+            "desc1": "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다.",
+            "desc2": "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다."
+            ]
+        },{
+            "id": 82,
+            "link": "https://webzz.tistory.com/441",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/boQhLi/btq4OiDr8hW/qVvW4o3OLbTKjABlATbyT0/img.png",
+            "title": "direction",
+            "desc1": "direction 속성은 문장의 방향을 설정합니다.",
+            "desc2": "direction 속성은 문장의 방향을 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "direction 속성은 문장의 방향을 설정합니다."
+            ]
+        },{
+            "id": 83,
+            "link": "https://webzz.tistory.com/442",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bimAvG/btq4MA5IpyU/HYukspiItK0BPpRO5TErhK/img.png",
+            "title": "display",
+            "desc1": "display 속성은 요소의 성질을 정의합니다.",
+            "desc2": "display 속성은 요소의 성질을 정의합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "display 속성은 요소의 성질을 정의합니다."
+            ]
+        },{
+            "id": 84,
+            "link": "https://webzz.tistory.com/443",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/JUOGn/btq4PnqN3ft/lLAqqDETaT4ZdV4orGTVdK/img.png",
+            "title": "empty-cells",
+            "desc1": "empty-cells 속성은 테이블의 빈요소의 속성을 설정합니다.",
+            "desc2": "empty-cells 속성은 테이블의 빈요소의 속성을 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "empty-cells 속성은 테이블의 빈요소의 속성을 설정합니다."
+            ]
+        },{
+            "id": 85,
+            "link": "https://webzz.tistory.com/444",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/HtE1Q/btq4PnRRc2y/f2dCJGe6TnXIryMTnxXlkK/img.png",
+            "title": "filter",
+            "desc1": "filter 속성은 그래픽 효과를 설정합니다.",
+            "desc2": "filter 속성은 그래픽 효과를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+                "filter 속성은 그래픽 효과를 설정합니다."
+            ]
+        },{
+            "id": 86,
+            "link": "https://webzz.tistory.com/445",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/kwZiS/btq4R2fkG1I/p1sVF32J1ToX9XG6TqlkM1/img.png",
+            "title": "flex",
+            "desc1": "flex 속성은 콘텐츠의 성질을 flex로 정의합니다.",
+            "desc2": "flex 속성은 콘텐츠의 성질을 flex로 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "flex 속성은 콘텐츠의 성질을 flex로 정의합니다."
+            ]
+        },{
+            "id": 87,
+            "link": "https://webzz.tistory.com/446",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/Ur7EZ/btq4QQzHQw9/gmg9zB7EmZyqvgQTvZ9hsk/img.png",
+            "title": "flex-basis",
+            "desc1": "flex-basis 속성은 요소의 기본 단위를 정의합니다.",
+            "desc2": "flex-basis 속성은 요소의 기본 단위를 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "flex-basis 속성은 요소의 기본 단위를 정의합니다."
+            ]
+        },{
+            "id": 88,
+            "link": "https://webzz.tistory.com/447",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bm4sfb/btq4SbXrJQp/4EYQfQH76ELN1dEizJ7W81/img.png",
+            "title": "flex-direction",
+            "desc1": "flex-direction 속성은 요소의 정렬 방향을 정의합니다.",
+            "desc2": "flex-direction 속성은 요소의 정렬 방향을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "flex-direction 속성은 요소의 정렬 방향을 정의합니다."
+            ]
+        },{
+            "id": 89,
+            "link": "https://webzz.tistory.com/448",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/b8VhU7/btq4MRF8MKk/9U95WOUHKmSV2oqGwkYnxk/img.png",
+            "title": "flex-flow",
+            "desc1": "flex-flow 속성은 요소의 정렬 방향과 줄 속성을 설정합니다.",
+            "desc2": "flex-flow 속성은 요소의 정렬 방향과 줄 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "flex-flow 속성은 요소의 정렬 방향과 줄 속성을 설정합니다."
+            ]
+        },{
+            "id": 90,
+            "link": "https://webzz.tistory.com/449",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/lzrYq/btq4TnbZVut/LBETTBF689craURpgJKkA1/img.png",
+            "title": "flex-grow",
+            "desc1": "flex-grow 속성은 요소의 크기를 숫자를 통해 정의합니다.",
+            "desc2": "flex-grow 속성은 요소의 크기를 숫자를 통해 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "flex-grow 속성은 요소의 크기를 숫자를 통해 정의합니다."
+            ]
+        },{
+            "id": 91,
+            "link": "https://webzz.tistory.com/450",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bkkhnC/btq4R3ZVlFS/Uknv8OdkUF8p99C6mRt4s0/img.png",
+            "title": "flex-shrink",
+            "desc1": "flex-shrink 속성은 요소의 크기를 숫자를 통해 줄여줍니다.",
+            "desc2": "flex-shrink 속성은 요소의 크기를 숫자를 통해 줄여줍니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "flex-shrink 속성은 요소의 크기를 숫자를 통해 줄여줍니다."
+            ]
+        },{
+            "id": 92,
+            "link": "https://webzz.tistory.com/451",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/WRRzI/btq4RNQzlJE/jhkbRUrgfZbKT0kFNjm6j0/img.png",
+            "title": "flex-wrap",
+            "desc1": "flex-wrap 속성은 요소의 줄 속성을 설정합니다.",
+            "desc2": "flex-wrap 속성은 요소의 줄 속성을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+                "flex-wrap 속성은 요소의 줄 속성을 설정합니다."
+            ]
+        },
+        {
+          "id": 93,
+          "link": "https://webzz.tistory.com/452",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bgGuTY/btq4Or8i4qG/MQDgKwu3OVEuYgK1STvW61/img.png",
+          "title": "float",
+          "desc1": "float 속성은 블록요소의 정렬 상태를 설정합니다.",
+          "desc2": "float 속성은 블록요소의 정렬 상태를 설정합니다.",
+          "version": "CSS1",
+          "view": "-",
+          "use": "-",
+          "definition": [
+            "float 속성은 블록요소의 정렬 상태를 설정합니다."
+          ]
+        },
+        {
+            "id": 94,
+            "link": "https://webzz.tistory.com/453",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/LTnNs/btq4O97FRH2/18sMjkUJ6bJWRk3jNQhKF1/img.png",
+            "title": "font",
+            "desc1": "font 속성은 폰트에 관한 설정을 정의합니다.",
+            "desc2": "font 속성은 폰트에 관한 설정을 정의합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "font 속성은 폰트에 관한 설정을 정의합니다.",
+              "font 속성은 폰트 스타일, 폰트 변형, 폰트 두께, 폰트 사이즈, 폰트 간격, 폰트 종류를 설정합니다."
+            ]
+          },
+          {
+            "id": 95,
+            "link": "https://webzz.tistory.com/454",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/nQQrC/btq4QQz4hqU/U7bIdOHrzlvthg39vSYKWK/img.png",
+            "title": "font-family",
+            "desc1": "font-family 속성은 폰트 종류를 설정합니다.",
+            "desc2": "font-family 속성은 폰트 종류를 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "font-family 속성은 폰트 종류를 설정합니다.",
+              "사용자 컴퓨터에 서체가 설치돼 있어야 서체가 브라우저에 표현됩니다.",
+              "폰트가 없을 경우를 대비해 쉼표(,)를 통해 여러개의 폰트를 설정가능합니다."
+            ]
+          },
+          {
+            "id": 96,
+            "link": "https://webzz.tistory.com/455",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/J7Eej/btq4ScPQk5r/WiOdLL0nxW7WVG1gSc35kk/img.png",
+            "title": "font-size",
+            "desc1": "font-size 속성은 폰트 사이즈 속성을 설정합니다.",
+            "desc2": "font-size 속성은 폰트 사이즈 속성을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "font-size 속성은 폰트 사이즈 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 97,
+            "link": "https://webzz.tistory.com/456",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/QvJcn/btq4PmZWnyb/B6ZoyUkpkb5UvLX8mBZIk1/img.png",
+            "title": "font-size-adjust",
+            "desc1": "font-size-adjust 속성은 소문자를 기준으로 폰트 크기를 설정합니다.",
+            "desc2": "font-size-adjust 속성은 소문자를 기준으로 폰트 크기를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "font-size-adjust 속성은 소문자를 기준으로 폰트 크기를 설정합니다.",
+              "폰트 크기는 대문자를 기준으로 측정이 되지만 CSS3에서 추가된 font-size-adjust 소문자를 기준으로 폰트 크기를 설정 할 수 있습니다."
+            ]
+          },
+          {
+            "id": 98,
+            "link": "https://webzz.tistory.com/457",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bJSAGW/btq4UqzRhnY/wH3S1CVWkIsPFM4obspk8k/img.png",
+            "title": "font-stretch",
+            "desc1": "font-stretch 속성은 폰트의 굵기를 정의합니다.",
+            "desc2": "font-stretch 속성은 폰트의 굵기를 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "font-stretch 속성은 폰트의 굵기를 정의합니다."
+            ]
+          },
+          {
+            "id": 99,
+            "link": "https://webzz.tistory.com/458",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cnhNx2/btq4RU9I19k/9K0bUZz8DBf9547xFpP9H1/img.png",
+            "title": "font-style",
+            "desc1": "font-style 속성은 폰트의 스타일을 정의합니다.",
+            "desc2": "font-style 속성은 폰트의 스타일을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "font-style 속성은 폰트의 스타일을 정의합니다."
+            ]
+          },
+          {
+            "id": 100,
+            "link": "https://webzz.tistory.com/459",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/c7CYxZ/btq4Tn4s09G/SniKEbSHUjr5B41vgDc4m1/img.png",
+            "title": "font-variant",
+            "desc1": "font-variant 속성은 글꼴의 변형을 정의합니다.",
+            "desc2": "font-variant 속성은 글꼴의 변형을 정의합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "font-variant 속성은 글꼴의 변형을 정의합니다.",
+              "font-variant 속성은 영어만 적용됩니다."
+            ]
+          },
+          {
+            "id": 101,
+            "link": "https://webzz.tistory.com/460",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bHqzmz/btq4Uee68gb/lx6UD2aX3mRaUudX05ODiK/img.png",
+            "title": "font-weight",
+            "desc1": "font-weight 속성은 폰트의 두께를 정의합니다.",
+            "desc2": "font-weight 속성은 폰트의 두께를 정의합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "font-weight 속성은 폰트의 두께를 정의합니다.",
+              "font-weight 속성은 폰트 자체가 두께를 지원하지 않으면, 세부적인 두께는 표시되지 않을 수 있습니다."
+            ]
+          },
+          {
+            "id": 102,
+            "link": "https://webzz.tistory.com/461",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/xNsH3/btq4TACJCeb/gjD98QZkIuh9RQpPFjb3GK/img.png",
+            "title": "grid",
+            "desc1": "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+            "desc2": "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-template-columns 속성은 가로 컬럼의 크기와 위치를 설정합니다."
+            ]
+          },
+          {
+            "id": 103,
+            "link": "https://webzz.tistory.com/462",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/dDW2sy/btq4UqNqdUe/bNfWPqkYffC60spFgkdDn0/img.png",
+            "title": " grid-area",
+            "desc1": "grid-row-start, grid-column-start, grid-row-end, grid-column-end의 단축 속성 ",
+            "desc2": "grid-row-start, grid-column-start, grid-row-end, grid-column-end의 단축 속성",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-row-start, grid-column-start, grid-row-end, grid-column-end의 단축 속성"
+            ]
+          },
+          {
+            "id": 104,
+            "link": "https://webzz.tistory.com/463",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/3YTyz/btq4RUWdSEi/43W4fzLawkR2fQGSkLWVG1/img.png",
+            "title": "grid-auto-columns",
+            "desc1": "grid-auto-columns속성은 레이아웃 그리드 컨테이너에 암시 적으로 생성 된 컬럼의 크기를 설정합니다.",
+            "desc2": "grid-auto-columns속성은 레이아웃 그리드 컨테이너에 암시 적으로 생성 된 컬럼의 크기를 설정합니다. ",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-auto-columns속성은 레이아웃 그리드 컨테이너에 암시 적으로 생성 된 컬럼의 크기를 설정합니다."
+            ]
+          },
+          {
+            "id": 105,
+            "link": "https://webzz.tistory.com/464",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/kAdoW/btq4TBn6jo7/KQNZCFK3rMmfU4rRjKr72k/img.png",
+            "title": "grid-auto-flow",
+            "desc1": "grid-auto-flow속성은 자동 레이아웃 알고리즘은 그들이 레이아웃 그리드에 배치하는 방법을 나타내는 암시 적으로 생성 된 레이아웃 요소의 작동 방법을 결정합니다.",
+            "desc2": "grid-auto-flow속성은 자동 레이아웃 알고리즘은 그들이 레이아웃 그리드에 배치하는 방법을 나타내는 암시 적으로 생성 된 레이아웃 요소의 작동 방법을 결정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-auto-flow속성은 자동 레이아웃 알고리즘은 그들이 레이아웃 그리드에 배치하는 방법을 나타내는 암시 적으로 생성 된 레이아웃 요소의 작동 방법을 결정합니다."
+            ]
+          },
+          {
+            "id": 106,
+            "link": "https://webzz.tistory.com/465",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bv1s3O/btq4OhrlU9o/xvgKX6YfFqMLJ4Va1gZnQ0/img.png",
+            "title": "grid-auto-rows",
+            "desc1": "grid-auto-rows속성은 레이아웃 그리드 컨테이너에 내재적으로 작성 행의 크기를 설정합니다",
+            "desc2": "grid-auto-rows속성은 레이아웃 그리드 컨테이너에 내재적으로 작성 행의 크기를 설정합니다",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition" : [
+              "grid-auto-rows 속성은"
+            ]
+          },
+          {
+            "id": "106",
+            "link": "https://webzz.tistory.com/465",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bv1s3O/btq4OhrlU9o/xvgKX6YfFqMLJ4Va1gZnQ0/img.png",
+            "title": "grid-auto-rows",
+            "desc1": "grid-auto-rows",
+            "desc2": "grid-auto-rows",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-auto-rows 속성은"
+            ]
+          },
+          {
+            "id": "107",
+            "link": "https://webzz.tistory.com/466",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/c602wI/btq4Snw8K2a/j8niXXBfq9rba4SlJKy6L1/img.png",
+            "title": "grid-column",
+            "desc1": "grid-column 속성은 grid-column-start와 grid-column-end 속성을 같이 사용합니다.",
+            "desc2": "grid-column",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-column 속성은"
+            ]
+          },
+          {
+            "id": "108",
+            "link": "https://webzz.tistory.com/467",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/rAGOj/btq4O9UabEu/gczqelT1JAlkQYnBuhtnyK/img.png",
+            "title": "grid-column-end",
+            "desc1": "grid-column-end 속성은",
+            "desc2": "grid-column-end",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-column-end 속성은"
+            ]
+          },
+          {
+            "id": "109",
+            "link": "https://webzz.tistory.com/468",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/eem3d4/btq4R202MzW/KuKgFzjSOxqsREhMiMuFJ1/img.png",
+            "title": "grid-column-gap",
+            "desc1": "grid-column-gap 속성은",
+            "desc2": "grid-column-gap",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-column-gap 속성은"
+            ]
+          },
+          {
+            "id": "110",
+            "link": "https://webzz.tistory.com/469",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bSD1uZ/btq4RTJLtSu/jZ6MJmSjFk12LtoYLajNkk/img.png",
+            "title": "grid-column-start",
+            "desc1": "grid-column-start 속성은 그리드 열 내에서 그리드 항목의 시작 위치를 지정합니다.",
+            "desc2": "grid-column-start",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-column-start 속성은 그리드 열 내에서 그리드 항목의 시작 위치를 지정합니다."
+            ]
+          },
+          {
+            "id": 111,
+            "link": "https://webzz.tistory.com/470",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bC3Bwa/btq4NKNPmaa/eusIRMWQ3Wlwsl8KiyKsj0/img.png",
+            "title": "grid-gap",
+            "desc1": "grid-gap 속성은 grid-row-gap와 grid-column-gap 속성을 같이 사용합니다.",
+            "desc2": "grid-gap",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-gap 속성은 grid-row-gap와 grid-column-gap 속성을 같이 사용합니다."
+            ]
+          },
+          {
+            "id": 112,
+            "link": "https://webzz.tistory.com/471",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/FxjBG/btq4SNWBFO1/4ndQOVTVo29mfrxjt5r41K/img.png",
+            "title": "grid-row",
+            "desc1": "grid-row 속성은 grid-row-start와 grid-row-end 속성을 같이 사용합니다.",
+            "desc2": "grid-row",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-row 속성은 grid-row-start와 grid-row-end 속성을 같이 사용합니다."
+            ]
+          },
+          {
+            "id": 113,
+            "link": "https://webzz.tistory.com/472",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bVi4WH/btq4SYw31GF/YGxtjRnRJacKHKQKJtNWyK/img.png",
+            "title": "grid-row-end",
+            "desc1": "grid-row-end 속성은 그리드 행 내에서 그리드 항목의 끝 위치를 지정하여 그리드 영역의 인라인 끝 모서리를 지정합니다.",
+            "desc2": "grid-row-end",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-row-end 속성은 그리드 행 내에서 그리드 항목의 끝 위치를 지정하여 그리드 영역의 인라인 끝 모서리를 지정합니다."
+            ]
+          },
+          {
+            "id": 114,
+            "link": "https://webzz.tistory.com/473",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cq3zzQ/btq4SMwFv04/ZmjevYfSgeKTTdTbMK5800/img.png",
+            "title": "grid-row-gap",
+            "desc1": "grid-row-gap 속성은 요소의 그리드줄 사이의 간격 크기를 설정한다.",
+            "desc2": "grid-row-gap",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-row-gap 속성은 요소의 그리드줄 사이의 간격 크기를 설정한다."
+            ]
+          },
+          {
+            "id": 115,
+            "link": "https://webzz.tistory.com/474",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/zSyyp/btq4PaetrGz/pVyyb0mZYunt8bbU9xp0Y1/img.png",
+            "title": "grid-row-start",
+            "desc1": "grid-row-start 속성은 그리드 행 내에서 그리드 항목의 시작 위치를 지정하여 그리드 영역의 인라인 시작 모서리를 지정한다.",
+            "desc2": "grid-row-start",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-row-start 속성은 그리드 행 내에서 그리드 항목의 시작 위치를 지정하여 그리드 영역의 인라인 시작 모서리를 지정한다."
+            ]
+          },
+          {
+            "id": 116,
+            "link": "https://webzz.tistory.com/475",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/b3pgWY/btq4Og63HJy/M4jwZvXensKpKZMZ2J2bc1/img.png",
+            "title": "grid-template",
+            "desc1": "grid-template 속성은 그리드 열, 행 및 영역을 정의한다.",
+            "desc2": "grid-template",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-template 속성은 그리드 열, 행 및 영역을 정의한다."
+            ]
+          },
+          {
+            "id": 117,
+            "link": "https://webzz.tistory.com/500",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/Hx8kz/btq4RUWdOOO/BuK2iFnUaXQIuwkeRtU7nk/img.png",
+            "title": "grid-template-areas",
+            "desc1": "grid-template-areas 속성은 아이템의 위치를 설정합니다.",
+            "desc2": "grid-template-areas 속성은 아이템의 위치를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-template-areas 속성은 아이템의 위치를 설정합니다."
+            ]
+          },
+          {
+            "id": 118,
+            "link": "https://webzz.tistory.com/476",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/veZZ8/btq4TooJF95/cdjKx5sIFttcLbPxUPTgsK/img.png",
+            "title": "grid-template-columns",
+            "desc1": "grid-template-columns 속성은 가로 컬럼의 크기와 위치를 설정합니다.",
+            "desc2": "grid-template-columns 속성은 가로 컬럼의 크기와 위치를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-template-columns 속성은 가로 컬럼의 크기와 위치를 설정합니다."
+            ]
+          },
+          {
+            "id": 119,
+            "link": "https://webzz.tistory.com/477",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/GCWJz/btq4SaR12wN/QeGaTEKoLGnyyEVXvpvwHK/img.png",
+            "title": "grid-template-rows",
+            "desc1": "grid-template-rows 속성은 그리드 행의 크기 조정 기능을 설정합니다.",
+            "desc2": "grid-template-rows 속성은 그리드 행의 크기 조정 기능을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "grid-template-rows 속성은 아이템의 위치를 설정합니다."
+            ]
+          },
+          {
+            "id": 120,
+            "link": "https://webzz.tistory.com/478",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cBVbcx/btq4OssDX1r/FZu9lKoR5VaRMMb4TXT5Jk/img.png",
+            "title": "hanging-punctuation",
+            "desc1": "hanging-punctuation 속성은 글씨의 시작 및 끝의 위치 정의합니다.",
+            "desc2": "hanging-punctuation 속성은 글씨의 시작 및 끝의 위치 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "hanging-punctuation 속성은 글씨의 시작 및 끝의 위치 정의합니다."
+            ]
+          },
+          {
+            "id": 121,
+            "link": "https://webzz.tistory.com/479",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bnW9Kz/btq4RFrsnDI/6ecadDbSMq2uhaflN53X01/img.png",
+            "title": "height",
+            "desc1": "height 속성은 콘텐츠 요소의 세로값을 설정합니다.",
+            "desc2": "height 속성은 콘텐츠 요소의 세로값을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "height 속성은 콘텐츠 요소의 세로값을 설정합니다."
+            ]
+          },
+          {
+            "id": 122,
+            "link": "https://webzz.tistory.com/480",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bPbmlK/btq4PnLoY1q/7o1UJshqx6tHg3dXUV0UY0/img.png",
+            "title": "hyphens",
+            "desc1": "hyphens 속성은 텍스트의 하이픈 영역을 설정합니다.",
+            "desc2": "hyphens 속성은 텍스트의 하이픈 영역을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "hyphens 속성은 텍스트의 하이픈 영역을 설정합니다."
+            ]
+          },
+          {
+            "id": 123,
+            "link": "https://webzz.tistory.com/481",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/baKjnm/btq4ScoNnlG/a6LWkmLTeNoKUU20bkXPU0/img.png",
+            "title": "isolation",
+            "desc1": "isolation 속성은 stacking context을 설정합니다.",
+            "desc2": "isolation 속성은 stacking context을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "isolation 속성은 stacking context을 설정합니다."
+            ]
+          },
+          {
+            "id": 124,
+            "link": "https://webzz.tistory.com/482",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bFzSmY/btq4TnchWv2/coqKxI7f5dTm0KBYXwvNa0/img.png",
+            "title": "justify-content",
+            "desc1": "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+            "desc2": "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "ijustify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+              "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의하고 align-content 속성은 콘텐츠의 상하 관계 정렬 상태를 정의합니다.",
+              "justify-content 속성은 display:flex; 상태에서 적용됩니다."
+            ]
+          },
+          {
+            "id": 125,
+            "link": "https://webzz.tistory.com/483",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/5Awdp/btq4O9Nnm2j/PqdjnyT1GSBOAS6nZg1Ce1/img.png",
+            "title": "left",
+            "desc1": "left 속성은 위치 요소의 왼쪽 속성을 설정합니다.",
+            "desc2": "left 속성은 위치 요소의 왼쪽 속성을 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "left 속성은 요소의 왼쪽 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 126,
+            "link": "https://webzz.tistory.com/484",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/mxTWG/btq4RVgwKZo/lMxNvPA9AILNAgOMGcZqI0/img.png",
+            "title": "letter-spacing",
+            "desc1": "letter-spacing 속성은 글자 사이의 간격을 설정합니다.",
+            "desc2": "letter-spacing 속성은 글자 사이의 간격을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "letter-spacing 속성은 글자 사이의 간격을 설정합니다."
+            ]
+          },
+          {
+            "id": 127,
+            "link": "https://webzz.tistory.com/485",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bTuudZ/btq4SMXGEen/wEDe0R3QDkMI7HrNXwd84K/img.png",
+            "title": "line-height",
+            "desc1": "line-height 속성은 문장과 문장 사이의 간격을 설정합니다.",
+            "desc2": "line-height 속성은 문장과 문장 사이의 간격을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "line-height 속성은 문장과 문장 사이의 간격을 설정합니다."
+            ]
+          },
+          {
+            "id": 128,
+            "link": "https://webzz.tistory.com/486",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/ALi3O/btq4RT364fX/6DmyBPg1HQgPiWkQ0pzknk/img.png",
+            "title": "list-style",
+            "desc1": "list-style 속성은 목록 스타일 속성을 설정합니다.",
+            "desc2": "list-style 속성은 목록 스타일 속성을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "list-style 속성은 목록 스타일 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 129,
+            "link": "https://webzz.tistory.com/487",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/uWJZV/btq4OhZfAfd/KlykmfT9GdqDm3eX3iJfL0/img.png",
+            "title": "list-style-image",
+            "desc1": "list-style-image 속성은 목록 마커의 이미지를 설정합니다.",
+            "desc2": "list-style-image 속성은 목록 마커의 이미지를 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "list-style-image 속성은 목록 마커의 이미지를 설정합니다."
+            ]
+          },
+          {
+            "id": 130,
+            "link": "https://webzz.tistory.com/488",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bG0t8d/btq4R2fHHn9/Xkr2egDJxy3zpzX3I38PU1/img.png",
+            "title": "list-style-position",
+            "desc1": "list-style-position 속성은 목록 마커의 위치 속성을 설정합니다.",
+            "desc2": "list-style-position 속성은 목록 마커의 위치 속성을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "list-style-position 속성은 목록 마커의 위치 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 131,
+            "link": "https://webzz.tistory.com/489",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bEfNCR/btq4Sl0nIcd/u2tKciwkeLUPzHrA6DlcM1/img.png",
+            "title": "list-style-type",
+            "desc1": "list-style-type 속성은 목록 마커의 유형을 설정합니다.",
+            "desc2": "list-style-type 속성은 목록 마커의 유형을 설정합니다..",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "list-style-type 속성은 목록 마커의 유형을 설정합니다."
+            ]
+          },
+          {
+            "id": 132,
+            "link": "https://webzz.tistory.com/490",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/70RlM/btq4Og68xoa/DSsCjVEWQGfD9eWlpf311k/img.png",
+            "title": "margin",
+            "desc1": "margin 속성은 요소의 바같쪽 여백을 설정합니다.",
+            "desc2": "margin 속성은 요소의 바같쪽 여백을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "margin 속성은 요소의 바같쪽 여백을 설정합니다.",
+              "margin-top 속성은 요소의 위쪽 바깥쪽 여백을 설정합니다.",
+              "margin-right 속성은 요소의 오른쪽 바깥쪽을 설정합니다."
+            ]
+          },
+          {
+            "id": 133,
+            "link": "https://webzz.tistory.com/491",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/otPUn/btq4SmZkDi9/KxvlqyAN7zfJkLKrros9uK/img.png",
+            "title": "margin-bottom",
+            "desc1": "margin-bottom 속성은 요소의 아래 바같쪽 여백을 설정합니다.",
+            "desc2": "margin-bottom 속성은 요소의 아래 바같쪽 여백을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "margin-bottom 속성은 요소의 아래 바같쪽 여백을 설정합니다."
+            ]
+          },
+          {
+            "id": 134,
+            "link": "https://webzz.tistory.com/492",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/dl31JC/btq4TACPo0u/YlP9HZKJNkzB1leKvxCfd1/img.png",
+            "title": "margin-left",
+            "desc1": "margin-left 속성은 요소의 왼쪽 바같쪽 여백을 설정합니다.",
+            "desc2": "margin-left 속성은 요소의 왼쪽 바같쪽 여백을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "margin-left 속성은 요소의 왼쪽 바같쪽 여백을 설정합니다."
+            ]
+          },
+          {
+            "id": 135,
+            "link": "https://webzz.tistory.com/493",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/Ifele/btq4R2z17GA/CxOhnlYlkm4JPx7sYFGsX0/img.png",
+            "title": "margin-right",
+            "desc1": "margin-right 속성은 요소의 오른쪽 바깥쪽 여백을 설정합니다.",
+            "desc2": "margin-right 속성은 요소의 오른쪽 바깥쪽 여백을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "margin-right 속성은 요소의 오른쪽 바깥쪽 여백을 설정합니다."
+            ]
+          },
+          {
+            "id": 136,
+            "link": "https://webzz.tistory.com/494",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/Ifele/btq4R2z17GA/CxOhnlYlkm4JPx7sYFGsX0/img.png",
+            "title": "margin-top",
+            "desc1": "%: 요소의 바같쪽 여백을 %를 통해 설정합니다.",
+            "desc2": "length: 요소의 바같쪽 여백을 CSS단위를 통해 설정합니다.",
+            "desc3": "auto: 요소의 바같쪽 여백을 자동으로 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "margin-top 속성은 요소의 윗부분 바깥쪽 여백을 설정합니다."
+            ]
+          },
+          {
+            "id": 137,
+            "link": "https://webzz.tistory.com/495",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/sao7A/btq4VLw1KsT/WU7iRLQCh9kq8hkiWfnAeK/img.png",
+            "title": "max-height",
+            "desc1": "none: max-height 값을 적용하지 않습니다.",
+            "desc2": "length: max-height 값을 CSS 단위를 통해 설정합니다.",
+            "desc3": "%: max-height 값을 %를 통해 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "max-height 속성은 요소의 최대 세로값을 설정합니다."
+            ]
+          },
+          {
+            "id": 138,
+            "link": "https://webzz.tistory.com/496",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bE9UjG/btq4UesGIC2/WuC5d7lP10eqs6IWNzIh9k/img.png",
+            "title": "max-width",
+            "desc1": "none: max-width 값을 적용하지 않습니다.",
+            "desc2": "length: max-width 값을 CSS 단위를 통해 설정합니다.",
+            "desc3": "%: max-width 값을 %를 통해 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "max-width 속성은 요소의 최대 가로 값을 설정합니다."
+            ]
+          },
+          {
+            "id": 139,
+            "link": "https://webzz.tistory.com/497",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/y3g4L/btq4OhLKZoX/fxzVOH3IXPkh8dMx9wxvYk/img.png",
+            "title": "min-height",
+            "desc1": "length: 최소 height 값을 CSS 단위를 통해 설정합니다.",
+            "desc2": "%: 최소 height 값을 %를 통해 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "min-height 속성은 요소의 최소 세로 값을 설정합니다."
+            ]
+          },
+          {
+            "id": 140,
+            "link": "https://webzz.tistory.com/498",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bSaEus/btq4SN3pWR7/Z0ZiNhqKCNoK3cGy4fkpOK/img.png",
+            "title": "min-width",
+            "desc1": "length: 최소 width 값을 CSS 단위를 통해 설정합니다.",
+            "desc2": "%: 최소 width 값을 %를 통해 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "min-width 속성은 요소의 최소 가로 값을 설정합니다."
+            ]
+          },
+          {
+            "id": 141,
+            "link": "https://webzz.tistory.com/499",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/zlApD/btq4PmFMLIt/QGCG5kxvl2T5eJmKIcANbK/img.png",
+            "title": "mix-blend-mode",
+            "desc1": "length: 최소 width 값을 CSS 단위를 통해 설정합니다.",
+            "desc2": "%: 최소 width 값을 %를 통해 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "mix-blend-mode 속성은 배경의 혼합 상태를 정의합니다.",
+              "blend-mode는 크게 background-blend-mode와 mix-blend-mode로 설정됩니다.",
+              "포토샵의 브렌드 모드와 동일한 효과입니다."
+            ]
+          },
+          {
+            "id": 142,
+            "link": "https://webzz.tistory.com/505",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/O5tP4/btq4PocwIri/nQow6WD0U5mM2Vwrl8PPU1/img.png",
+            "title": "object-fit",
+            "desc1": "fill: 컨텐츠 사이즈 크기에 맞게 설정합니다.",
+            "desc2": "contain: 컨텐츠의 가로 값을 기준으로 맞게 설정합니다.",
+            "desc3": "cover: 컨텐츠 화면 사이즈에 맞게 설정합니다.",
+            "desc4": "scale-down: 컨텐츠 크기 보다 작게 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "object-fit 속성은 <img>, <video> 태그의 크기를 정의합니다."
+            ]
+          },
+          {
+            "id": 143,
+            "link": "https://webzz.tistory.com/506",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/4f46t/btq4NK8bQa4/kuVvfX6rASeiuzIFncbpEk/img.png",
+            "title": "object-position",
+            "desc1": "position: 컨텐츠 사이즈 위치를 설정합니다.",
+            "desc2": "position: 컨텐츠 사이즈 위치를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "object-position 속성은 <img>, <video> 태그의 위치를 정의합니다."
+            ]
+          },
+          {
+            "id": 144,
+            "link": "https://webzz.tistory.com/507",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/dPwlwh/btq4Paexbe7/bpBRl5ysMRYVvkppBoVKt1/img.png",
+            "title": "opacity ",
+            "desc1": "opacity 속성은 요소의 투명도를 설정합니다.",
+            "desc2": "opacity는 0~1 사이의 숫자로 표현 할 수 있으며, 0.5이면 투명도 50%와 동일합니다.",
+            "desc3": "인터넷 익스플로러 7, 8 버전에서는 filter:alpha(opacity=70)를 사용합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "opacity 속성은 요소의 투명도를 설정합니다."
+            ]
+          },
+          {
+            "id": 145,
+            "link": "https://webzz.tistory.com/508",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/uwvOr/btq4Os7mgWD/89ZKFu8NTSE1s9PdH2jfi0/img.png",
+            "title": "order",
+            "desc1": "order 속성은 flex 콘텐츠의 순서를 정의합니다.",
+            "desc2": "order 속성은 flex 콘텐츠의 순서를 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "order 속성은 flex 콘텐츠의 순서를 정의합니다."
+            ]
+          },
+          {
+            "id": 146,
+            "link": "https://webzz.tistory.com/509",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/2l4uW/btq4OgF35fR/qXbcYqI2DZ0NnDeAEHLdUk/img.png",
+            "title": "outline (border)",
+            "desc1": "border-width는 테두리 두께 속성을 설정합니다.",
+            "desc2": "border-style는 테두리 스타일 속성을 설정합니다.",
+            "desc3": "border-color는 테두리 색 속성을 설정합니다.",
+            "desc4": "border_image는 테두리 이미지 속성을 설정합니다.",
+            "desc5": "border-radius는 모서리 굴곡을 설정합니다.",
+            "desc6": "outline는 아웃라인의 속성을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "border 속성은 테두리 속성을 일괄적으로 설정합니다."
+            ]
+          },
+          {
+            "id": 147,
+            "link": "https://webzz.tistory.com/510",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/VlR1B/btq4OicLenx/KpFkgrVU3w3YOqUL6itD51/img.png",
+            "title": "outline-color",
+            "desc1": "invert : outline 기본 값입니다.",
+            "desc2": "color : outline의 색을 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "outline-color 속성은 아웃라인의 색을 정의합니다.",
+              "outline-color 속성은 아웃라인의 색, 스타일, 두께를 정의합니다.",
+              "블록 요소를 기준으로 안쪽으로는 border, 바깥쪽으로는 outline으로 표현합니다."
+            ]
+          },
+          {
+            "id": 148,
+            "link": "https://webzz.tistory.com/511",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/ckujrJ/btq4R3yVXRR/FhqIHL7SUl8UYk0xKN7JK1/img.png",
+            "title": "outline-offset",
+            "desc1": "length : 아웃라인의 간격을 CSS 단위로 설정합니다.",
+            "desc2": "length : 아웃라인의 간격을 CSS 단위로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "outline-offset 속성은 아웃라인의 간격을 정의합니다."
+            ]
+          },
+          {
+            "id": 149,
+            "link": "https://webzz.tistory.com/512",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/CJ9JF/btq4Os0xReH/dxIiWKIKQmxwqljGMSUknK/img.png",
+            "title": "outline-style",
+            "desc1": "outline-style 속성은 아웃라인 스타일을 정의합니다.",
+            "desc2": "outline-style 속성은 아웃라인 스타일을 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "outline-style 속성은 아웃라인 스타일을 정의합니다."
+            ]
+          },
+          {
+            "id": 150,
+            "link": "https://webzz.tistory.com/513",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/Jh6Wg/btq4Pale8OF/vEdt3PaBHi6UOvNUzB4sak/img.png",
+            "title": "outline-width",
+            "desc1": "outline-width 속성은 아웃라인의 두께를 정의합니다.",
+            "desc2": "outline-width 속성은 아웃라인의 두께를 정의합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "outline-width 속성은 아웃라인의 두께를 정의합니다."
+            ]
+          },
+          {
+            "id": 151,
+            "link": "https://webzz.tistory.com/514",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/la8fQ/btq4UdtLXMy/9u095umy3vvbm4DljJ3IWk/img.png",
+            "title": "overflow",
+            "desc1": "overflow 속성은 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다.",
+            "desc2": "overflow 속성은 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "overflow 속성은 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다.",
+              "overflow:hidden는 float을 사용시 영역 깨짐 방지를 위한 방법으로도 사용합니다.",
+              "overflow:scroll; 사용시 스크롤바 모양과 크기 및 위치가 브라우저마다 다양하므로 확인해야 합니다."
+            ]
+          },
+          {
+            "id": 152,
+            "link": "https://webzz.tistory.com/515",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/ljEb7/btq4VLw1DFV/1rV80AM8VPUtTn3t9TsunK/img.png",
+            "title": "overflow-x",
+            "desc1": "visible: 지정한 영역에 요소들을 보이게 합니다.",
+            "desc2": "hidden: 지정한 영역에 넘쳐난 요소들을 안보이게 합니다.",
+            "desc3": "scroll: 지정한 영역에 무조건 스크롤 바를 생기게 합니다.",
+            "desc4": "auto: 지정한 영역에 요소들이 넘치면 자동으로 스크롤 바가 생깁니다.",
+            "desc5": "inherit: overflow-x-x의 속성 값을 상위요소한테 상속받습니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "overflow-x 속성은 X축을 기준으로 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 153,
+            "link": "https://webzz.tistory.com/516",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cChOei/btq4UrMoyko/4yidRWd95EYNg7XIa2dLR0/img.png",
+            "title": "overflow-y",
+            "desc1": "visible: 지정한 영역에 요소들을 보이게 합니다.",
+            "desc2": "hidden: 지정한 영역에 넘쳐난 요소들을 안보이게 합니다.",
+            "desc3": "scroll: 지정한 영역에 무조건 스크롤 바를 생기게 합니다.",
+            "desc4": "auto: 지정한 영역에 요소들이 넘치면 자동으로 스크롤 바가 생깁니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "overflow-y 속성은 Y축을 기준으로 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 154,
+            "link": "https://webzz.tistory.com/517",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/XsLyV/btq4VLKzC15/RVJhHJOITaUL4POfeUIdtk/img.png",
+            "title": "padding",
+            "desc1": "length: 요소의 안쪽 여백을 CSS 단위로 설정합니다.",
+            "desc2": "%: 요소의 안쪽 여백을 %로 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "padding 속성은 요소의 안쪽 여백을 설정합니다.",
+              "padding-left 속성은 요소의 왼쪽 여백을 설정합니다.",
+              "padding-right 속성은 요소의 오른쪽 여백을 설정합니다.",
+              "padding-top 속성은 요소의 위쪽 여백을 설정합니다.",
+              "padding-bottom 속성은 요소의 아래쪽 여백을 설정합니다." 
+            ]
+          },
+          {
+            "id": 155,
+            "link": "https://webzz.tistory.com/518",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/dbVgyP/btq4QQfMMIK/KOGJtkbCX4G5tKf0d6haA1/img.png",
+            "title": "padding-bottom",
+            "desc1": "length: 요소의 아래부분 안쪽 여백을 CSS 단위로 설정합니다.",
+            "desc2": "%: 요소의 아래부분 안쪽 여백을 %로 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "padding-bottom 속성은 요소의 아래쪽 여백을 설정합니다."
+            ]
+          },
+          {
+            "id": 156,
+            "link": "https://webzz.tistory.com/519",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cvG2Dn/btq4RVgzdui/RCqkP6NK1JrAOLqGer320K/img.png",
+            "title": "padding-left",
+            "desc1": "length: 요소의 왼쪽부분 안쪽 여백을 CSS 단위로 설정합니다.",
+            "desc2": "%: 요소의 왼쪽부분 안쪽 여백을 %로 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "padding-left 속성은 요소의 왼쪽 여백을 설정합니다."
+            ]
+          },
+          {
+            "id": 157,
+            "link": "https://webzz.tistory.com/520",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/GIzkn/btq4RNJQWPZ/kWrpkoI1HDmuXoo4Z72WHK/img.png",
+            "title": "padding-right",
+            "desc1": "length: 요소의 오른쪽부분 여백을 CSS 단위로 설정합니다.",
+            "desc2": "%: 요소의 오른쪽부분 여백을 %로 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "padding-right 속성은 요소의 오른쪽 여백을 설정합니다."
+            ]
+          },
+          {
+            "id": 158,
+            "link": "https://webzz.tistory.com/521",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/r3DAl/btq4SNvzot1/wwFqcA7ZOtD7ma63Z4oMd1/img.png",
+            "title": "padding-top",
+            "desc1": "length: 요소의 윗부분 여백을 CSS 단위로 설정합니다.",
+            "desc2": "%: 요소의 윗부분 여백을 %로 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "padding-top 속성은 요소의 위쪽 여백을 설정합니다."
+            ]
+          },
+          {
+            "id": 159,
+            "link": "https://webzz.tistory.com/522",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/Wmnag/btq4SMXISdS/vUObGijztStK2KleyuCYnK/img.png",
+            "title": "page-break-after",
+            "desc1": "auto: 페이지를 분리하는 경우 자동으로 계산하여 설정합니다.",
+            "desc2": "always: 페이지를 분리를 항상 앞에서 설정합니다.",
+            "desc3": "avoid: 페이지를 분리를 앞에서 하지 않습니다.",
+            "desc4": "left: 앞에서 분리한 페이지가 왼쪽에 설정합니다.",
+            "desc5": "right: 앞에서 분리한 페이지가 오른쪽에 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "page-break-after 속성은 페이지 인쇄시 분리에 관한 설정을 정의합니다."
+            ]
+          },
+          {
+            "id": 160,
+            "link": "https://webzz.tistory.com/523",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bw4Kid/btq4PaZS32F/NPdQBn9T17WjypJwkxvPkK/img.png",
+            "title": "page-break-before",
+            "desc1": "auto: 페이지를 분리하는 경우 자동으로 계산하여 설정합니다.",
+            "desc2": "always: 페이지를 분리를 항상 앞에서 설정합니다.",
+            "desc3": "avoid: 페이지를 분리를 앞에서 하지 않습니다.",
+            "desc4": "left: 앞에서 분리한 페이지가 왼쪽에 설정합니다.",
+            "desc5": "right: 앞에서 분리한 페이지가 오른쪽에 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "page-break-before 속성은 인쇄시 페이지 분리에 관한 설정을 정의합니다."
+            ]
+          },
+          {
+            "id": 161,
+            "link": "https://webzz.tistory.com/524",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/6xdAu/btq4PnxVhEu/MneFHB3fwRtdOga0GQC140/img.png",
+            "title": "page-break-inside",
+            "desc1": "auto: 페이지를 분리하는 경우 자동으로 계산하여 설정합니다.",
+            "desc2": "avoid: 페이지를 분리를 앞에서 하지 않습니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "page-break-inside  속성은 인쇄시 페이지 분리에 관한 설정을 정의합니다."
+            ]
+          },
+          {
+            "id": 162,
+            "link": "https://webzz.tistory.com/525",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/6Q5sl/btq4PmlrnR3/GnTpZheAAiBEYkWJ0LW9d1/img.png",
+            "title": "perspective",
+            "desc1": "length: perspective의 값을 CSS 단위로 설정합니다.",
+            "desc2": "none: perspective의 값을 적용하지 않습니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "perspective 속성은 3D를 표현할 때 원근점을 정의합니다."
+            ]
+          },
+          {
+            "id": 163,
+            "link": "https://webzz.tistory.com/526",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/cOGo8V/btq4RVt51aN/SIU3a64erzK8QsDA3r53E1/img.png",
+            "title": "perspective-origin",
+            "desc1": "x-axis: z축의 방향을 설정합니다.",
+            "desc2": "y-axis: y축의 방향을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "perspective-origin 속성은 3D를 표현할 때 원근점의 방향을 정의합니다."
+            ]
+          },
+          {
+            "id": 164,
+            "link": "https://webzz.tistory.com/527",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bNMPKD/btq4Sm56eRZ/IWZUhNAneMvGUGPZP62NE0/img.png",
+            "title": "pointer-events",
+            "desc1": "auto: 마우스 포인터를 자동으로 설정합니다.",
+            "desc2": "none: 마우스 포인터를 설정하지 않습니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "pointer-events 속성은 포인터 이벤트 반응을 정의합니다."
+            ]
+          },
+          {
+            "id": 165,
+            "link": "https://webzz.tistory.com/528",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/caCiUY/btq4RUorrPe/7obqVIgk6PBhlSXvKEJeR1/img.png",
+            "title": "position",
+            "desc1": "static: 요소의 정상적인 위치(기본값)를 설정합니다.",
+            "desc2": "absolute: 요소의 위치를 절대적 값으로 설정합니다.",
+            "desc3": "relative: 요소의 위치를 상대적인 위치 및 기준점으로 설정합니다.",
+            "desc4": "fixed: 요소의 위치를 고정으로 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "position 속성은 요소의 위치를 설정합니다."
+            ]
+          },
+          {
+            "id": 166,
+            "link": "https://webzz.tistory.com/529",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/CaMIr/btq4OijA9o6/vcMHXHZCCXXfjRdLtWMzS1/img.png",
+            "title": "quotes",
+            "desc1": "none: 인용부호를 적용하지 않습니다.",
+            "desc2": "string: 인용부호를 설정해줍니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "quotes 속성은 인용 부호를 정의합니다.",
+              "content : open-quote, content: close-quote;가 설정 되어 있을 때 적용되는 속성입니다."
+            ]
+          },
+          {
+            "id": 167,
+            "link": "https://webzz.tistory.com/530",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/zfPM0/btq4TAJCjoK/yGtdzJ6jlIdfe3NyOZfT11/img.png",
+            "title": "resize",
+            "desc1": "none: 리사이즈 값을 설정하지 않습니다.",
+            "desc2": "both: X축과 Y축에 사이즈를 설정합니다.",
+            "desc3": "horizontal: 가로 축 사이즈를 설정합니다.",
+            "desc4": "vertical: 세로 축 사이즈를 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "resize 속성은 요소의 사이즈를 정의합니다.",
+              "content : open-quote, content: close-quote;가 설정 되어 있을 때 적용되는 속성입니다."
+            ]
+          },
+          {
+            "id": 168,
+            "link": "https://webzz.tistory.com/531",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/eUlheO/btq4R2UnxDV/M7tc9PpOTv0nT6lHZuz7Qk/img.png",
+            "title": "right",
+            "desc1": "auto: 요소의 오른쪽 값을 자동(기본)으로 설정합니다.",
+            "desc2": "length: 요소의 오른쪽 값을 CSS 단위를 통해 설정합니다.",
+            "desc3": "percentage: 요소의 오른쪽 값을 %로 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "right 속성은 요소의 오른쪽 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 169,
+            "link": "https://webzz.tistory.com/532",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/ljkQm/btq4UqGIbKw/KdU6HDsMvpXOhh1atCi8Mk/img.png",
+            "title": "tab-size",
+            "desc1": "number: 글씨의 간격을 숫자로 설정합니다.",
+            "desc2": "length: 글씨의 간격을 CSS 단위로 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "tab-size 속성은 글씨의 간격을 정의합니다."
+            ]
+          },
+          {
+            "id": 170,
+            "link": "https://webzz.tistory.com/533",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/xKunr/btq4R3loqnR/Zd4q2FImKPonK5mBPx7q0K/img.png",
+            "title": "table-layout",
+            "desc1": "auto: 테이블 레이아웃의 크기를 자동으로 설정합니다.",
+            "desc2": "fixed: 테이블 레이아웃의 크기를 고정으로 설정합니다.",
+            "version": "CSS2",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "table-layout 속성은 글씨의 간격을 정의합니다."
+            ]
+          },
+          {
+            "id": 171,
+            "link": "https://webzz.tistory.com/534",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bejSgU/btq4SYw699i/XEHy0VlRKyZfxoeAUYezd1/img.png",
+            "title": "text-align",
+            "desc1": "left: 텍스트의 정렬을 왼쪽으로 설정합니다.",
+            "desc2": "right: 텍스트의 정렬을 오른쪽으로 설정합니다.",
+            "desc3": "center: 텍스트의 정렬을 가운데로 설정합니다.",
+            "desc4": "justify: 텍스트의 정렬을 양쪽으로 설정합니다.",
+            "desc5": "inherit: 텍스트의 정렬을 상위요소한테 상속받습니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "text-align 속성은 텍스트 정렬 방식을 설정합니다."
+            ]
+          },
+          {
+            "id": 172,
+            "link": "https://webzz.tistory.com/535",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bayu5c/btq4TBuULkl/drXOthTvJuzZ6G3zmTKlek/img.png",
+            "title": "text-align-last",
+            "desc1": "left: 문장의 마지막 텍스트 정렬 방식을 왼쪽으로 설정합니다.",
+            "desc2": "right: 문장의 마지막 텍스트 정렬 방식을 오른쪽으로 설정합니다.",
+            "desc3": "center: 문장의 마지막 텍스트 정렬 방식을 가운데로 설정합니다.",
+            "desc4": "justify: 문장의 마지막 텍스트 정렬 방식을 양족 정렬으로 설정합니다.",
+            "desc5": "start: 문장의 마지막 텍스트 정렬 시작 값을 설정합니다.",
+            "desc6": "auto: 문장의 마지막 텍스트 정렬 방식을 자동으로 설정합니다.",
+            "desc7": "end: 문장의 마지막 텍스트 정렬 끝 값을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "text-align-last 속성은 문장의 마지막 텍스트 정렬 방식을 설정합니다."
+            ]
+          },
+          {
+            "id": 173,
+            "link": "https://webzz.tistory.com/536",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/crh00U/btq4ScWFcHy/CaMAJiJfKC001E5iA5xUk0/img.png",
+            "title": "text-decoration",
+            "desc1": "none: 글자에 줄 속성을 주지 않습니다.",
+            "desc2": "underline: 글자에 밑줄을 설정합니다.",
+            "desc3": "overline: 글자에 윗줄을 설정합니다.",
+            "desc4": "line-through: 글자에 가운데 줄을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "text-decoration 속성은 글자 라인 속성을 설정합니다."
+            ]
+          },
+          {
+            "id": 174,
+            "link": "https://webzz.tistory.com/537",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/bozMaR/btq4ROhHrlx/jkraD3NizeA18aYVrpMpuk/img.png",
+            "title": "text-decoration-color",
+            "desc1": "color: 텍스트의 라인색을 설정합니다.",
+            "desc2": "color: 텍스트의 라인색을 설정합니다.",
+            "version": "CSS1",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "text-decoration-color 속성은 글자 라인 색을 설정합니다."
+            ]
+          },
+          {
+            "id": 175,
+            "link": "https://webzz.tistory.com/538",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/dnHsfz/btq4Otd2WD9/iKrw47hgRqkh3sXXWmMDeK/img.png",
+            "title": "text-decoration-line",
+            "desc1": "none: 글자에 줄 속성을 주지 않습니다.",
+            "desc2": "underline: 글자에 밑줄을 설정합니다.",
+            "desc3": "overline: 글자에 윗줄을 설정합니다.",
+            "desc4": "line-through: 글자에 가운데 줄을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "text-decoration-line 속성은 글자 라인 스타일을 설정합니다."
+            ]
+          },
+          {
+            "id": 176,
+            "link": "https://webzz.tistory.com/539",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/r0hsm/btq4NLMNV05/4H2HjZjc0eYn7HoDrhsWcK/img.png",
+            "title": "text-decoration-style",
+            "desc1": "solid: 글자에 한 줄 속성을 설정합니다.",
+            "desc2": "double: 글자에 두개의 줄을 설정합니다.",
+            "desc3": "dotted: 글자에 점선 줄을 설정합니다.",
+            "desc4": "dashed: 글자에 대시 줄을 설정합니다.",
+            "desc5": "wavy: 글자에 웨이브 줄을 설정합니다.",
+            "version": "CSS3",
+            "view": "-",
+            "use": "★★★",
+            "definition": [
+              "text-decoration-style 속성은 글자 스타일을 정의합니다."
+            ]
+          }
+      ]
+    }
+  }
