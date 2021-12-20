@@ -1,0 +1,80 @@
+*{margin:0; padding:0;}
+img{border:0;}
+html{overflow-y:scroll;}
+body{font:14px "맑은 고딕", sans-serif;}
+.fl{float:left;}
+.cf:after{content:""; display:block; clear:both;}
+
+#wrap{width:800px; margin:0 auto; }
+h1{
+	background:url(../images/table_bg.png) no-repeat left center ; height:50px; line-height:50px; padding-left:60px; margin-top:50px;
+}
+#search_wrap fieldset{float:right; margin-bottom:10px; border:0;}
+#search_wrap select, #search_wrap input{
+	vertical-align:middle;
+	font-size:14px;
+	display:block;
+	float:left;
+	margin-right:2px;
+	border:1ps solid #aaa;
+}
+#search_wrap select{height:24px;}
+#search_wrap input{height:22px; line-height:22px; width:150px;}
+#search_wrap button{height:24px; width:60px; border:none;background:#ff9900; color:#fff;}
+#search_wrap button:hover{cursor:pointer; color:#333;}
+
+/* 게시판 목록 */
+#board>div{border-bottom:1px dotted #ff9900;}
+#board>div:hover{background:#ffffee;}
+#board>div.first{background:#ff9900; border-radius:10px 10px 0 0; color:#fff;}
+#board>div.first>div{width:100px; line-height:50px; height:50px; text-align:center;float:left;}
+#board>div>div.left{text-align:left;}
+#board>div.first:hover{background:#ff9900;}
+#board>div input{display:none;}
+#board>div>div{width:100px; line-height:50px; height:50px; text-align:center;float:left;}
+
+.title{width:490px!important; text-align:justify; margin-right:10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; cursor:pointer;}
+.content_wrap{height:auto!important; width:96%!important; text-align:left!important; padding:2%; display:none;}
+
+#board input:checked~div.content_wrap{display:block;}
+#board input:checked~div.title>label{cursor:default;}
+label{cursor:pointer;}
+.subJect{text-align:justify; font-weight:bold; font-size:16px; background:#ffefbf; padding:10px 20px; line-height:26px;}
+.content{text-align:justify; padding:10px 20px; background:#fff; line-height:24px; border-bottom:1px solid #ddd;}
+
+/* 번호 */
+#page{position:relative; float:left; left:50%; top:50px;}
+#page>div{position:relative; float:left; left:-50%; padding:2px 10px; margin:0 10px; cursor:pointer;}
+
+.prev, .next{text-indent:-99999px;}
+.prev{background:url(../images/left.png) no-repeat center center; }
+.next{background:url(../images/right.png) no-repeat center center; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

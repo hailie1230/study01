@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>float을 가상 선택자:after로 clear하는 방법</title>
+	<style type="text/css">
+		*{margin:0; padding:0; font-size:1em;}
+		body{background:#fff; margin:10px; font-size:0.75em;}
+		h1{font:25px; margin:0 0 0.5em 0;}
+		#header{
+			clear:both;
+			padding:10px;
+			margin:0 0 10px 0;
+			border: 10px solid #ccc;
+		}
+		#container{
+			float:none;
+			padding:10px;
+			margin:0 0 10px 0;
+			border: 10px solid #ddd;
+			background:#fff;
+		}
+		#lnb{
+			float:left;
+			width:25%;
+			margin:0 0 10px 0;
+			padding:10px;
+			border:10px solid #000;
+			background:#ff0000;
+		}
+		#content{
+			width:25%;
+			float:right;
+			padding:10px;
+			margin:0 0 10px 0;
+			border: 10px solid #000;
+			background:#ff0000;
+		}
+		#container:after{
+			content:""; display:block; clear:both;
+		}
+		#footer{
+			clear:both;
+			padding:10px; 
+			border:10px solid #eee;
+		}
+	</style>
+</head>
+<body>
+	<h1>float을 가상 선택자:after로 clear하는 방법(클리어픽스)</h1>
+	<div id="header">
+		<p>#header{clear:both;}</p>
+	</div>
+	<div id="container">
+		<p>#container{float:none;}</p>
+		<div id="lnb">
+			<p><strong>#lnb{float:left;}</strong></p>
+		</div>
+		<div id="content">
+			<p><strong>#content{float:right;}</strong></p>
+		</div>
+	</div>
+	<div id="footer">
+		<p>#footer{clear:both;}</p>
+	</div>
+</body>
+</html>

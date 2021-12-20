@@ -1,0 +1,45 @@
+html{overflow-y:scroll;}
+*{margin:0; padding:0;}
+
+body{font-family:"맑은 고딕","돋움", normal dotum, sans-serif; font-size:0.9em; letter-spacing:-1px;}
+a{text-decoration:none;}
+li{list-style:none;}
+img{border:0;}
+.fl{float:left;}
+.cf:after{content:""; display:block; clear:both; }
+.cf{*zoom:1;}
+
+#header > #headerLnb{
+	position:absolute;
+	float:left;
+	margin-left:500px;
+	margin-top:50px;
+	width:780px;
+	height:40px;
+	/* background:red; */
+}
+#header > #headerLnb>ul>li{
+	float:left; font-weight:600; padding:6px 3px;
+}
+#header > #headerLnb>ul>li>a{
+	display:block;padding:7px 10px; margin:0 20px; color:#7eb9dd; font-size:1.2em; letter-spacing:-0.1em; text-shadow: 1px 1px 1px #ddd;
+}
+#header > #headerLnb>ul>li>a:hover{color:#0059b3;}
+#headerLnb #nav li ul{position:absolute; top:40px; left:20px; background:#7db9bd; margin:0; padding-bottom:3px; display:none;} /* 2뎁스 */
+
+#headerLnb #nav li:hover ul{display:block;}
+#headerLnb #nav ul.menu1{left:18px;}
+#headerLnb #nav ul.menu2{left:70px;}
+#headerLnb #nav ul.menu3{left:20px;}
+#headerLnb #nav ul.menu4{left:129px;}
+#headerLnb #nav ul.menu5{left:162px;}
+#nav li ul li{float:left; margin:0;}
+#nav li ul li a{display:block; color:#f0eceb; padding:2px 10px; text-align:center;}
+#nav li ul li a:hover{color:#3a75ad;}
+
+
+
+
+
+
+

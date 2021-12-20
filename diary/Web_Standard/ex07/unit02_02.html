@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>인용부호, 특정 문자열과 같은 콘텐츠 생성하기</title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+			body{
+				font:0.8em "맑은 고딕",sans-serif;
+				margin:0 50px;
+			}
+			h1:before{
+				content:open-quote;
+			}
+			h1:after{
+				content:"******" close-quote;
+			}
+			p{
+				white-space:pre;
+				counter-increment:myIndex;
+			}
+			p:before{
+				content:counter(myIndex,upper-roman);
+				font-size:2em;
+				color:red;
+			}
+			q{
+				quotes:"<<"">>""[""]";
+			}
+			.qStyle{quotes:"//""//"; color:green;}
+		</style>
+	</head>
+
+	<body>
+		<h1>콘텐츠 생성하기</h1>
+		<p>
+			<q>
+						Freedom is not worth having 
+						if it does not include the freedom to make mistakes.						
+						<q> Mahatma Gandhi </q>  
+			</q> 
+
+			<q class="qStyle"> 실수할 자유가 없는 자유란 가치가 없다. 
+						<q> 마하트마 간디 </q> </q> 
+		</p>
+		<hr>
+		<p>
+			<q>
+						The future depends on what we do in the present. 
+						<q> Mahatma Gandhi </q>  
+			</q> 
+
+			<q class="qStyle"> 미래는 현재 우리가 무엇을 하는가에 달려 있다.  
+						<q> 마하트마 간디 </q> </q> 
+		</p>
+
+	</body>
+</html>

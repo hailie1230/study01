@@ -1,0 +1,45 @@
+section{
+	width:485px;
+	margin:0 auto;
+	padding-top:255px;
+}
+section p{
+	width:230px;
+	position:relative;
+	top:0;	left:220px;
+	color:#666; 
+	font-size:1.2em;
+	text-align:justify;
+}
+section dl{
+	width:230px;
+	position:relative;
+	top:20px;	left:220px;
+	background:url(../images/event_goods.png) no-repeat right 10px;
+}
+section dt{
+	width:70px;
+	background:#333;
+	padding:5px 0;
+	text-align:center;
+	border-radius:10px;
+}
+section dd{
+	text-align:justify;
+	padding:10px 0;
+}
+.style1{width:150px;}
+
+footer{
+	width:100%;	height:8%;
+	border-top:2px solid orange;
+	position:fixed;
+	bottom:0;
+}
+footer p{
+	width:485px; 
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	background:url(../images/logo_footer.png) no-repeat 396px 15px;
+}

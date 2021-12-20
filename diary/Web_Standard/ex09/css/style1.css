@@ -1,0 +1,68 @@
+body{
+	margin-top:30px;
+	font:1.2em verdana, sans-serif;
+	background:#ccc;
+}
+h1, ul, li{margin:0; padding:0;}
+h1{
+	font-size:2em;
+	color:#fff;
+	font-style:italic;
+	text-shadow:0 0 10px #666;
+	text-align:center;
+	padding-bottom:20px;
+}
+#photoBox{
+	width:330px;
+	margin:0 auto;
+
+}
+#tabNavi{
+	list-style:none;
+	padding-left:100px;
+}
+#tabNavi li{
+	float:left;
+	margin-left:2px;
+}
+#tabNavi li a{
+	display:block;
+	width:50px;
+	padding:5px;
+	background:#fff;
+	text-align:center;
+	padding:3px 10px; /* 빼먹음 */
+	text-decoration:none;
+	font-size:0.85em;
+	color:#ff9966;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+#tabNavi li:hover a{
+	background:#ff9966;
+	color:#fff;
+}
+#photo{
+	border:5px solid #ff9966;
+	border-radius:10px;
+	background:#fff;
+	clear:both;
+}
+#photo img{
+	display:block;
+	margin:0 auto;
+}
+
+#tabNavi li.activeS a{
+	background:#ff9966;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+

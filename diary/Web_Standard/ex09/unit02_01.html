@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> 투명도를 이용한 롤오버 이미지 만들기 </title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+			body {
+				font:0.95em Arial,sans-serif;
+				margin:50px 0px;
+				}
+			nav {
+				width:500px;
+				margin:0px auto;
+				}
+			h1 {
+				text-shadow:0px 0px 5px #666;
+				text-align:center;
+				font-size:3em;
+				letter-spacing:5px;
+				color:#d81b21;
+				text-transform:uppercase;
+				}
+			a {
+				text-decoration:none;
+				}
+			img {
+				border:none;
+				}
+			ul, li {
+				margin:0px;
+				padding:0px;
+				}
+			/* Rollover Design */
+			.color{
+				width:90px; height:0;
+				background:#666;
+				text-align:center;
+				padding:5px;
+				position:relative;
+				opacity:0.5;
+				left:0;
+				top:0;
+			}
+			.color span{
+				position:relative;
+				display:block;
+				top:-93px;
+				color:#fff;
+				font-weight:bold;
+			}
+			#gallery{
+				list-style:none;
+			}
+			#gallery li{
+				float:left;
+				width:100px;
+				border:2px solid #000;
+				margin-left:5px;
+			}
+			#gallery li a .color{
+				visibility:hidden;
+			}
+			#gallery li a:hover .color{
+				visibility:visible;
+				height:22px;
+			}
+			#gallery li a img{
+				display: block;
+				float:left;
+				width:100px;
+				height:100px;
+				opacity:0.3;
+				cursor:pointer;
+			}
+			#gallery li a:hover img{opacity:1;}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>C/S/S/   s/h/o/e/s -  s/h/o/p</h1>
+		</header>
+		<nav>
+				<ul id="gallery">
+					<li href=""><a><img src="images/bag_hotpink.png" alt="hotPink" /><div class="color"><span>Hot Pink</span></div></a></li> 
+					<li href=""><a><img src="images/bag_navy.png" alt="Navy" /><div class="color"><span>Navy</span></div></a></li>  
+					<li href=""><a><img src="images/bag_white.png" alt="white" /><div class="color"><span>White</span></div></a></li> 
+				</ul>
+		</nav>
+	</body>
+</html>

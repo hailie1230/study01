@@ -1,0 +1,58 @@
+#warp{
+	width:800px; margin:0 auto;
+}
+header{
+	width:100%; height:150px;
+	background:#f46075 url(../images/nav2.png) no-repeat right center;
+}
+nav ul{width:70%; padding-top:70px;}
+nav ul li{list-style:none; float:left; margin-right:20px; }
+nav ul li a{text-decoration: none; color:#fff; font-weight:bold;}
+
+section{
+	width:580px;
+	float:left;
+	padding:5px;
+}
+section article{
+	width:250px;
+	height:200px;
+	margin:5px;
+	padding:10px;
+	float:left;
+	border:1px solid #ccc;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+h3{font-size:1em; display:inline;}
+.art1:hover{background:#ccff99;
+	border:1px solid darkgreen;
+	transition:2s;
+}
+.art2:hover{background:#73ffff;
+	border:1px solid blue;
+	transition:2s;
+}
+.art3:hover{background:#dc73ff;
+	border:1px solid purple;
+	transition:2s;
+}
+.art4:hover{background:#ff73b9;
+	border:1px solid red;
+	transition:2s;
+}
+
+input[type=checkbox]:checked~div.check{height:0;}
+.check{width:230px; height:220px; overflow:hidden; transition:1s;}
+
+aside{
+	margin-top:80px;
+	margin-bottom:5px;
+	width:200px; 
+	float:left;
+	background:#ffff99;
+	border:1px solid darkgreen;
+}
+aside img{display:block; margin:5px auto; }
+footer{clear:both; background:#eee; width:100%; margin-top:5px;}
+footer address{text-align:center;padding:30px 0; color:#aaa;}

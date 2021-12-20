@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> 이미지맵 </title>
+		<meta charset="UTF-8" />
+	</head>
+
+	<body>
+		<!-- 내용을 입력합니다. -->
+		<h1>이미지맵을 이용한 하이퍼링크 연결</h1>
+		<div>
+			<img src="images/banner_map.gif" width="200" height="200" alt="배너" usemap="#bannerImg" />
+		</div>
+		<map name="bannerImg">
+			<area shape="rect" coords="0,0,100,100" href="http://www.maroniebooks.com" alt="마로니에북스"/>
+			<area shape="rect" coords="100,100,200,200" href="http://www.naver.com" alt="네이버"/>
+			<area shape="rect" coords="100,0,200,100" href="http://www.daum.net" alt="다음"/>
+			<area shape="rect" coords="0,100,100,200" href="http://www.nate.com" alt="네이트"/>
+		</map>
+	</body>
+</html>

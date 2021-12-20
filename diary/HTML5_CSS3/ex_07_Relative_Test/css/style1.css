@@ -1,0 +1,29 @@
+.header{
+	width:700px;
+	height:400px;
+	background:#ff0000;
+	position:relative;
+	margin:100px auto;
+}
+.box1{
+	width:100px;
+	height:100px;
+	background:#99ffb2;
+	
+}
+.box2{
+	width:100px;
+	height:100px;
+	background:blue;
+	position:absolute;
+	top:50%;	left:50%;
+	margin-top:-50px; 
+	margin-left:-50px;
+}
+.box2_2{
+	width:10px;
+	height:10px;
+	background:#99ffb2;
+	position:absolute;
+	left:45px;
+}

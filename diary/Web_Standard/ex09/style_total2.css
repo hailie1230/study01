@@ -1,0 +1,68 @@
+body {
+	background:#666;
+	margin-top:40px;
+	}
+a {
+	text-decoration:none;
+	color:#fff;
+	font:1.1em arial;
+	font-weight:bold;
+	text-shadow:1px 1px 5px #000;
+	opacity:0.6;
+	display:block;
+	position:relative;
+	top:25px;
+	}
+a:hover {
+	opacity:1.0;
+	}
+ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+li {
+	width:90px;
+	height:90px;
+	text-align:center;
+	float:left;
+	padding:6px;
+	border-radius:10px;
+	background-color:#fff;
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin:0px 6px 6px 0px;
+	border:3px solid #DBDBDB;
+	}
+li:nth-child(1) {
+	background: #64991e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+	background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+	}
+li:nth-child(2) {
+	background-image:url(images/sandal2.png);
+	}
+li:nth-child(3) {
+	background-image:url(images/neck2.png);
+	}
+li:nth-child(4) {
+	background-image:url(images/bag2.png);
+	}
+li:nth-child(5) {
+	background-image:url(images/top2.png);
+	}
+li:nth-child(6) {
+	background-image:url(images/dress2.png);
+	}
+li:nth-child(7) {
+	background-image:url(images/bottom2.png);
+	}
+li:nth-child(8) {
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+	}
+#wrapper {
+	width:350px;
+	margin:0px auto;
+	}

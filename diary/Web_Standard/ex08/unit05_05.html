@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>overflow, clip</title>
+	<style type="text/css">
+		body{
+			margin: 20px 0 0 150px;
+			padding: 0;
+			font-size:0.7em;
+		}
+		div{
+			width:200px;
+			border:1px solid #666;
+			float:left;
+			margin-right:10px;
+			margin-top:10px;
+		}
+		h2{
+			background:url(images/css_design.png) no-repeat;
+			height:400px;
+			font-size:1.2em;
+			font-family:arial;
+			text-align:center;
+			margin:0;
+			padding:0;
+		}
+		#box1{
+			height:200px;
+			background:#f69;
+			overflow:hidden;
+		}
+		#box2{
+			background:#fc9;
+			height:200px;
+			overflow:auto;
+		}
+		#box3{
+			background:#3cf;
+			height:200px;
+			overflow:scroll;
+		}
+		#box4{
+			clear:both;
+			background:#6c3;
+			height:400px;
+			position:relative;
+		}
+		#box4 h2{
+			position:absolute;
+			clip:rect(0px, 200px, 150px, 0px); /* 부모를 기준으로 지정영역 안보이게 */
+		}
+		#box5{
+			background:#ff0;
+			position:relative;
+			height:400px;
+		}
+		#box5 h2{
+			position:absolute;
+			clip:rect(150px, 200px, 400px, 0px);
+		}
+	</style>
+</head>
+<body>
+	<div id="box1">
+		<h2>overflow:hidden;</h2>
+	</div>
+	<div id="box2">
+		<h2>overflow:auto;</h2>
+	</div>
+	<div id="box3">
+		<h2>overflow:scroll;</h2>
+	</div>
+	<div id="box4">
+		<h2>clip:rect(0px, 200px, 150px, 0px);</h2>
+	</div>
+	<div id="box5">
+		<h2>clip:rect(150px, 200px, 400px, 0px);</h2>
+	</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> 목록 문단, 정의 문단을 테이블 형식으로 배치하기 </title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+			#bookImg{
+				display:block;
+				width:135px;
+				margin:0 auto;
+			}
+			#bookInfo{
+				display:table;
+				margin:0 auto;
+				border-spacing:3px;
+			}
+			#bookInfo li{
+				display:table-cell;
+				width:150px;
+				background:#333;
+				color:#fff;
+				padding:10px;
+				text-align:center;
+			}
+			
+			#bookCon{
+				display:table;
+				border-collapse:collapse;
+				margin:0 auto;
+			}
+			#bookCon dt, #bookCon dd{
+				display:table-cell;
+				border:1px solid #999;
+				padding:10px;
+			}
+			#bookCon dt{
+				width:100px;
+				background:#999;
+				text-align:center;
+				vertical-align:middle;
+			}
+			#bookCon dd{
+				width:200px;
+				line-height:150%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>아이폰 프로그래밍 UIKit 핵심 바이블</h1>
+		<div id="bookImg">
+			<img src="images/book_mobile1.gif" width="135" height="168" alt="아이폰 프로그래밍 UIKit 핵심 바이블" />
+		</div>
+		<ul id="bookInfo">
+			<li>저 자 토코로 유타</li>  
+			<li>역 자  김은철 , 유세라</li>  
+			<li>페이지 512 페이지</li>
+			<li>ISBN 978-89-5674-530-5 </li>
+		</ul>
+		<dl id="bookCon">
+			<dt>인터페이스 빌더는 필수인가?</dt>
+			<dd>대답은 물론 &quot;아니다&quot;이다. 이 책에서는 기본적으로 인터페이스 빌더를 사용하지 않고 진행한다. 인터페이스 빌더를 사용하면 은폐되는 부분이 생기기 때문이다. 이 책은 UIKit의 내용에 초점을 맞춰 설명하고 있다. UIKit의 기능이나 움직임이 블랙박스화 된 상태로는 내용을 정확하게 알 수 없기 때문이다. 뒤집어 말하면 이 책의 내용을 이해하는 것은 인터페이스 빌더에서 블랙박스화 되어 있는 부분을 배우는 것이라고 할 수 있다.</dd>
+			<dt>UIKit이란?</dt>
+			<dd>UIKit는 모든 iPhone/iPad 애플리케이션의 핵심이 되는 프레임워크이다. UIKit는 애플리케이션의 기본 부분을 제어하고 터치 판넬 조작이나 모션 등 사용자 조작을 감지하며, 화면 표시를 하기 위한 각종 기능을 제공한다. UIKit 지식을 잘 이해한다면 보다 능률이 높고 결함이 적은 iPhone/iPad 애플리케이션을 개발할 수 있게 될 것이다.</dd>
+		</dl>
+	</body>
+</html>

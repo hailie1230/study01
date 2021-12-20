@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>align-items: flex-end;</title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <style>
+        .cont {height: 100vh; background: lightgray; 
+            display: flex;
+           align-items: flex-end;
+        }
+        .item {background: rgba(255, 0, 0, 0.5); }
+        .item:nth-child(odd) {background: rgba(255,255,0,0.5);}
+        .item>.box {display: block; width: 50px; height: 50px; background: skyblue; opacity: 0.8;}
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="item">
+            <span class="box">&nbsp;</span>
+            <p>AAAAAAAAAAAAAAAAAA</p>
+            <p>AAAAAAAAAAAAAAAAAA</p>
+            <p>AAAAAAAAAAAAAAAAAA</p>
+        </div>
+        <div class="item">
+            <span class="box">&nbsp;</span>
+            <p>BBBBBBBBBBBBBBBBBB</p>
+            <p>BBBBBBBBBBBBBBBBBB</p>
+        </div>
+        <div class="item">
+            <span class="box">&nbsp;</span>
+            <p>CCC</p>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>(H/W)transition을 이용한 애니메이션</title>
+	<style type="text/css">
+	*{font:1.2em bold;color:#888; text-align:center;}
+	div{margin-bottom:5px;}
+	.ani1{
+		width:50px;	height:50px;
+		background:red;
+		
+		-webkit-transition-property:width;
+		-webkit-transition-duration:2s;
+		-moz-transition-property:width;
+		-moz-transition-duration:2s;
+		-ms-transition-property:width;
+		-ms-transition-duration:2s;
+		transition-property:width;
+		transition-duration:2s;
+	}
+	.ani1:hover{
+		width:300px;
+	}
+	.ani1_1{
+		width:50px;	height:50px;
+		background:#ff4c4d;
+		
+		-webkit-animation:ani1_1 2s infinite alternate;
+		-moz-animation:ani1_1 2s infinite alternate;
+		-ms-animation:ani1_1 2s infinite alternate;
+		animation:ani1_1 2s infinite alternate;
+	}
+	@keyframes ani1_1{
+		0%{
+			width:1px;
+		}
+		0%{
+			width:300px;
+		}
+	}
+	.ani1_2{
+		width:50px;	height:50px;
+		background:#ff7373;;
+		text-align:left;
+		
+		-webkit-animation:ani1_2 5s infinite alternate;
+		-moz-animation:ani1_2 5s infinite alternate;
+		-ms-animation:ani1_2 5s infinite alternate;
+		animation:ani1_2 5s infinite alternate;
+	}
+	@keyframes ani1_2{
+		from {
+			margin-left: 95%;
+			width: 50px
+		}
+		to {
+			margin-left: 0%;
+			width: 95%
+		}
+	}
+	
+	.ani2{
+		width:50px;	height:50px;
+		background:orange;
+		
+		-webkit-transition:width 2s, height 2s;
+		-moz-transition:width 2s, height 2s;
+		-ms-transition:width 2s, height 2s;
+		transition:width 2s, height 2s;
+	}
+	.ani2:hover{
+		width:100px;	height:100px;
+	}
+	.ani2_1{
+		width:50px;	height:50px;
+		background:#ffb973;
+		
+		-webkit-animation:ani2_1 3s infinite alternate;
+		-moz-animation:ani2_1 3s infinite alternate;
+		-ms-animation:ani2_1 3s infinite alternate;
+		animation:ani2_1 3s infinite alternate;
+	}
+	@keyframes ani2_1{
+		0%{
+			width:50px; height:50px;
+		}
+		100%{
+			width:100px; height:100px;
+		}
+	}
+	
+	.ani3{
+		width:50px;	height:50px;
+		background:yellow;
+		border:2px solid green;
+		
+		-webkit-transition-property:background, border-radius;
+		-webkit-transition-duration:1s;
+		-webkit-transition-timing-function:ease-in;
+		-webkit-transition-delay:1s;
+		-moz-transition-property:background, border-radius;
+		-moz-transition-duration:1s;
+		-moz-transition-timing-function:ease-in;
+		-moz-transition-delay:1s;
+		-ms-transition-property:background, border-radius;
+		-ms-transition-duration:1s;
+		-ms-transition-timing-function:ease-in;
+		-ms-transition-delay:1s;
+		transition-property:background, border-radius;
+		transition-duration:1s;
+		transition-timing-function:ease-in;
+		transition-delay:1s;
+	}
+	.ani3:hover{
+		background:#c9ff26;
+		border-radius:50%;
+	}
+	.ani3_1{
+		width:50px;	height:50px;
+		background:#ffff4c;
+		border:2px solid green;
+		
+		-webkit-animation:ani3_1 3s infinite alternate;
+		-moz-animation:ani3_1 3s infinite alternate;
+		-ms-animation:ani3_1 3s infinite alternate;
+		animation:ani3_1 3s infinite alternate;
+	}
+	@keyframes ani3_1{
+		0%{
+			-webkit-transition-delay:1s;
+			-moz-transition-delay:1s;
+			-ms-transition-delay:1s;
+			transition-delay:1s;
+
+		}
+		100%{
+			background:#dcff73;
+			border-radius:50%;
+		}
+	}
+	
+	.ani4{
+		width: 50px;	height: 50px;
+		background: green;
+		
+		-webkit-transition:width 2s, height 2s, background-color 2s, transform 2s;	
+		-moz-transition:width 2s, height 2s, background-color 2s, transform 2s;	
+		-ms-transition:width 2s, height 2s, background-color 2s, transform 2s;	
+		transition:width 2s, height 2s, background-color 2s, transform 2s;	
+	}
+	.ani4:hover {
+		background-color:orange;
+		width:100px;	height:100px;
+		
+		-webkit-transform:rotate(180deg);
+		-moz-transform:rotate(180deg);
+		-ms-transform:rotate(180deg);
+		transform:rotate(180deg);
+	}
+	.ani4_1{
+		width:50px;	height:50px;
+		background:#00d936;
+		
+		-webkit-animation:ani4_1 5s infinite alternate;
+		-moz-animation:ani4_1 5s infinite alternate;
+		-ms-animation:ani4_1 5s infinite alternate;
+		animation:ani4_1 5s infinite alternate;
+	}
+	@keyframes ani4_1{
+		0%{
+			-webkit-transform:rotate(0deg);
+			-moz-transform:rotate(0deg);
+			-ms-transform:rotate(0deg);
+			transform:rotate(0deg);
+		}
+		100%{
+			background:#ffbf00;
+			
+			-webkit-transform:rotate(180deg);
+			-moz-transform:rotate(180deg);
+			-ms-transform:rotate(180deg);
+			transform:rotate(180deg);
+			
+			width:100px;
+			height:100px;
+		}
+	}
+	.ani5{
+		width:50px;	height:50px;
+		background:#ff4ca6;
+	}
+	.ani5:hover{
+		backface-visibility:visibility;
+		
+		-webkit-transform-origin:50% 50%;
+		-webkit-transform:perspective(500px) rotateY(50deg) rotateX(0deg);
+		-moz-transform-origin:50% 50%;
+		-moz-transform:perspective(500px) rotateY(50deg) rotateX(0deg);
+		-ms-transform-origin:50% 50%;
+		-ms-transform:perspective(500px) rotateY(50deg) rotateX(0deg);
+		transform-origin:50% 50%;
+		transform:perspective(500px) rotateY(50deg) rotateX(0deg);
+	}
+	.ani5_1{
+		width:50px;	height:50px;
+		background:#ff73dc;
+		
+		-webkit-animation:ani5_1 3s infinite alternate;
+		-moz-animation:ani5_1 3s infinite alternate;
+		-ms-animation:ani5_1 3s infinite alternate;
+		animation:ani5_1 3s infinite alternate;
+	}
+	@keyframes ani5_1{
+		0%{
+			-webkit-transform-origin:50% 50%;
+			-webkit-transform:perspective(500px) rotateY(180deg) rotateX(0deg);
+			-moz-transform-origin:50% 50%;
+			-moz-transform:perspective(500px) rotateY(180deg) rotateX(0deg);
+			-ms-transform-origin:50% 50%;
+			-ms-transform:perspective(500px) rotateY(180deg) rotateX(0deg);
+			transform-origin:50% 50%;
+			transform:perspective(500px) rotateY(180deg) rotateX(0deg);
+		}
+
+	}
+	.ani5_2{
+		width:50px;	height:50px;
+		background:#ff99e6;
+		
+		-webkit-animation:ani5_2 3s infinite alternate;
+		-moz-animation:ani5_2 3s infinite alternate;
+		-ms-animation:ani5_2 3s infinite alternate;
+		animation:ani5_2 3s infinite alternate;
+	}
+	@keyframes ani5_2{
+		0%{
+			-webkit-transform-origin:50% 50%;
+			-webkit-transform:perspective(500px) rotateY(0deg) rotateX(180deg);
+			-moz-transform-origin:50% 50%;
+			-moz-transform:perspective(500px) rotateY(0deg) rotateX(180deg);
+			-ms-transform-origin:50% 50%;
+			-ms-transform:perspective(500px) rotateY(0deg) rotateX(180deg);
+			transform-origin:50% 50%;
+			transform:perspective(500px) rotateY(0deg) rotateX(180deg);
+		}
+
+	}
+	.ani5_3{
+		width:50px;	height:50px;
+		background:#ffbfff;
+		
+		-webkit-animation:ani5_3 3s infinite alternate;
+		-moz-animation:ani5_3 3s infinite alternate;
+		-ms-animation:ani5_3 3s infinite alternate;
+		animation:ani5_3 3s infinite alternate;
+	}
+	@keyframes ani5_3{
+		0%{
+			-webkit-transform:skew(30deg,20deg);
+			-moz-transform:skew(30deg,20deg);
+			transform:skew(30deg,20deg);
+			transform:skew(30deg,20deg);
+		}
+	}
+	.ani6{
+		width:50px;	height:50px;
+		background:#0040ff;
+		position:relative;
+		
+		-webkit-animation:ani6 5s infinite alternate;		
+		-moz-animation:ani6 5s infinite alternate;		
+		-ms-animation:ani6 5s infinite alternate;		
+		animation:ani6 5s infinite alternate;		
+	}
+	@keyframes ani6{
+		0%{left:10px;}
+		100%{left:700px;}
+	}
+	.ani6_1{
+		width:50px;	height:50px;
+		background:#0080ff;
+		position:relative;
+		
+		-webkit-animation:ani6_1 5s infinite alternate;
+		-moz-animation:ani6_1 5s infinite alternate;
+		-ms-animation:ani6_1 5s infinite alternate;
+		animation:ani6_1 5s infinite alternate;
+	}
+	@keyframes ani6_1{
+		0%{
+			-webkit-transform:rotate(0deg);
+			-moz-transform:rotate(0deg);
+			-ms-transform:rotate(0deg);
+			transform:rotate(0deg);
+			left:0;
+		}
+		50%{
+			-webkit-transform:rotate(180deg);
+			-moz-transform:rotate(180deg);
+			-ms-transform:rotate(180deg);
+			transform:rotate(180deg);
+			
+			left:350px;
+		}
+		100%{
+			-webkit-transform:rotate(360deg);
+			-moz-transform:rotate(360deg);
+			-ms-transform:rotate(360deg);
+			transform:rotate(360deg);
+			
+			left:700px;
+		}
+	}
+	.ani6_2{
+		width:50px;	height:50px;
+		background:#73b9ff;
+		position:relative;
+		
+		-webkit-animation:ani6_2 5s infinite alternate;
+		-moz-animation:ani6_2 5s infinite alternate;
+		-ms-animation:ani6_2 5s infinite alternate;
+		animation:ani6_2 5s infinite alternate;
+		
+	}
+	@keyframes ani6_2{
+		0%{
+			-webkit-transform:rotate(0deg);
+			-moz-transform:rotate(0deg);
+			-ms-transform:rotate(0deg);
+			transform:rotate(0deg);
+			left:0;
+		}
+
+		100%{
+			-webkit-transform:rotate(360deg);
+			-moz-transform:rotate(360deg);
+			-ms-transform:rotate(360deg);
+			transform:rotate(360deg);
+			left:700px;
+		}
+	}
+	.ani7{
+		width:50px;	height:50px;
+		background:purple;
+		
+		-webkit-animation:ani7 1.0s linear infinite alternate;
+		-moz-animation:ani7 1.0s linear infinite alternate;
+		-ms-animation:ani7 1.0s linear infinite alternate;
+		animation:ani7 1.0s linear infinite alternate;
+	}
+	@keyframes ani7{
+		0% {background:purple;}
+		100% {background:yellow; }
+	}
+	.ani7_1{
+		width:50px;	height:50px;
+		background:#c926ff;
+		
+		-webkit-animation:ani7_1 3s infinite alternate;
+		-moz-animation:ani7_1 3s infinite alternate;
+		animation:ani7_1 3s infinite alternate;
+		animation:ani7_1 3s infinite alternate;
+	}
+	@keyframes ani7_1{
+		form{
+			opacity:1;
+			background:#c926ff;
+		}
+		to{
+			opacity:0;
+			background:#d9d900;
+		}
+	}
+
+	.ani8{
+		width:50px;	height:50px;
+		background:coral;
+		
+		-webkit-animation:ani8 3s 1s infinite alternate; 
+		-moz-animation:ani8 3s 1s infinite alternate; 
+		-ms-animation:ani8 3s 1s infinite alternate; 
+		animation:ani8 3s 1s infinite alternate; 
+	}
+	@keyframes ani8{
+		0%{
+			border-radius:0 0 0 0;
+			background:coral;
+			-webkit-transform:rotate(0deg);
+			-moz-transform:rotate(0deg);
+			-ms-transform:rotate(0deg);
+			transform:rotate(0deg);
+		}
+		25%{
+			border-radius:50% 0 0 0;
+			background:darksalmon;
+			-webkit-transform:rotate(45deg);
+			-moz-transform:rotate(45deg);
+			transform:rotate(45deg);
+			transform:rotate(45deg);
+		}
+		50%{
+			border-radius:50% 50% 0 0;
+			background:indianred;
+			-webkit-transform:rotate(90deg);
+			-moz-transform:rotate(90deg);
+			-ms-transform:rotate(90deg);
+			transform:rotate(90deg);
+		}
+		75%{
+			border-radius:50% 50% 50% 0;
+			background:lightcoral;
+			-webkit-transform:rotate(135deg);
+			-moz-transform:rotate(135deg);
+			-ms-transform:rotate(135deg);
+			transform:rotate(135deg);
+		}
+		100%{
+			border-radius:50%;
+			background:darksalmon;
+			-webkit-transform:rotate(180deg);
+			-moz-transform:rotate(180deg);
+			-ms-transform:rotate(180deg);
+			transform:rotate(180deg);
+		}
+	}
+	.ani9{
+		width:50px;	height:50px;
+		background:olive;
+		
+		-webkit-transform: scale(1.0);
+		-webkit-animation:ani9 2s infinite alternate;
+		-moz-transform: scale(1.0);
+		-moz-animation:ani9 2s infinite alternate;
+		-ms-transform: scale(1.0);
+		-ms-animation:ani9 2s infinite alternate;
+		transform: scale(1.0);
+		animation:ani9 2s infinite alternate;
+	}
+	@keyframes ani9{
+		0%{
+			-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg);
+			-ms-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+		50%{
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
+		100%{
+			-webkit-transform: rotate(180deg) translateY(100px) translateX(-100px) scale(0.5);
+			-moz-transform: rotate(180deg) translateY(100px) translateX(-100px) scale(0.5);
+			-ms-transform: rotate(180deg) translateY(100px) translateX(-100px) scale(0.5);
+			transform: rotate(180deg) translateY(100px) translateX(-100px) scale(0.5);
+		}
+		
+	}
+	.ani10{
+		width:50px;	height:50px;
+		background:#99b3ff;
+		position:relative;
+		
+		-webkit-animation:ani10 3s infinite alternate;
+		-moz-animation:ani10 3s infinite alternate;
+		-ms-animation:ani10 3s infinite alternate;
+		animation:ani10 3s infinite alternate;
+	}
+	@keyframes ani10{
+		0%{top:0; left:0;}
+		25%{top:50px; left:50px;}
+		50%{top:-50px; left:100px;}
+		25%{top:100px; left:150px;}
+		100%{top:0; left:200px;}
+		
+	}
+	body{padding-bottom:100px;}
+	</style>
+</head>
+<body>
+	<div class="ani1">1(h)</div>
+	<div class="ani1_1">1_1</div>
+	<div class="ani1_2">1_2</div>
+	<div class="ani2">2(h)</div>
+	<div class="ani2_1">2_1</div>
+	<div class="ani3">3(h)</div>
+	<div class="ani3_1">3_1</div>
+	<div class="ani4">4(h)</div>
+	<div class="ani4_1">4_1</div>
+	<div class="ani5">5(h)</div>
+	<div class="ani5_1">5_1</div>
+	<div class="ani5_2">5_2</div>
+	<div class="ani5_3">5_3</div>
+	<div class="ani6">6</div>
+	<div class="ani6_1">6_1</div>
+	<div class="ani6_2">6_2</div>
+	<div class="ani7">7</div>
+	<div class="ani7_1">7_1</div>
+	<div class="ani8">8</div>
+	<div class="ani9">9</div>
+	<div class="ani10">10</div>
+
+</body>
+</html>

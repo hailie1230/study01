@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-wrap: nowrap;</title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <style>
+        .cont {height: 100vh; background: lightgray; 
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .item {background: rgba(255, 0, 0, 0.5); }
+        .item:nth-child(odd) {background: rgba(255,255,0,0.5);}
+        .item>.box {display: block; width: 50px; height: 50px; background: skyblue; opacity: 0.8;}
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="item">
+            <span class="box">&nbsp;</span>
+            <p>AAAAAAAAAAAAAAAAAA</p>
+            <p>AAAAAAAAAAAAAAAAAA</p>
+            <p>AAAAAAAAAAAAAAAAAA</p>
+        </div>
+        <div class="item">
+            <span class="box">&nbsp;</span>
+            <p>BBBBBBBBBBBBBBBBBB</p>
+            <p>BBBBBBBBBBBBBBBBBB</p>
+        </div>
+        <div class="item">
+            <span class="box">&nbsp;</span>
+            <p>CCC</p>
+        </div>
+        flex-wrap 이란? <br>
+        컨테이너가 아이템박스들 보다 줄어들었을때 어떻게 보여질지 결정하는 아이 <br>
+        컨테이너가 줄어들어도 박스들이 줄어들지 않음 
+    </div>
+</body>
+</html>

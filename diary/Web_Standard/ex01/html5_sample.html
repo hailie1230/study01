@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HTML5의 CANVAS 기능 확인하기</title>
+<style type="text/css">
+	body{ text-align:center; margin:50px; }
+	h1 { width:600px; padding:5px; margin:10px auto; border:5px solid #f00; border-radius:10px; }
+	#rectA {border:5px solid #000;}
+</style>
+<script type="application/javascript">
+	function draw_rectA() {  /*사각형 그리기 함수 정의 */
+		var canvas=document.getElementById("rectA"); 
+		if (canvas.getContext) { 
+			var rectAI=canvas.getContext("2d"); 
+			rectAI.fillStyle="#ff0000";
+			rectAI.fillRect(50,50,200,200); 
+		} else {
+			alert ("HTML5의 CANVAS 기능을 지원하지 않습니다.");
+		}
+	}
+</script>
+</head>
+<body onLoad="draw_rectA()">
+<header>
+<h1>HTML5의 CANVAS 기능 확인하기</h1>
+</header>
+<article>
+<h2>캔버스안에 사각형 드로잉</h2>
+<!-- id 값으로 canvas 정의 -->
+<canvas width="500" height="400" id="rectA">
+</canvas>
+</article>
+</body>
+</html>

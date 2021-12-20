@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>transition</title>
+	<style type="text/css">
+		#ex div{
+			width:100px;
+			height:100px;
+			background-color:red;
+			border-radius:0px;
+			
+			-webkit-trasition-property:background-color,border-radius;
+			-webkit-transition-duration:1s;
+			-moz-trasition-property:background-color,border-radius;
+			-moz-transition-duration:1s;
+			trasition-property:background-color,border-radius;
+			transition-duration:1s;
+			
+			transition-delay:1s;
+			transition-timing-function:ease-in;
+			/* linear(시작에서 끝까지 똑같은 속도로 트랜지션 진행) ,ease(처음에는 천천히 시작하고 점점 빨라지다가 마지막엔 천천히 끝냄) ,ease-in(시작은 느리게) ,ease-out(느리게 끝남) ,ease-in-out(느리게 시작하고 느리게 끝남) */
+			/* transition:all 1s 1s ease-in; (속성표기가능) */
+		}
+		#ex:hover div{background-color:green;
+			border-radius:50%;
+		}
+	</style>
+</head>
+<body>
+	<div id="ex">
+		<div></div>
+	</div>
+</body>
+</html>

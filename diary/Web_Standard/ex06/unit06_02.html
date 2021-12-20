@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>동적 가상 클래스 선택자</title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+		/* input 요소의 상태에 따른 선택자를 정의합니다. */
+			input:hover{background:#ccff00;}
+			input:focus{background:#009900; border:5px solid #000; color:#fff;}
+		</style>
+	</head>
+
+	<body>
+		<h1>동적 관련 가상 클래스 선택자</h1>
+		<hr />
+		<h2>로그인</h2> 
+        <form action="#" method="post">
+			<fieldset>
+				<p><label>아이디</label>
+					<input name="userID" type="text" />
+				</p>
+				<p><label>비밀번호</label>
+					<input name="userPWD" type="password" />
+				</p>
+				<p>
+					<input type="submit" value="login" />
+				</p>
+			</fieldset>
+        </form>
+	</body>
+</html>

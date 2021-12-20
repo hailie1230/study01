@@ -1,0 +1,92 @@
+#wrapper{width:800px; margin:0 auto;}
+header{
+	width:100%;
+	height:150px; 
+	background:#f46075 url(../images/nav2.png) no-repeat right center;
+}
+nav{float:left; width:70%; margin-top:50px;}
+nav li{
+	list-style:none;
+	float:left;
+	font-weight:bold;
+	margin:15px;
+}
+nav li a{
+	color:#fff;
+	text-decoration:none;
+}
+h2{font-size:1.5em;}
+h3{font-size:1em;}
+p{line-height:20px; font-size:12px;}
+section{
+	width:580px;
+	float:left;
+	padding:5px;
+}
+section article{
+	width:250px;
+	height:200px;
+	margin:5px;
+	padding:10px;
+	float:left;
+	border:1px solid #ccc;
+	overflow-y:scroll;
+}
+aside{float:left; width:200px; height:auto; border:1px solid darkgreen; background:#ffffcc; text-align:center; margin-top:80px;}
+footer{
+	clear:both;
+	width:800px;
+	margin-bottom:0;
+	background:#aaa;
+	color:#666;
+	text-align:center;
+}
+h3{display:inline;}
+address{font-style:normal; padding:20px;}
+.at1:hover{
+	background:#ccff99;
+	border:1px solid green;
+	transition:2s;
+}
+.at2:hover{
+	background:#4cd2ff;
+	border:1px solid blue;
+	transition:2s;
+}
+.at3:hover{
+	background:#b399ff;
+	border:1px solid purple;
+	transition:2s;
+}
+.at4:hover{
+	background:#ff99ff;
+	border:1px solid red;
+	transition:2s;
+}
+input[type=checkbox]:checked~div.check{
+	height:0;
+}
+.check{
+	width:230px;
+	height:220px;
+	overflow:hidden;
+	transition-duration:1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

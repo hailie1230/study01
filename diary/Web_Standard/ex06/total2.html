@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> 히트 레시피 </title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+		
+			/* 전체 선택자 */
+			* { 
+					padding:0px;
+					margin:0px;
+					font-family:"맑은 고딕", 돋움, arial;
+					}
+
+			/* body 선택자 */
+				body {
+					margin:50px;
+				}
+		
+			/* 하이퍼링크 디자인 */
+			a { 
+					text-decoration:none;
+					font-size:12px; 
+					}
+			a:link, a:visited {
+					color:gray;
+					}
+			a:hover, a:active {
+					color:black;
+				}
+
+				/* div 요소 디자인  */
+				div { 
+							width:150px;
+							margin-bottom:50px;
+				}
+				#categoryBox {
+							border:5px solid teal;
+				}
+				#bbsBox {
+							border:5px solid deeppink;
+				}
+				
+				/* h1 요소 디자인 */
+				h1{padding-left:15px;}
+				#categoryBox h1{border-bottom:1px solid #ddd;}
+				#bbsBox h1{border-bottom:1px solid #d90000;}
+				
+				/* ul 요소 디자인 */
+				ul{padding:0 0 20px 20px ; list-style:none;}
+				
+				
+				/* cookMenu 클래스안에 위치한 첫번째 li 요소 안에 위치한 하이퍼링크 텍스트 디자인*/ 
+				.cookMenu li:nth-child(3) a{color:#000; font-weight:bold;}
+				
+				/* bbsMenu 클래스 안에 위치한 각 하이퍼링크 텍스트 디자인 */
+				.bbsMenu a[title*="게시판"]{background:red; color:#fff;}
+				.bbsMenu a[title^="회원"]{background:blue; color:#fff;}
+				.bbsMenu a[title$="레시피"]{background:green; color:#fff;}
+				
+				
+		</style>
+	</head>
+
+	<body>
+		<div id="categoryBox">
+			<h1><img src="images/title_category.jpg" width="54" height="13" alt="카테고리" /></h1>
+			<ul class="cookMenu"> 
+				<li><a href="#">밥/죽/면</a></li>
+				<li><a href="#">매일 반찬</a></li>
+				<li><a href="#">국/찌게/전골</a></li>
+				<li><a href="#">가족/초대요리</a></li>
+				<li><a href="#">소스/양념장</a></li>
+				<li><a href="#">간식/음료</a></li>
+				<li><a href="#">기타</a></li>
+			</ul>
+		</div>
+		<div id="bbsBox">
+			<h1><img src="images/title_bbs.jpg" width="54" height="13" alt="게시판" /></h1>
+			<ul class="bbsMenu">
+				<li><a href="#" title="자유게시판">자유 게시판</a></li>
+				<li><a href="#" title="회원장터">회원 장터</a></li>
+				<li><a href="#" title="나만의 레시피">나만의 레시피</a></li>
+				<li><a href="#" title="불후의 레시피">불후의 레시피</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

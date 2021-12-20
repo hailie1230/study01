@@ -1,0 +1,17 @@
+*{margin:0; padding:0;}
+body{background:url(../images2/grid_back_02.gif);}
+
+.fl{float:left;}
+#wrap{width:770px;height:560px; }
+#menu{width:140px; height:210px; background:#fff; line-height:0;}
+
+.box1_1{width:70px; height:70px;}
+.box1_3{width:70px; height:210px;}
+.box3_1{width:210px; height:70px;}
+.box3_2{width:210px; height:140px;}
+.box3_3{width:210px; height:210px;}
+.box11_1{width:770px; height:70px;}
+
+.color1{background:#ffff99;}
+.color2{background:#ffcc00;}
+.color3{background:#ff9900;}

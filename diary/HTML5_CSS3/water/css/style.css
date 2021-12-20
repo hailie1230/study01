@@ -1,0 +1,72 @@
+*{margin:0;padding:0;}
+html{overflow-y:scroll;}
+body{font-family:"Nanum Gothic", "나눔 고딕";}
+ul{list-style:none; margin:0; padding:0;}
+.cf:after{content:""; display:block; clear:both;}
+.fl{float:left;}
+a{text-decoration:none;}
+
+#wrap{width:100%; min-width:1500px; }
+#header{width:100%; height:auto; position:fixed; z-index:999;}
+#menu{width:100%; height:105px;position:relative; z-index:10; background:#ffffff; background:rgba(255,255,255,0.8); }
+#gnb{width:96%; padding:0 2%; margin:0 auto; height:105px; max-width:1280px; background:pink}
+#gnb>a>img{position:absolute; top:25px; left:40px;}
+#nav{padding:20px 80px 0 25%;}
+#nav>.bg_menu>ul>li{width:20%; text-align:center;}
+#nav>.bg_menu>ul>li>a{
+	display:block;
+	padding:23px 0;
+	font-size:25px;
+	line-height:32px;
+	height:39px;
+	font-weight:bold;
+	letter-spacing:-2px;
+	color:#1e1e1e;
+}
+#nav>.bg_menu>ul>li>ul{
+	padding:20px 0 20px 20px;
+	text-align:left;
+	height:206px;
+}
+#nav>.bg_menu>ul>li>ul a{
+	display:block;
+	color:#fff;
+	height:auto;
+	font-size:15px;
+	line-height:21px;
+	font-weight:bold;
+	padding:5px 0;
+	letter-spacing:-1px;
+}
+#nav>.bg_menu{position:relative; z-index:2; overflow:hidden; height:85px; transition-property:height; transition-duration:0.5s;}
+#nav:hover .bg_menu{height:311px;}
+.bg_blue{position:absolute; top:105px; left:0; background:#0b8dda; width:100%; height:226px; opacity:0.9; transition-property:height; transition-duration:0.5s;}
+#nav:hover .bg_blue{height:226px;}
+.bg_blue span{width:1280px; margin:0 auto; height:0; display:block; background:url(../images/gnb_blind_bg.png) no-repeat 100px bottom; opacity:0.5; overflow:hidden; transition-property:height; transition-duration:0.5s;} 
+#nav:hover .bg_blue span{height:200px;}
+#nav>.bg_menu>ul>li>ul>li>a:hover{text-decoration:underline;}
+#nav>.bg_menu>ul>li:hover>ul{background:rgba(0,86,150,0.5);}
+
+#search{width:96%; max-width:1280px; height:105px; position:absolute; top:0; margin:0 auto;}
+#search_img{width:auto; height:32px; background:#0b8dda; border-radius:18px; position:absolute; right:10px; top:35px; padding:2px 10px;}
+#search_img a{display:block; background:url(../images/totalsearch_ico.png) no-repeat center; width:33px; height:32px; }
+
+#main_content{width:100%; margin:0 auto;}
+#main_content img{width:1920px; display:block;margin:0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

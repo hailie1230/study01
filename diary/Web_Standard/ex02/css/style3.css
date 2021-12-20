@@ -1,0 +1,9 @@
+/* body{background:red;} */
+header{width:700px; background:#ffbfbf; float:left;}
+
+section{width:700px; background:#dfffbf;float:left; clear:both;}
+nav{width:100px; background:#ff0000; float:left; }
+article{width:500px; background:#40ff00;float:left; }
+aside{width:100px; background:#ffd24c;float:left;}
+
+footer{width:700px; background:#00bfff;float:left; clear:both;}

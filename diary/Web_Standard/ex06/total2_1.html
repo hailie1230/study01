@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>히트레시피</title>
+	<style type="text/css">
+		*{margin:0; padding:0;}
+		body{padding:50px;}
+		ul{padding:20px; list-style:none;}
+		ul li{line-height:160%; }
+		ul li a{text-decoration:none; color:#ccc;}
+		a:hover{color:#000;}
+		h1{padding:5px 0 5px 10px;}
+		
+		#box1{width:150px; border:5px solid teal; margin-bottom:50px;}
+		#box1 h1{border-bottom:2px solid #ccc;}
+		.box1List li:first-child a{color:#000; font-weight:bold;}
+		
+		#box2{width:150px; border:5px solid deeppink;}
+		
+		.box2List a[title*="게시판"]{background:red; color:#fff;}
+		.box2List a[title^="회원"]{background:blue; color:#fff;}
+		.box2List a[title$="레시피"]{background:green; color:#fff;}
+		
+	</style>
+</head>
+<body>
+	<div id="box1">
+		<h1><img src="images/title_category.jpg" alt="카테고리" width="53" height="13" /></h1>
+		<ul class="box1List">
+			<li><a href="#">밥/죽/면</a></li>
+			<li><a href="#">매일 반찬</a></li>
+			<li><a href="#">국/찌개/전골</a></li>
+			<li><a href="#">가족/초대요리</a></li>
+			<li><a href="#">소스/양념장</a></li>
+			<li><a href="#">간식/음료</a></li>
+			<li><a href="#">기타</a></li>
+		</ul>
+	</div>
+	<div id="box2">
+		<h1><img src="images/title_bbs.jpg" alt="게시판" width="53" height="13" /></h1>
+		<ul class="box2List">
+			<li><a href="#" title="자유게시판">자유게시판</a></li>
+			<li><a href="#" title="회원장터">회원장터</a></li>
+			<li><a href="#" title="나만의레시피">나만의 레시피</a></li>
+			<li><a href="#" title="불후의레시피">불후의 레시피</a></li>
+		</ul>
+	</div>
+</body>
+</html>

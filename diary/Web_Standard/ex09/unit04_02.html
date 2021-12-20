@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>이미지 위에 웹 스티커 붙이기 </title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+			h1, ul, li {
+				margin:0px;
+				padding:0px;
+				}
+			body { 
+				margin-top:30px;
+				font:1.2em verdana,sans-serif;
+				}
+			h1 {
+				padding-bottom:20px;
+				text-align:center;
+				font-size:2em;
+				color:#fff;
+				font-style:italic;
+				text-shadow:0px 0px 10px #666;
+				}
+			a {
+				text-decoration:none;
+				}
+		#bookList { 
+				background:no-repeat url(images/book_bg.png); 
+				width:476px; 
+				height:246px; 
+				padding-left:22px; 
+				padding-top:25px;
+				margin:0px auto;
+				border:5px solid #DBDBDB;
+				border-radius:30px;
+				box-shadow:0px 0px 10px #666;
+				}
+		#bookList ul {
+			list-style:none;
+			}
+		#bookList ul li {
+			float:left;
+			}
+		#bookList ul li a, #bookList ul li a img {
+			display:block; 
+			}	
+		#bookList ul li a img.frame { 
+			margin-right:63px;
+			}
+		#bookList ul li a:hover img { 
+			box-shadow:0px 0px 50px #009900;
+			}
+		/*web sticker */
+		#bookList ul li a span{
+			display:block;
+			position:relative;
+		}
+		#bookList ul li a span span.hit{
+			background:url(images/ico_hot.png) no-repeat top left;
+			width:40px;	height:40px;
+			position:absolute;
+			top:-10px;	left:-10px;
+			
+		}
+			
+		</style>
+	</head>
+
+	<body>
+		<h1>New Book</h1>
+		<div id="bookList">
+			<ul>
+				<li><a href="#"><span><img src="images/book1.png" width="107" height="156" alt="book1" class="frame"/><span class="hit"></span></span></a></li>
+				<li><a href="#"><span><img src="images/book2.png" width="107" height="156" alt="book2" class="frame"/><span class="hit"></span></span></a></li>
+				<li><a href="#"><span><img src="images/book3.png" width="107" height="156" alt="book3" /><span class="hit"></span></span></a></li>
+			</ul>
+		</div>
+	</body>
+</html>

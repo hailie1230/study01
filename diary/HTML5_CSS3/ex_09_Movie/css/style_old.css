@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+	margin: 0;
+	color: #404040;
+	font: 13px/normal "Malgun Gothic", "맑은 고딕", Dotum, "돋움", Gulim, "굴림", Verdana, Arial, "Trebuchet MS";    margin: 0px; 
+	font-size-adjust: none; 
+	font-stretch: normal; 
+}
+a:link {
+	color: rgb(64, 64, 64); text-decoration: none;
+}
+a:hover {
+	color: rgb(64, 64, 64); text-decoration: none;
+}
+a:visited {
+	color: rgb(64, 64, 64); text-decoration: none;
+}
+a:active {
+	color: rgb(64, 64, 64); text-decoration: none;
+}
+
+#wrap {
+	width: 640px;
+	margin: auto;
+}
+.article {
+	width: 640px;
+	color: #333333;
+	line-height: 180%;
+	text-align: left;
+}
+
+.article h2 {
+    background: url("bgArticleH2.png") no-repeat scroll 5px 5px #D0D7DF;
+    border-bottom: 1px solid #C8CACE;
+    border-top: 1px solid #C8CACE;
+	font: 18px/1.6;
+	font-weight: bold;
+    margin: 25px 0px 25px 0px;
+    padding: 10px 49px 10px 50px;
+}
+h3 {
+	color: #009;
+}
+pre {
+	background-image: url(bg_pre.gif);
+}
+.red {
+	color: #F30;
+}
+.gray {
+	color: #999;
+}
+.clearfix { 
+	width: 600px; 
+	padding-top: 20px; 
+	padding-right: 20px; 
+	padding-bottom: 20px; 
+	padding-left: 20px; 
+	background-color: rgb(34, 34, 34);
+}
+.clearfix:after{ /* FF, IE8, O, S, etc. */
+  	content: "";
+  	display: block;
+  	clear: both;
+}
+* html .clearfix {
+	height: 1%;
+}
+* + html .clearfix {
+	display: inline-block;
+}
+
+pre {
+	background: url("bg_pre.gif"); 
+	font: 12px/180% "Lucida Console"; 
+	margin: 10px 0px; 
+	padding: 10px; 
+	border: 1px solid rgb(200, 202, 206); 
+	width: 578px; 
+	overflow-x: auto; 
+	overflow-y: hidden; 
+	font-size-adjust: none; 
+	font-stretch: normal;
+}
+.article .box {
+	margin: 10px 0px; 
+	padding: 10px; 
+	border: 1px solid rgb(200, 202, 206); 
+	background-color: rgb(247, 247, 247);
+}
+
+.box {
+	margin: 10px 0px; 
+	padding: 10px; 
+	border: 1px solid rgb(200, 202, 206); 
+	background-color: rgb(247, 247, 247);
+}
+.underline {
+	text-decoration: line-through;
+}
+.blue {
+	color: #009;
+	font-weight: bold;
+}

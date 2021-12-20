@@ -1,0 +1,35 @@
+html{overflow-y:scroll;}
+*{margin:0; padding:0;}
+
+body{font-family:"맑은 고딕","돋움", normal dotum, sans-serif; font-size:0.9em; letter-spacing:-1px;}
+a{text-decoration:none;}
+li{list-style:none;}
+img{border:0;}
+.fl{float:left;}
+.cf:after{content:""; display:block; clear:both; }
+.cf{*zoom:1;}
+
+#header > #headerLnb{
+	position:absolute;
+	margin-top:50px;
+	margin-left:500px;
+	float:left;
+	width:780px;
+	height:40px;
+	background:pink;
+}
+#header > #headerLnb >ul>li{float:left; padding:10px 20px;}
+#header > #headerLnb >ul>li>a{color:#00bfff; font-size:1.2em; font-weight:bold; display:block; padding:3px 7px; margin:0 5px;}
+#header > #headerLnb >ul>li>a:hover{color:blue;}
+#nav>li>ul{position:absolute; top:40px; left:20px; background:#eee; margin:0; padding-bottom:3px; display:none;}
+#nav>li:hover ul{display:block;}
+
+#headerLnb #nav ul.menu1{left:18px;}
+#headerLnb #nav ul.menu2{left:70px;}
+#headerLnb #nav ul.menu3{left:20px;}
+#headerLnb #nav ul.menu4{left:129px;}
+#headerLnb #nav ul.menu5{left:162px;}
+
+#nav ul>li{float:left; margin:0;}
+#nav ul>li>a{ display:block; color:#888; padding:2px 10px; text-align:center;}
+#nav ul>li:hover a{color:red;}

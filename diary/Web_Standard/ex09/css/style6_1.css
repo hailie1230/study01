@@ -1,0 +1,41 @@
+body{
+	margin-top:40px;
+	
+}
+a{
+	font-size:1.1em;
+	display:block;
+	position:relative;
+	top:25px;
+}
+#mainNav li{
+	width:90px;
+	height:90px;
+	padding:6px;
+	background:#fff center center no-repeat;
+	margin:0px 6px 6px 0;
+	border:5px solid #ff0000;
+	border-radius:10px;
+}
+#mainNav li:nth-child(2){
+	background-image:url(../images/sandal2.png);	
+}
+#mainNav li:nth-child(3){
+	background-image:url(../images/neck2.png);	
+}
+#mainNav li:nth-child(4){
+	background-image:url(../images/bag2.png);	
+}
+#mainNav li:nth-child(5){
+	background-image:url(../images/top2.png);	
+}
+#mainNav li:nth-child(6){
+	background-image:url(../images/dress2.png);	
+}
+#mainNav li:nth-child(7){
+	background-image:url(../images/bottom2.png);	
+}
+#wrapper{
+	width:350px;
+	margin:0 auto;
+}

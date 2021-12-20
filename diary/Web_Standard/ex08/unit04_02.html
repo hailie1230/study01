@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>목록 역순으로 배치하고 가로 세로 중앙 정렬하기</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			body, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd {
+				margin:0px;
+				padding:0px;
+				}
+			h1 { 
+				border-top-left-radius:20px;
+				border-top-right-radius:20px;
+				background-color:#006666;
+				width:300px;
+				font:1.1em arial;
+				color:#fff;
+				padding:5px;
+				margin:20px auto 0px auto;
+				text-align:center;
+				}
+			/* ul, li Layout (박스속성) */
+			ul{
+				display:-moz-box;
+				display:-webkit-box;
+				display:-ms-box;
+				display:box;
+				list-style:none;
+				width:600px;
+				height:150px;
+				background:#bed8cd;
+				padding:20px;
+				margin:0 auto;
+				border-radius:20px;
+				
+				-webkit-box-direction:reverse;
+				-moz-box-direction:reverse;
+				box-direction:reverse;
+				
+				-webkit-box-pack: center;
+				-moz-box-pack: center;
+				box-pack: center;
+				
+				-webkit-box-align:center;
+				-moz-box-align:center;
+				box-align:center;
+				
+				
+			}
+			li{
+				font:0.85em arial;
+				padding:10px 25px;
+				background:url(images/leaf_g.png) no-repeat left center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Internet Programming</h1>
+		<ul>
+			<li>HTML/XHTML</li> 
+			<li>CSS</li>
+			<li>JS/VBS</li> 
+			<li>CGI/PHP</li>  
+			<li>ASP/JSP</li>  
+		</ul>
+	</body>
+</html>

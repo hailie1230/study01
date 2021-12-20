@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>비디오 태그</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="../css/style.css">
+<style type="text/css">
+#menu_example{}#menu_example3 a {
+	display:block;
+	padding:10px 10px 15px 10px;
+	margin-right:1px;
+	background-color:#292929;
+	color:#BBB;	font:12px Verdana;
+	text-decoration:none;
+	text-transform:uppercase;
+	float:left;
+}	
+#menu_example3 a:hover{
+	padding-bottom:10px;
+	border-bottom:5px solid #ff9900;
+	text-decoration:none;
+	color:#FFF;
+}
+#menu_example4{}#menu_example4 a{
+	display:block;	
+	padding:10px 10px 15px 10px;	
+	margin-right:1px;	
+	background-color:#292929;	
+	color:#BBB;	font:12px Verdana;	
+	text-decoration:none;
+	text-transform:uppercase; 
+	float:left;
+}
+#menu_example4 a:hover{
+	text-decoration:none;
+}	
+</style>
+</head>
+<body>
+<DIV id="wrap">
+   <DIV class="article">
+     <H2>[HTML5 예제] 비디오 태그</H2>
+   </DIV>
+   <p>HTML5 에서는 플러그인이 필요 없이 웹페이지에 video 표현이 가능해 졌습니다. 여기서 플러그인이란 vidio를 보여주기 위해 브라우저에 설치가 되는 프로그램을 말합니다.(플래시 등..)</p>
+   <p>HTML5 에서는 멀티미디어 라는 개념을 보편화 시키려 하는듯 합니다. 좀 더 편하게 프로그램 설치 없이 오디오,비디오를 넣어 웹 페이지에 보여주자는 것입니다.</p>
+   <p>허나 아직 브라우저 별로 지원여부가 달라서 모든 브라우저가 지원될 때 까지는 시간이 걸리겠죠.</p>
+   <p>&nbsp;</p>
+  <p> </p>
+   <h3><STRONG>VIDEO 지원 포멧형식은 mp4,webm,ogg 세가지</STRONG></h3>
+   <p>     <A href="http://www.w3schools.com/html/html5_video.asp" target="_blank">&lt;w3cscools 참조&gt;</A></p>
+   <p><IMG alt="" src="images/K-1.jpg" width="640" height="267"></p>
+   <p>mp4 와 ogg 두가지를 사용하면 다 지원이 되겠네요. 익스플로러9 이상만 지원합니다.</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+  <h3>기본 형식</h3>
+   <p><STRONG>&lt;video src="파일주소"&gt;브라우저에서 비디오를 지원하지   않습니다.&lt;/video&gt;</STRONG></p>
+  <p>하나의 파일 재생시엔,<br>
+  <STRONG>&lt;video src="파일주소" width="가로" height="세로(높이)" 재생속성&gt;브라우저에서 비디오를   지원하지 않습니다.&lt;/video&gt;</STRONG></p>
+   <p>좀더 응용하자면,<br>
+     <STRONG>&lt;video width="가로" height="세로(높이)" 재생속성&gt;<BR>
+   &lt;source   src="파일주소" type="MIME 타입"&gt;</STRONG><br>
+   <STRONG>&lt;source src="파일주소" type="MIME 타입"&gt;<BR>
+     브라우저에서 비디오를 지원하지   않습니다.<BR>
+  &lt;/video&gt;</STRONG> </p>
+   <p>이런 형식으로 사용하여 웹 상으로 표현 됩니다.</p>
+   <p> </p>
+  <p> </p>
+  <h3>재생속성</h3>
+   <p><STRONG>autoplay - 자동 재생, loop - 반복 재생, poster - 비디오 재생 전의 이미지   파일경로,</STRONG> <br>
+   <STRONG>controls - 재생, 정지등 비디오 컨트롤을 표시합니다.</STRONG><br>
+   <STRONG>preload - 동영상 파일 재생시 다운로드 여부지정</STRONG></p>
+  <p>(<STRONG>auto</STRONG>-자동, <STRONG>none</STRONG>-사용자가 컨트롤을 조작하지 전까지 다운 금지, <STRONG>metadata</STRONG>-메타데이터를 가져옴. 사용자가 컨트롤 조작시 다운)</p>
+  <p> </p>
+  <p>&nbsp;</p>
+  <h3>브라우저 별 인터페이스</h3>
+   <p><IMG alt="" src="images/native-video-controls.jpg" width="630" height="400"></p>
+   <p> </p>
+  <p>&nbsp;    </p>
+   <p><IMG alt="" align="left" src="images/c.jpg" width="331" height="251"></p>
+   <p> </p>
+  <p> 이미지를 기초한 예제</p>
+   <p> <STRONG>&lt;video width="326" height="254" controls poster="곰.gif"&gt;<BR>
+       &lt;source src="영상.mp4" type="video/mp4"&gt;</STRONG></p>
+   <p><STRONG>    &lt;source src="영상.ogg" type="vidio/ogg"&gt;<BR>
+     브라우저에서 비디오를 지원하지   않습니다.<BR>
+  &lt; /video&gt;</STRONG></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p> &lt;비디오 태그 시작, 가로 326px, 세로(높이) 254px, 컨트롤러 표시, 재생전 정지화면일때 곰.gif 를 보여줌.&gt;<br>
+       &lt;영상으로는 영상(mp4,ogg)를 재생하며, 타입 설정.&gt;<br>
+        지원되지 않는 브라우저에 지원 안됨 표시.<br>
+    &lt;비디오 태그 마침&gt;</p>
+   <p>이런 식으로 표현 됩니다.</p>
+   <p> </p>
+   <p>오디오,비디오 HTML5 에선 간단하게 표현 될 수 있어서 좋네요. 참고로 브라우저마다 일관성을 맞추려 video.js 라는 스크립트를 사용하여 구성 합니다. 오디오, 비디오 부분은 자바스크립트와 연계가 되어야 좋은 품질이 되는군요.</p>
+</DIV>
+</DIV>
+</body>
+</html>

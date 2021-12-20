@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>animation</title>
+	<style type="text/css">
+		#ball{
+			width:100px;
+			height:100px;
+			background:#000;
+			border-radius:50%;
+			position:relative;
+			-webkit-animation-name:ani;
+			-webkit-animation-duration:3s;
+			-moz-animation-name:ani;
+			-moz-animation-duration:3s;
+			animation-name:ani;
+			animation-duration:3s;
+			
+			animation-iteration-count:infinite;	
+			animation-direction:alternate;						
+		}
+		@keyframes ani{
+			0%{left:10px;}
+			50%{top:50px;}
+			100%{left:900px;}
+		}
+		@keyframes ani{
+			from{left:10px;}
+			to{left:900px;}
+		}		
+
+	</style>
+</head>
+<body>
+	<div id="ball"></div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>시리즈 안내</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <header>
+		<h1><img src="images/title_series.gif" width="734" height="71" alt="정보문화사 시리즈 안내" /></h1>
+    </header>
+    <navi> 
+		<!-- 글자 목록을 클릭하면 series_book1.html ~ series_book3.html 웹 페이지가 인라인 프레임 창으로 표시되게 하이퍼링크를 연결합니다.  -->
+			<ul>
+				<li><a href="series_book1.html" target="mainframe">길라잡이</a></li>
+				<li><a href="series_book2.html" target="mainframe">실력이 탐나는</a></li>
+				<li><a href="series_book3.html" target="mainframe">절대로 하지마라</a></li>
+			</ul>
+		<hr>
+    </navi>
+    <section> 
+		
+		<!-- music.ogg, music.mp3 오디오 파일이 컨트롤러 없이 무한 반복되게 삽입합니다. -->
+		<audio width="320" height="240" controls loop>
+			<source src="media/music.ogg" />
+			<source src="media/music.mp3" />
+		</audio>
+		<!-- series_book1.html 웹페이지를 인라인 프레임으로 삽입합니다.  -->
+		<iframe src="series_book1.html" width="80%" height="400" name="mainframe"></iframe>
+    </section>
+</body>
+</html>

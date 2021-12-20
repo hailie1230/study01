@@ -1,0 +1,7 @@
+/* body{background:red;} */
+header{width:700px; background:#ff0000; float:left;}
+section{width:700px; background:#00ff00; float:left;clear:both;}
+aside{width:100px; background:#dc73ff; float:left;}
+article{width:500px; background:#ff99cc; float:left;}
+footer{width:700px; background:#0000ff; float:left; clear:both;}
+

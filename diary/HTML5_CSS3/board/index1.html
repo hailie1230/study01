@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style1.css"/>
+</head>
+<body>
+	<div id="wrap">
+		<h1>게시판</h1>
+		<div id="search_wrap" class="cf">
+			<form action="#" method="get">
+				<fieldset>
+					<label>검색분류 &nbsp;&nbsp;
+						<select name="search">
+							<option value="제목">제목</option>
+							<option value="내용">내용</option>
+							<option value="글쓴이">글쓴이</option>
+						</select>
+					</label>
+					<label>검색단어 &nbsp;&nbsp;
+						<input type="text" name="text"/>
+					</label>
+					<button type="submit">검색</button>
+				</fieldset>
+			</form>
+		</div><!--  id="search_wrap" -->
+		<div id="board">
+			<div class="first cf">
+				<div><span>번호</span></div>
+				<div class="title"><span>제목</span></div>
+				<div><span>글쓴이</span></div>
+				<div><span>등록일</span></div>
+			</div>
+			<div class="cf">
+				<input type="radio" id="click10" name="click"/>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

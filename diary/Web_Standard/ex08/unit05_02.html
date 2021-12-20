@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> transition 속성으로 애니메이션 만들기  </title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+			body, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd {
+				margin:0px;
+				padding:0px;
+				font-family:"맑은 고딕", 돋움;
+				}
+			body {
+				background:url(images/eye_bg.png) repeat-x;
+				}
+			header {
+				background:url(images/eyetop.png) no-repeat center 36px ;
+				width:638px;
+				height:369px;
+				margin:0 auto;
+				}
+			header h1, header h2, header p {
+				display:none;
+				}
+			dt, dd {
+				display:inline;
+				}
+			dt {
+				font-size:2em;
+				font-weight:bold;
+				letter-spacing:-1px;
+				}
+			/* Animation */
+			#book1{
+				width:170px;
+				height:47px;
+				background:red;
+				overflow:hidden;
+				color:#fff;
+				-webkit-transition-property:width;
+				-webkit-transition-duration:2s;
+				-moz-transition-property:width;
+				-moz-transition-duration:2s;
+				transition-property:width;
+				transition-duration:2s;
+				
+			}
+			#book1:hover{
+				width:900px;
+			}
+			#book2{
+				width:290px;
+				height:47px;
+				background:yellow;
+				overflow:hidden;
+				color:#000;
+				-webkit-transition-property:width;
+				-webkit-transition-duration:5s;
+				-moz-transition-property:width;
+				-moz-transition-duration:5s;
+				transition-property:width;
+				transition-duration:5s;
+			}
+			#book2:hover{width:100%;}
+			
+			#book3{
+				width:200px;
+				height:47px;
+				background:green;
+				overflow:hidden;
+				-webkit-transition-property:width;
+				-webkit-transition-duration:4s;
+				-moz-transition-property:width;
+				-moz-transition-duration:4s;
+				transition-property:width;
+				transition-duration:4s;
+			}
+			#book3:hover{width:1000px;}
+			
+			#book4{
+				width:200px;
+				height:47px;
+				background:blue;
+				color:#fff;
+				overflow:hidden;
+				-webkit-transition-property:width;
+				-webkit-transition-duration:3s;
+				-moz-transition-property:width;
+				-moz-transition-duration:3s;
+				transition-property:width;
+				transition-duration:3s;
+			}
+			#book4:hover{width:800px;}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>눈으로 익히는 IT 길잡이 눈길 시리즈</h1>
+			<h2> 교재+학습 통합형 IT 입문서 눈길 시리즈 </h2>
+			<p> 기초만 탄탄히 다지면 응용 실력은 저절로 따라온다.필수 기능만을 엄선하여 학습 부담을 없앴습니다.</p>
+		</header>
+		<section>
+			<div id="book1">
+				<dl>
+				 <dt>포토샵 CS5</dt>
+				 <dd>다년간의 포토샵 강의 노하우로 포토샵의 기본기를 한권으로 끝낸다!</dd>
+				</dl>
+			</div>
+			<div id="book2">
+				<dl>
+				 <dt>일러스트레이터 CS5</dt>
+				 <dd>캐릭터 디자인부터 고급 일러스트까지 만능 벡터 그래픽툴.</dd>
+				</dl>
+			</div>
+			<dl id="book3">
+			 <dt>드림위버 CS5</dt>
+			 <dd>풍부한 실습 문제를 통해 드림위버의 기본기를 확실하게 내것으로 만든다.</dd>
+			</dl>
+			<dl id="book4">
+			 <dt>프리미어 CS5</dt>
+			 <dd>컷 편집부터 출력까지 책임지는 원스톱 영상 편집 툴.</dd>
+			</dl>
+		</section>		
+	</body>
+</html>

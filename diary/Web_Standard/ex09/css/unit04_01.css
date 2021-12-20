@@ -1,0 +1,27 @@
+*{margin:0; padding:0;}
+h1{	
+	margin:30px 0;
+	font-size:2em;
+	color:#fff;
+	text-shadow:0 0 10px #000;
+	text-align:center;
+	font-style:italic;
+}
+#bookList{
+	width:478px;	height:246px;
+	margin:0 auto;
+	background:#fff url(../images/book_bg.png) no-repeat center 0;
+	padding-top:25px;
+	padding-left:22px;
+	border:5px solid #ddd;
+	border-radius:30px;
+	box-shadow:0 0 10px #666;	
+}
+#bookList ul{
+	list-style:none;
+}
+#bookList ul li{
+	float:left;
+}
+#bookList ul li img.frame{margin-right:63px;}
+#bookList ul li a:hover img{box-shadow:0 0 50px #009900;}

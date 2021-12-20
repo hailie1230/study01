@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.box{width:100px; height:100px; position:absolute; top:0; left:0;}
+		.box:nth-child(1){
+			background:red;
+			z-index:3;
+			top:10px;
+			left:10px;
+		}
+		.box:nth-child(2){
+			background:orange;
+			top:50px;
+			left:50px;
+			z-index:4;
+		}
+		.box:nth-child(3){
+			background:yellow;
+			top:90px;
+			left:90px;
+			z-index:4;
+		}   
+		body>div{width:400px; height:100px; border:3px solid #000; position:relative; overflow:hidden; overflow-y:scroll;}
+	</style>
+</head>
+<body>
+	<h1>푸린 닮은 hailie</h1>
+	<div>
+		<div class="box">z-index:3; top:10px; left:10px;</div>
+		<div class="box">z-index:4; top:50px; left:50px;</div>
+		<div class="box">z-index:5; top:90px; left:90px;</div>
+	</div>               
+	<h2>놀러가고싶다.</h2>
+</body>
+</html>

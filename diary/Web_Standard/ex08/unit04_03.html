@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>box-flex 속성으로 비율로 크기 조정하기</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			body, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd {
+				margin:0px;
+				padding:0px;
+				}
+			h1 { 
+				border-top-left-radius:20px;
+				border-top-right-radius:20px;
+				background-color:silver;
+				width:300px;
+				font:1.5em arial;
+				padding:15px;
+				margin:20px auto 0px auto;
+				text-align:center;
+				}
+			/* Layout */
+			ul{
+				list-style:none;
+				width:900px;
+				margin:0 auto;
+				display:-moz-box;
+				display:-webkit-box;
+				display:box;
+			}
+			li{
+				font: 0.85em arial;
+				padding:10px;
+				color:#fff;
+				text-align:center;
+			}
+			li.red{
+				-webkit-box-flex:3;
+				-moz-box-flex:3;
+				box-flex:3;
+				background:red;
+				border-top-left-radius:30px;
+				border-bottom-left-radius:30px;
+			}
+			li.indigo{
+				-webkit-box-flex:1;
+				-moz-box-flex:1;
+				box-flex:1;
+				background:indigo;
+				
+			}
+			li.goldenrod{
+				-webkit-box-flex:1;
+				-moz-box-flex:1;
+				box-flex:1;
+				background:goldenrod;
+			}
+			li.blue{
+				-webkit-box-flex:1;
+				-moz-box-flex:1;
+				box-flex:1;
+				background:blue;
+			}
+			li.olive{
+				-webkit-box-flex:3;
+				-moz-box-flex:3;
+				box-flex:3;
+				background:olive;
+				border-radius:0 30px 30px 0; 
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Graphic</h1>
+		<div class="center">
+			<ul>
+				<li class="red">Photoshop</li> 
+				<li class="indigo">3D Max</li>   
+				<li class="goldenrod ">Rhino</li> 
+				<li class="blue">CorelDraw</li> 
+				<li class="olive ">Web Editor</li> 
+			</ul>
+        </div>    
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

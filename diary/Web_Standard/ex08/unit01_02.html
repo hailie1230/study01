@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> 단 구성하고 float 해제하기 </title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+			body { 
+				font:12px "맑은 고딕",돋움,arial; 
+				margin-top:20px; 
+				margin-left:50px;
+				}
+			h1 { 
+				font-size:2em; 
+				color:#ffffff; 
+				text-align:center; 
+				width:300px; 
+				margin:0px; 
+				padding:5px; 
+				background-color:#666; 
+				border-radius:25px; 
+				}
+			h2 {
+				font-size:1.5em;
+				padding-left:120px;
+				padding-top:30px;
+				letter-spacing:-2px;
+				text-shadow:-1px -1px 15px #000;
+				}
+			h3 {
+				font-size:1.1em;
+				padding-left:120px;
+				letter-spacing:-1px;
+				font-weight:normal;
+				color:#8c8c8c;
+				}
+			p {
+				text-align:right;
+				padding-right:40px;
+				}
+			a {
+				color:#333;
+				text-decoration:none;
+				font-weight:bold;
+				font-family:"Arial Black",arial;
+				}
+			/* Layout */
+			div{
+				width:340px;
+				height:150px;
+				margin-top:10px;
+			}
+			.book1{
+				background:url(images/bg_sm01.png);
+				float:left;
+			}
+			.book2{
+				background:url(images/bg_sm02.png);
+				float:left;
+			}
+			.book3{
+				background:url(images/bg_sm03.png);
+				clear:left; /* = clear:both; */
+				float:left;
+			}
+			.book4{
+				background:url(images/bg_sm04.png);
+				float:left;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>시리즈 안내</h1>
+		</header>
+		<section>
+			<div class="book1">
+				<h2>실력이 탐나는 시리즈</h2>
+				<h3>전략적 실전 대비 입문서 </h3>
+				<p><a href="http://infopub.co.kr" target="_blank" title="정보문화사 사이트로 이동합니다.">&gt;&gt; GO</a></p>
+			</div>
+			<div class="book2">
+				<h2>길라잡이 시리즈</h2>
+				<h3>단계별로 배울 수 있는 지침서</h3>
+				<p><a href="http://infopub.co.kr" target="_blank" title="정보문화사 사이트로 이동합니다.">&gt;&gt; GO</a></p>
+			</div>
+			<div class="book3">
+				<h2>회사 실무에 힘을 주는 시리즈</h2>
+				<h3>자연스럽게 익히는 OA 핵심 기능 수록 </h3>
+				<p><a href="http://infopub.co.kr" target="_blank" title="정보문화사 사이트로 이동합니다.">&gt;&gt; GO</a></p>
+			</div>
+			<div class="book4">
+				<h2>눈길 시리즈</h2>
+				<h3>IT 실무 교재 시리즈</h3>
+				<p><a href="http://infopub.co.kr" target="_blank" title="정보문화사 사이트로 이동합니다.">&gt;&gt; GO</a></p>
+			</div>
+		</section>
+	</body>
+</html>

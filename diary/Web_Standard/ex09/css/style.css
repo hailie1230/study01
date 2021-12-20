@@ -1,0 +1,99 @@
+body{
+	margin-top:30px;
+	font:1.2em verdana, sans-serif;
+	background:#ccc;
+}
+h1, ul, li{margin:0; padding:0;}
+/* 
+h1{
+	color:#fff;
+	text-shadow:0 0 5px #000;
+	font-style:italic;
+	text-align:center;
+}
+
+
+#photoBox{
+	background:#fff;
+	width:300px;	height:350px;
+	margin:50px auto;
+	border:3px solid #ff5c26;
+	border-radius:10px;
+}
+#tabNavi{
+	list-style:none;	
+	position:relative;
+	top:-33px;	left:105px;
+	
+}
+#tabNavi li{
+	float:left;
+	padding:5px 10px 2px 10px;
+	margin-right:5px;
+	background:#fff;
+	border-radius:10px 10px 0 0;
+	
+}
+#tabNavi li a{
+	text-decoration:none;
+	color:#ff5c26;
+	font-weight:normal;
+	font-size:16px;
+}
+#tabNavi .activeS{background:#ff5c26;}
+#tabNavi .activeS a{color:#fff;} */
+
+h1{
+	font-size:2em;
+	color:#fff;
+	font-style:italic;
+	text-shadow:0 0 10px #666;
+	padding-bottom:20px;
+	text-align:center;
+}
+#photoBox{
+	width:330px; margin:0 auto;
+}
+#tabNavi{list-style:none; padding-left:100px;}
+#tabNavi li{float:left; margin-left:2px;}
+#tabNavi li a{
+	display:block;
+	font-size:0.85em;
+	color:#ff9966;
+	text-align:center;
+	width:50px;
+	padding:3px 10px;
+	background:#fff;
+	text-decoration:none;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+#tabNavi li a:hover{
+	color:#fff;
+	background:#ff9966;
+}
+#tabNavi li.activeS a{
+	color:#fff;
+	background:#f63;
+}
+#photo{
+	border:5px solid #f63;
+	border-radius:15px;
+	background:#fff;
+	clear:both;
+}
+#photo img{
+	display:block;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
