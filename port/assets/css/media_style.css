@@ -1,0 +1,89 @@
+/* width 1024px */
+@media screen and (max-width:1024px) {
+    
+}
+/* width 768px */
+@media screen and (max-width: 800px) {
+    
+    #contents .gnbWrap {
+        width: 100vw;
+    }
+    #contents #section01 {
+        display: none;
+    }
+    #contents .gnbWrap .gnb {
+        border: 2px solid #000;
+    }
+    #contents .gnbWrap .gnb .gnbTop {
+        padding: 10px 0;
+        border-bottom: 2px solid #000;
+    }
+    #contents .gnbWrap .gnb .gnbTop .left {
+        font-size: 25px; line-height: 27px ;
+    }
+    #contents .gnbWrap .gnb .gnbTop .left .img {
+        height: auto;
+
+    }
+    #contents .gnbWrap .gnb .gnbTop .left .img img {
+        width: 60px; 
+    }
+    #contents .gnbWrap .gnb .gnbTop .left .txt {
+        padding-top: 5px;
+    }
+    #contents .gnbWrap .gnb .gnbTop .right {
+        width: 50px; 
+        padding: 0 10px;
+        background-color: sandybrown;
+        cursor: pointer;
+
+    }
+    #contents .gnbWrap .gnb .gnbTop .right .mo_ham {
+        width: 100%; 
+        
+    }
+    #contents .gnbWrap .gnb .gnbTop .right .mo_ham span {
+        display: inline-block;
+        width: 100%; height: 2px;
+        background: #000;
+        position: relative;
+    }
+    #contents .gnbWrap .gnb .gnbTop .right .mo_ham span:before {
+        content: '';
+        width: 100%; height: 2px;
+        background: #000;
+        position: absolute;
+        left: 0; bottom: 6px;
+    }
+    #contents .gnbWrap .gnb .gnbTop .right .mo_ham span:after {
+        content: '';
+        width: 100%; height: 2px;
+        background: #000;
+        position: absolute;
+        left: 0; top: 6px;
+    }
+    #contents .gnbWrap .gnb .gnbCont {
+        border-bottom: 2px solid #000;
+    }
+    #contents .gnbWrap .gnb .gnbCont .left {
+        width: 100%;
+    }
+    #contents .gnbWrap .gnb .gnbCont .left .nav ul li {
+        font-size: 18px;
+        padding: 15px;
+        border-bottom: 2px solid #000;
+    }
+    #contents .gnbWrap .gnb .gnbCont .left .nav ul li a .iconArrow svg {
+        width: 4.533333333333333vw;
+        height: 4.533333333333333vw;
+    }
+    #contents .gnbWrap .gnb .gnbCont .right {
+        display: none;
+    }
+    
+}
+
+
+
+
+
