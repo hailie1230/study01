@@ -11,7 +11,7 @@
         clip-path: polygon(0 0,100% 0,100% 21.8vw,0 21.8vw);
         -webkit-clip-path: polygon(0 0,100% 0,100% 21.8vw,0 21.8vw);
         transition: transform .5s,clip-path .5s,-webkit-clip-path .5s;
-        position: relative;
+        position: absolute;
         z-index: 9999;
     }
     #header .gnbWrap.active {
@@ -89,6 +89,28 @@
     }
     #header .gnbWrap .gnb .gnbCont .right {
         display: none;
+    }
+
+    /* contents */
+    #contents #section01 {
+        /* background-color: thistle; */
+    }
+    #contents #section01 .main {
+        width: 100vw;
+        margin-left: 0; padding-top: 21.8vw;
+        align-items: flex-start;
+    }
+    #contents #section01 .main .mainTit {
+        font-size: 13vw; line-height: 15vw;
+        padding-top: 13vw;
+    }
+    .swiper {
+        /* background-color: tomato; opacity: 0.5; */
+        width: 95vw; height: 55vh;
+        top: -5vw; 
+    }
+    .swiper-slide .img {
+        width: 60vw;
     }
     
 }
