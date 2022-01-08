@@ -7,7 +7,7 @@
 }
 /* layout */
 *{box-sizing: border-box;}
-body {height: 3000px; background-color: #fff; color: var(--text-color); overflow-x:hidden; }
+body {height: 3000px; background-color: #fff; color: var(--text-color); }
 #header {}
 #section {width: 91.9vw; margin-left: 8.1vw;}
 #sec01 {}
@@ -40,6 +40,7 @@ body {height: 3000px; background-color: #fff; color: var(--text-color); overflow
   font-size: 30px; 
   padding: 30px 0;
   /* background-color: darksalmon; */
+  overflow-x:hidden;
 }
 .lolling.move {
   /* position: absolute; */
@@ -58,11 +59,11 @@ body {height: 3000px; background-color: #fff; color: var(--text-color); overflow
   width: 45vw; height: 100vh;
   padding: 2%;
   background-color: var(--navBg-color );
-  position: fixed; top: 0;  left: 0;
+  position: fixed; top: 0;  left: 0; z-index: 9999;
   transition: left 0.4s ease; 
 }
 #header .gnbWrap .gnb {
-  width: 100%; height: 100%;
+  width: 100%; height: 100%; 
   border: 3px solid var(--border-color);
 }
 #header .gnbWrap .gnb .gnbTop {

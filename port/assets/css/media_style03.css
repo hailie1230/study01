@@ -1,7 +1,11 @@
 @media screen and (max-width: 800px) {
+  body {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 
   #header {}
-  #section {width: 100vw; margin-left: 0;}
+  #section {width: 100vw; margin-left: 0; overflow: hidden;}
     
   #header .gnbWrap {
     width: 100vw;
@@ -9,7 +13,6 @@
     clip-path: polygon(0 0,100% 0,100% 24.8vw,0 24.8vw);
     transition: transform .5s,clip-path .5s,-webkit-clip-path .5s;
     position: fixed;
-    z-index: 9999;
   }
   #header .gnbWrap.active {
     clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
@@ -120,7 +123,7 @@
 
   /* contents > sec02 */
   .sec02 {
-    height: auto;
+    /* height: auto;  */
     padding: 10vw 0 20vw;
 
   }
