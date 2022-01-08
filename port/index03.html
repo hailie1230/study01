@@ -242,21 +242,40 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
   <script>
-    var s = skrollr.init();
+    // var s = skrollr.init();
 
-    window.addEventListener("scroll", function () {
-      let scroll = document.documentElement.scrollTop || window.scrollY || window.pageYOffset;
+    // window.addEventListener("scroll", function () {
+    //   let scroll = document.documentElement.scrollTop || window.scrollY || window.pageYOffset;
   
+    //   document.querySelector(".scroll").textContent = scroll;
+
+    //   // pc nav menu 
+    //   if( scroll > 0 ){
+    //     document.querySelector(".gnbWrap").classList.add("show");
+    //   }else{
+    //     document.querySelector(".gnbWrap").classList.remove("show");
+    //   }
+    //   resizing(scroll);
+    // });
+
+    // ver2
+    //var s = skrollr.init();
+
+    window.addEventListener("scroll", scrolling);
+
+    function scrolling(){
+      // scroll Top 
+      let scroll = document.documentElement.scrollTop || window.scrollY || window.pageYOffset;
       document.querySelector(".scroll").textContent = scroll;
 
-      pc nav menu 
+      // pc nav menu 
       if( scroll > 0 ){
         document.querySelector(".gnbWrap").classList.add("show");
       }else{
         document.querySelector(".gnbWrap").classList.remove("show");
       }
       resizing(scroll);
-    });
+    };
 
     // 반응형 
     window.addEventListener("resize", resizing);
