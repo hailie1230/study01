@@ -28,7 +28,7 @@
           <div class="left">
             <div class="img"><img src="assets/img/icon_face2.png" alt="icon"></div>
             <div class="txt">
-              PORTPOLIO
+              <a href="#main_vis">PORTPOLIO</a>
             </div>
           </div>
           <div class="rightBtnMo">
@@ -43,7 +43,7 @@
             <div class="left">
               <nav class="nav">
                   <ul>
-                    <li><a href="#">
+                    <li><a href="#about_me">
                       <em>ABOUT ME</em>
                       <div class="iconArrow">
                         <svg viewBox="0 0 17 17">
@@ -51,7 +51,7 @@
                         </svg>
                       </div>
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#project">
                       <em>PROJECT</em>
                       <div class="iconArrow">
                         <svg viewBox="0 0 17 17">
@@ -107,7 +107,7 @@
   </header>
 
   <main id="contents">
-    <section id="section01">
+    <section id="#main_vis" class="sec01">
       <div class="main">
         <div>
           <div class="mainTit">
@@ -183,7 +183,7 @@
     </section>
     <!--//section01-->
 
-    <section id="section" class="sec02">
+    <section id="about_me" class="section sec02">
       <div class="sec2Wrap">
         <h2 class="secTit timon">ABOUT ME!</h2>
         <div class="secBox">
@@ -200,7 +200,7 @@
     </section>
     <!--//sec02-->
     
-    <section id="section" class="sec03">
+    <section id="project" class="section sec03">
       <div class="lolling move timon">
         <p>HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT&nbsp;&nbsp;REACT&nbsp;&nbsp;VUE&nbsp;&nbsp;</p>
       </div>
@@ -235,6 +235,57 @@
     </section>
     <!--//sec03-->
 
+    <section id="script" class="section sec04">
+      <div class="sec4Wrap">
+        <div class="left">
+          <div class="secTit timon">
+            script
+            <div class="titIcon">
+              <img src="assets/img/icon_arrow.png" alt="아래로 향하는 아이콘">
+            </div>
+          </div>
+          <div class="secBox">
+            <div class="box">
+              <div class="boxImg">
+                <img src="assets/img/sc_item01.png" alt="페이지">
+              </div>
+              <div class="boxTxt nexon">
+                to do list
+              </div>
+            </div><!--//box-->
+            <div class="box">
+              <div class="boxImg">
+                <img src="assets/img/sc_item01.png" alt="페이지">
+              </div>
+              <div class="boxTxt nexon">
+                to do list
+              </div>
+            </div><!--//box-->
+            <div class="box">
+              <div class="boxImg">
+                <img src="assets/img/sc_item01.png" alt="페이지">
+              </div>
+              <div class="boxTxt nexon">
+                to do list
+              </div>
+            </div><!--//box-->
+            <div class="box">
+              <div class="boxImg">
+                <img src="assets/img/sc_item01.png" alt="페이지">
+              </div>
+              <div class="boxTxt nexon">
+                to do list
+              </div>
+            </div><!--//box-->
+          </div>
+        </div>
+        <div class="right timon">
+          <p>FRONTEND DEVELOPER</p>
+        </div>
+      </div>
+    </section>
+    <!--//sec04-->
+
   </main>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -242,75 +293,71 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
   <script>
-    // var s = skrollr.init();
-
-    // window.addEventListener("scroll", function () {
-    //   let scroll = document.documentElement.scrollTop || window.scrollY || window.pageYOffset;
-  
-    //   document.querySelector(".scroll").textContent = scroll;
-
-    //   // pc nav menu 
-    //   if( scroll > 0 ){
-    //     document.querySelector(".gnbWrap").classList.add("show");
-    //   }else{
-    //     document.querySelector(".gnbWrap").classList.remove("show");
-    //   }
-    //   resizing(scroll);
-    // });
-
-    // ver2
-    //var s = skrollr.init();
+    var isClikedOpen = false;
 
     window.addEventListener("scroll", scrolling);
 
-    function scrolling(){
-      // scroll Top 
+    function scrolling()
+    {
+      // scroll Top 값 구하기
       let scroll = document.documentElement.scrollTop || window.scrollY || window.pageYOffset;
       document.querySelector(".scroll").textContent = scroll;
 
-      // pc nav menu 
-      if( scroll > 0 ){
-        document.querySelector(".gnbWrap").classList.add("show");
-      }else{
-        document.querySelector(".gnbWrap").classList.remove("show");
+      // width값 800에 따른 gnb메뉴 효과  
+      if (window.innerWidth > 800) 
+      {
+        if(isClikedOpen == false)
+        {
+          if( scroll > 0 )
+          {
+            document.querySelector(".gnbWrap").classList.add("gnbHide");
+          }else
+          {
+            document.querySelector(".gnbWrap").classList.remove("gnbHide");
+          }
+        }
+        
       }
-      resizing(scroll);
     };
 
-    // 반응형 
+    // 브라우저 width값 구하기 
     window.addEventListener("resize", resizing);
 
-    function resizing(scrollVar){
+    function resizing(scrollVar)
+    {
       let resize = window.innerWidth;
-
       document.querySelector(".innerWidth").textContent = resize;
-
-      if (window.innerWidth <= 800) {
-        // document.body.style.backgroundColor = "orange";
-        document.querySelector(".gnbWrap").classList.remove("show");
-        // $(selector).css("-webkit-overflow-scrolling", "touch");
-
-        
-        } else {
-          // document.body.style.backgroundColor = "teal";
-        }
-      // console.log(s);
     }
 
-    // mobile nav drop menu
-    const toggleBtn = document.querySelector('.rightBtn');
-    const toggleBtnMO = document.querySelector('.rightBtnMo');
-    const gnbWrap = document.querySelector('.gnbWrap');
-    const hamClose = document.querySelector('.ham');
+    
 
-    toggleBtn.addEventListener('click', () => {
-      gnbWrap.classList.toggle('show');
-      // hamClose.classList.toggle('close');
+    // 클릭 이벤트
+    const toggleBtnPc     = document.querySelector('.rightBtn');
+    const toggleBtnMobile = document.querySelector('.rightBtnMo');
+    const gnbWrap         = document.querySelector('.gnbWrap');
+    const showClose       = document.querySelector('.gnbWrap');
+
+    // pc 
+    toggleBtnPc.addEventListener('click', () => 
+    {
+      gnbWrap.classList.toggle('showClose');
+      
+      if(isClikedOpen == true)
+      {
+        isClikedOpen = false;
+      }
+      else
+      {
+        isClikedOpen = true;
+      }
     });
 
-    toggleBtnMO.addEventListener('click', () => {
+    // mobile
+    toggleBtnMobile.addEventListener('click', () => 
+    {
       gnbWrap.classList.toggle('active');
     });
+
   </script>
   
 </body>

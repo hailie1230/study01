@@ -3,10 +3,11 @@
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
-
+  /* layout */
   #header {}
-  #section {width: 100vw; margin-left: 0; overflow: hidden;}
-    
+  .section {width: 100vw; margin-left: 0; overflow: hidden;}
+
+  /*** gnbWrap ***/
   #header .gnbWrap {
     width: 100vw;
     padding: 3vw;
@@ -93,17 +94,16 @@
   #header .gnbWrap .gnb .gnbCont .rightBtn {
     display: none;
   }
-  /* contents > section01 */
-  #section01 {
-  
-  }
-  #section01 .main {
+
+  /*** contents > section01 : main visual ***/
+  .sec01 {}
+  .sec01 .main {
     width: 100vw;
     margin-left: 0; margin-top: 0; 
     padding-top: 24.8vw; 
   }
-  #section01 .main div {}
-  #section01 .main .mainTit {
+  .sec01 .main div {}
+  .sec01 .main .mainTit {
     font-size: 13vw; line-height: 15vw;
     padding-top: 10vw;
   }
@@ -121,7 +121,7 @@
     width: 10px; height: 10px;
   }
 
-  /* contents > sec02 */
+  /*** contents > sec02 : about me ***/
   .sec02 {
     /* height: auto;  */
     padding: 10vw 0 20vw;
@@ -148,19 +148,27 @@
   .sec02 .sec2Wrap .secBox .secTxt {
     padding: 20px 15px;
     font-size: 4.5vw; font-weight: 300;
-    /* background-color: wheat; */
   }
 
-  /* contents > sec03 */
+  /*** contents > sec03 : project ***/
   .sec03 .sec3Wrap .secTit {
     font-size: 15vw; line-height: 15vw;
     padding: 6.5vw 5vw;
     position: relative;
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
   }
   .sec03 .sec3Wrap .secTit .titIcon {
     position: absolute; top: -1vw; left: 11vw;
     width: 15vw;
+    animation: iconwow 1.5s linear infinite;
+  }
+  @keyframes iconwow {
+    0% {
+      top: -1vw;
+    }
+    50% {
+      top: -2.5vw;
+    }
   }
   .sec03 .sec3Wrap .secBox {
     display: flex; 
@@ -188,14 +196,60 @@
   .sec03 .sec3Wrap .secBox .boxWrap .boxTxt,
   .sec03 .sec3Wrap .secBox .boxWrap2 .boxTxt {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px 0;
+    text-align: center;
   }
   
   .sec03 .sec3Wrap .secBox .boxWrap2 .boxTxt {
     text-align: center;
   }
-  
+
+  /*** sec4 - script : script ***/
+  .sec04 {
+    padding: 3vw;
+  }
+  .sec04 .sec4Wrap {
+    border-width: 2px;
+  }
+  .sec04 .sec4Wrap .left {
+    width: 100%;
+    padding-bottom: 5vw;
+  }
+  .sec04 .sec4Wrap .left .secTit {
+    font-size: 15vw; line-height: 15vw;
+    padding: 6.5vw 5vw;
+    border-width: 2px;
+  }
+  .sec04 .sec4Wrap .left .secTit .titIcon {
+    width: 15vw; bottom: -8vw; left: 3vw;
+  }
+  @keyframes iconarrow {
+    0% {
+      bottom: -8vw;
+      transform: rotate(0deg);
+    }
+    50% {
+      bottom: -8vw;
+      transform: rotate(10deg);
+    }
+  }
+  .sec04 .sec4Wrap .left .secBox {
+    padding: 3vw;
+    padding-top: 5vw;
+  }
+  .sec04 .sec4Wrap .left .secBox .box {
+    width: 100%;
+    margin-top: 8vw;
+  }
+  .sec04 .sec4Wrap .left .secBox .box .boxTxt {
+    text-align: center;
+    font-size: 16px; 
+    padding: 8px 0 0 0;
+  }
+  .sec04 .sec4Wrap .right {
+    display: none;
+  }
 }
 
 
