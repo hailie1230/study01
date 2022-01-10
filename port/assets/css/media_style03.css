@@ -123,9 +123,7 @@
 
   /*** contents > sec02 : about me ***/
   .sec02 {
-    /* height: auto;  */
-    padding: 10vw 0 20vw;
-
+    padding: 10vw 0 0vw;
   }
   .sec02 .sec2Wrap {
     width: 90vw; 

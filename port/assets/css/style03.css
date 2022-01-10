@@ -75,7 +75,7 @@ body {height: 3000px; background-color: #fff; color: var(--text-color); overflow
   display: flex; align-items: center;
 }
 #header .gnbWrap .gnb .gnbTop .left .img{
-    height: 78px; 
+  height: 78px; 
   padding: 0 10px; 
   text-align: center;
 }
@@ -87,9 +87,7 @@ body {height: 3000px; background-color: #fff; color: var(--text-color); overflow
   width: 15%; font-size: 1.0417vw;
   display: flex; align-items: center; justify-content: center;
 }
-#header .gnbWrap .gnb .gnbTop .rightBtnMo p {
-  font-family: 'Roboto' !important;
-}
+#header .gnbWrap .gnb .gnbTop .rightBtnMo p {}
 
 #header .gnbWrap .gnb .gnbCont {
   display: flex; justify-content: space-between;
@@ -150,9 +148,6 @@ body {height: 3000px; background-color: #fff; color: var(--text-color); overflow
   line-height: 0; height: 0;
   display: none;
 }
-#header .gnbWrap.gnbHide .gnb .gnbCont .rightBtn .ham {
-  display: block;
-}
 #header .gnbWrap .gnb .gnbCont .rightBtn .ham span {
   display: block;
   margin: 5px auto;
@@ -180,6 +175,9 @@ body {height: 3000px; background-color: #fff; color: var(--text-color); overflow
     position: absolute; right: 0;
     transition: right 1s ease; 
   }
+  #header .gnbWrap.gnbHide .gnb .gnbCont .rightBtn .ham {
+    display: block;
+  }
 
   /* (pc) 햄버거 클릭시 이벤트 > .gnbWrap.showClose */
   #header .gnbWrap.showClose .gnb .gnbCont .rightBtn .ham span:nth-child(1) {
@@ -195,9 +193,12 @@ body {height: 3000px; background-color: #fff; color: var(--text-color); overflow
     left: 0 !important;
   }
   #header .gnbWrap.showClose .gnb .gnbTop .left .img {
-    position: absolute; left: 0;
+    position: static;
     transition: right 1s ease; 
   }
+
+  /* (pc) nav 버튼 클릭시 */
+  
 
 /*** contents > section01 : main visual ***/
 .sec01 {}

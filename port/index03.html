@@ -28,10 +28,10 @@
           <div class="left">
             <div class="img"><img src="assets/img/icon_face2.png" alt="icon"></div>
             <div class="txt">
-              <a href="#main_vis">PORTPOLIO</a>
+              <a href="#" class="btnClicked">PORTPOLIO</a>
             </div>
           </div>
-          <div class="rightBtnMo">
+          <div class="rightBtnMo roboto">
             <div class="mo_ham">
               <span></span>
               <span></span>
@@ -43,7 +43,7 @@
             <div class="left">
               <nav class="nav">
                   <ul>
-                    <li><a href="#about_me">
+                    <li><a href="#about_me" class="btnClicked">
                       <em>ABOUT ME</em>
                       <div class="iconArrow">
                         <svg viewBox="0 0 17 17">
@@ -51,7 +51,7 @@
                         </svg>
                       </div>
                     </a></li>
-                    <li><a href="#project">
+                    <li><a href="#project" class="btnClicked">
                       <em>PROJECT</em>
                       <div class="iconArrow">
                         <svg viewBox="0 0 17 17">
@@ -59,7 +59,7 @@
                         </svg>
                       </div>
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#script" class="btnClicked">
                       <em>SCRIPT</em>
                       <div class="iconArrow">
                         <svg viewBox="0 0 17 17">
@@ -67,7 +67,7 @@
                         </svg>
                       </div>
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#animation" class="btnClicked">
                       <em>ANIMATION</em>
                       <div class="iconArrow">
                         <svg viewBox="0 0 17 17">
@@ -75,7 +75,7 @@
                         </svg>
                       </div>
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#contact" class="btnClicked">
                       <em>CONTACT</em>
                       <div class="iconArrow">
                         <svg viewBox="0 0 17 17">
@@ -306,7 +306,7 @@
       // width값 800에 따른 gnb메뉴 효과  
       if (window.innerWidth > 800) 
       {
-        if(isClikedOpen == false)
+        if(isClikedOpen == false) 
         {
           if( scroll > 0 )
           {
@@ -323,7 +323,7 @@
     // 브라우저 width값 구하기 
     window.addEventListener("resize", resizing);
 
-    function resizing(scrollVar)
+    function resizing(scrollBar)
     {
       let resize = window.innerWidth;
       document.querySelector(".innerWidth").textContent = resize;
@@ -336,6 +336,10 @@
     const toggleBtnMobile = document.querySelector('.rightBtnMo');
     const gnbWrap         = document.querySelector('.gnbWrap');
     const showClose       = document.querySelector('.gnbWrap');
+    const btnClicked      = document.querySelectorAll('.btnClicked');
+    const clickRemove     = gnbWrap.classList.remove('active');
+
+    // console.log(btnClicked);
 
     // pc 
     toggleBtnPc.addEventListener('click', () => 
