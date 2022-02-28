@@ -1,0 +1,257 @@
+@media screen and (max-width: 800px) {
+  body {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* layout */
+  #header {}
+  .section {width: 100vw; margin-left: 0; overflow: hidden;}
+
+  /*** gnbWrap ***/
+  #header .gnbWrap {
+    width: 100vw;
+    padding: 3vw;
+    clip-path: polygon(0 0,100% 0,100% 24.8vw,0 24.8vw);
+    transition: transform .5s,clip-path .5s,-webkit-clip-path .5s;
+    position: fixed;
+  }
+  #header .gnbWrap.active {
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+  }
+  #header #section01 {
+    display: none;
+  }
+  #header .gnbWrap .gnb {
+    border: 2px solid #000;
+  }
+  #header .gnbWrap .gnb .gnbTop {
+    padding: 2.45vw 0;
+    border-bottom: 2px solid #000;
+    align-items: center;
+  }
+  #header .gnbWrap .gnb .gnbTop .left {
+    font-size: 6vw; line-height: auto ;
+  }
+  #header .gnbWrap .gnb .gnbTop .left .img {
+    height: auto;
+
+  }
+  #header .gnbWrap .gnb .gnbTop .left .img img {
+    width: 13vw; 
+  }
+  #header .gnbWrap .gnb .gnbTop .left .txt {
+    padding-top: 5px;
+  }
+  #header .gnbWrap .gnb .gnbTop .rightBtnMo {
+    width: 7vw; height: 7vw;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  #header .gnbWrap .gnb .gnbTop .rightBtnMo .mo_ham {
+    width: 100%;
+  }
+  #header .gnbWrap .gnb .gnbTop .rightBtnMo .mo_ham span{
+    display: block;
+    margin: 5px auto;
+    background-color: #000;
+    width: 100%;
+    height: 2px;
+    transition: all .5s ease;
+  }
+  #header .gnbWrap.active .gnb .gnbTop .rightBtnMo .mo_ham span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  #header .gnbWrap.active .gnb .gnbTop .rightBtnMo .mo_ham span:nth-child(2) {
+    transform: scaleX(0);
+  }
+  #header .gnbWrap.active .gnb .gnbTop .rightBtnMo .mo_ham span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+  #header .gnbWrap .gnb .gnbCont {
+    border-bottom: 2px solid #000;
+  }
+  #header .gnbWrap .gnb .gnbCont .left {
+    width: 100%;
+  }
+  #header .gnbWrap .gnb .gnbCont .left .box {
+    height: 10vh;
+  }
+  #header .gnbWrap .gnb .gnbCont .left .nav ul li {
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 2px solid #000;
+  }
+  #header .gnbWrap .gnb .gnbCont .left .nav ul li a .iconArrow {
+    width: 5%;
+  }
+  #header .gnbWrap .gnb .gnbCont .left .nav ul li a .iconArrow svg {
+    width: 4.533333333333333vw;
+    height: 4.533333333333333vw;
+  }
+  #header .gnbWrap .gnb .gnbCont .right {
+    display: none;
+  }
+  #header .gnbWrap .gnb .gnbCont .rightBtn {
+    display: none;
+  }
+
+  /*** contents > section01 : main visual ***/
+  .sec01 {}
+  .sec01 .main {
+    width: 100vw;
+    margin-left: 0; margin-top: 0; 
+    padding-top: 24.8vw; 
+  }
+  .sec01 .main div {}
+  .sec01 .main .mainTit {
+    font-size: 13vw; line-height: 15vw;
+    padding-top: 10vw;
+  }
+  .swiper {
+    width: 95vw; height: 55vh;
+  }
+  .swiper-slide .img {
+    width: 60vw;
+  }
+  .swiper-button-next .Icon.is-arrow, .swiper-button-prev .Icon.is-arrow {
+    width: 30px; height: 30px;
+    border-width: 1px;
+  }
+  .swiper-button-next .Icon.is-arrow svg, .swiper-button-prev .Icon.is-arrow svg {
+    width: 10px; height: 10px;
+  }
+
+  /*** contents > sec02 : about me ***/
+  .sec02 {
+    padding: 10vw 0 0vw;
+  }
+  .sec02 .sec2Wrap {
+    width: 90vw; 
+    position: relative;
+    
+  }
+  .sec02 .sec2Wrap h2.secTit {
+    font-size: 12vw; line-height: 20vw; 
+    width: 100%; text-align: center;
+    position: absolute; top: -8.5vw; left: 0;
+  }
+  .sec02 .sec2Wrap .secBox {
+    padding-top: 13vw;
+  }
+  .sec02 .sec2Wrap .secBox .secImg {
+    width: 55vw; 
+    border-width: 1.5vw;
+  }
+  .sec02 .sec2Wrap .secBox .secImg img {}
+  .sec02 .sec2Wrap .secBox .secTxt {
+    padding: 20px 15px;
+    font-size: 4.5vw; font-weight: 300;
+  }
+
+  /*** contents > sec03 : project ***/
+  .sec03 .sec3Wrap .secTit {
+    font-size: 15vw; line-height: 15vw;
+    padding: 6.5vw 5vw;
+    position: relative;
+    border-bottom: 2px solid #000;
+  }
+  .sec03 .sec3Wrap .secTit .titIcon {
+    position: absolute; top: -1vw; left: 11vw;
+    width: 15vw;
+    animation: iconwow 1.5s linear infinite;
+  }
+  @keyframes iconwow {
+    0% {
+      top: -1vw;
+    }
+    50% {
+      top: -2.5vw;
+    }
+  }
+  .sec03 .sec3Wrap .secBox {
+    display: flex; 
+    justify-content: center; flex-direction: column;
+    width:90vw; height: auto;
+    margin-left: auto; margin-right: auto;
+  }
+  .sec03 .sec3Wrap .secBox .boxWrap {
+    width: 100%; margin-top: 10vw;
+  }
+  .sec03 .sec3Wrap .secBox .boxWrap2 {
+    width: 100%; 
+    margin-top: 10vw; padding-bottom: 10vw;
+    
+  }
+  .sec03 .sec3Wrap .secBox .boxWrap .boxImg {
+    width:100%; height: auto; 
+    background-image: url(../img/pro_item01.png);
+    background-position: top center;
+    border-width: 5px;
+  }
+  .sec03 .sec3Wrap .secBox .boxWrap2 .boxImg {
+    border-width: 5px;
+  }
+  .sec03 .sec3Wrap .secBox .boxWrap .boxTxt,
+  .sec03 .sec3Wrap .secBox .boxWrap2 .boxTxt {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 0 0 0;
+    text-align: center;
+  }
+  
+  .sec03 .sec3Wrap .secBox .boxWrap2 .boxTxt {
+    text-align: center;
+  }
+
+  /*** sec4 - script : script ***/
+  .sec04 {
+    padding: 3vw;
+  }
+  .sec04 .sec4Wrap {
+    border-width: 2px;
+  }
+  .sec04 .sec4Wrap .left {
+    width: 100%;
+    padding-bottom: 5vw;
+  }
+  .sec04 .sec4Wrap .left .secTit {
+    text-transform: uppercase;
+    font-size: 15vw; line-height: 15vw;
+    padding: 6.5vw 5vw;
+    border-width: 2px;
+  }
+  .sec04 .sec4Wrap .left .secTit .titIcon {
+    width: 15vw; bottom: -8vw; left: 3vw;
+  }
+  @keyframes iconarrow {
+    0% {
+      bottom: -8vw;
+      transform: rotate(0deg);
+    }
+    50% {
+      bottom: -8vw;
+      transform: rotate(10deg);
+    }
+  }
+  .sec04 .sec4Wrap .left .secBox {
+    padding: 3vw;
+    padding-top: 5vw;
+  }
+  .sec04 .sec4Wrap .left .secBox .box {
+    width: 100%;
+    margin-top: 10vw;
+  }
+  .sec04 .sec4Wrap .left .secBox .box .boxTxt {
+    text-align: center;
+    font-size: 16px; 
+    padding: 8px 0 0 0;
+  }
+  .sec04 .sec4Wrap .right {
+    display: none;
+  }
+}
+
+
+
+
+
