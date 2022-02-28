@@ -530,7 +530,7 @@ body {height: 3000px; background-color: var(--color-white); color: var(--text-co
 .sec05 .sec5Wrap .secBox .boxWrap .boxTxt {
   width: 100%;
   height: 100%;
-  font-size: 150px;
+  font-size: 9.5vw;
   padding-top: 9vw;
   padding-left: 40vw;
   line-height: 160px;
@@ -539,6 +539,7 @@ body {height: 3000px; background-color: var(--color-white); color: var(--text-co
   color: rgba(0,0,0,0.5);
   transition: all var(--animation-duration) ease;
   cursor: pointer;
+  display: inline-block;
 }
 .sec05 .sec5Wrap .secBox .boxWrap:hover .boxTxt {
   padding-left: 0;
